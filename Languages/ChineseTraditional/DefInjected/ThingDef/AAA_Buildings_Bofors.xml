@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bofors 40mm flak gun -->
+
+  <Turret_40mmGun.label>波佛斯40毫米高射砲</Turret_40mmGun.label>
+  <Turret_40mmGun.description>需要人员操作的波佛斯40毫米高射砲。当解构时留下枪箱</Turret_40mmGun.description>
+
+  <Artillery_40mmGun.label>波佛斯40毫米高射砲</Artillery_40mmGun.label>
+  <Artillery_40mmGun.description>需要人员操作的波佛斯40毫米高射砲。当解构时留下枪箱</Artillery_40mmGun.description>
+
+  
+  <AAA_Turret_Dual40mmGun.label>双波佛斯40毫米高射砲</AAA_Turret_Dual40mmGun.label>
+  <AAA_Turret_Dual40mmGun.description>需要人员操作的波佛斯双40毫米高射砲。当解构时留下枪箱</AAA_Turret_Dual40mmGun.description>
+
+  <AAA_Artillery_Dual40mmGun.label>双波佛斯40毫米高射砲</AAA_Artillery_Dual40mmGun.label>
+  <AAA_Artillery_Dual40mmGun.description>需要人员操作的双波佛斯40毫米高射砲。当解构时留下枪箱</AAA_Artillery_Dual40mmGun.description>
+
+  
+  
+  <AAA_Turret_Quad40mmGun.label>四波佛斯40毫米高射砲</AAA_Turret_Quad40mmGun.label>
+  <AAA_Turret_Quad40mmGun.description>需要人员操作的波佛斯四40毫米高射砲。当解构时留下枪箱</AAA_Turret_Quad40mmGun.description>
+
+  <AAA_Artillery_Quad40mmGun.label>四波佛斯40毫米高射砲</AAA_Artillery_Quad40mmGun.label>
+  <AAA_Artillery_Quad40mmGun.description>需要人员操作的四波佛斯40毫米高射砲。当解构时留下枪箱</AAA_Artillery_Quad40mmGun.description>
+
+  <AAA_Crate_Bofors.label>波佛斯40毫米高射砲</AAA_Crate_Bofors.label>
+  <AAA_Crate_Bofors.description>波佛斯40毫米高射砲。这太重了。你需要为此做一个炮塔</AAA_Crate_Bofors.description>
+
+  
+</LanguageData>

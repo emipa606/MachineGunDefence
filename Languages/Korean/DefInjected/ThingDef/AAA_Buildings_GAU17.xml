@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- GAU17-->
+
+
+
+  <!--Turret_GAU17gatling.label></Turret_GAU17gatling.label-->
+  <Turret_GAU17gatling.description>게틀링건. 7.62탄을 씁니다. 운용인원이 필요합니다.</Turret_GAU17gatling.description>
+
+  <!--Artillery_GAU17gatling.label>奥利康20毫米机炮</Artillery_GAU17gatling.label-->
+  <Artillery_GAU17gatling.description>게틀링건. 7.62탄을 씁니다. 운용인원이 필요합니다.</Artillery_GAU17gatling.description>
+
+
+
+</LanguageData>

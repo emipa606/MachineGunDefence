@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipe-->
+	<Recipe_MakeCrateMaxim.label>マキシム重機関銃を作る</Recipe_MakeCrateMaxim.label>
+	<Recipe_MakeCrateMaxim.description>マキシム重機関銃を制作する。　マキシム機関銃のタレットを作るために必要になります。</Recipe_MakeCrateMaxim.description>
+	<Recipe_MakeCrateMaxim.jobString>マキシム機関銃を制作中。</Recipe_MakeCrateMaxim.jobString>
+
+	<Recipe_MakeCrate50cal.label>M2重機関銃を作る</Recipe_MakeCrate50cal.label>
+	<Recipe_MakeCrate50cal.description>M2重機関銃を制作する。　M2機関銃のタレットを作るために必要になります。</Recipe_MakeCrate50cal.description>
+	<Recipe_MakeCrate50cal.jobString>M2機関銃を制作中。</Recipe_MakeCrate50cal.jobString>
+	
+	<Recipe_MakeCrateOerlikon.label>エリコン２０ｍｍ機関砲を作る</Recipe_MakeCrateOerlikon.label>
+	<Recipe_MakeCrateOerlikon.description>エリコン２０ｍｍ機関砲を制作する。　エリコンのタレットを作るために必要になります。</Recipe_MakeCrateOerlikon.description>
+	<Recipe_MakeCrateOerlikon.jobString>２０ｍｍ機関砲を制作中。</Recipe_MakeCrateOerlikon.jobString>
+
+	
+	<Recipe_MakeCrate40mm_gun.label>ボフォース４０ｍｍ機関砲を作る</Recipe_MakeCrate40mm_gun.label>
+	<Recipe_MakeCrate40mm_gun.description>ボフォース４０ｍｍ機関砲を制作する。　ボフォースのタレットを作るために必要になります。</Recipe_MakeCrate40mm_gun.description>
+	<Recipe_MakeCrate40mm_gun.jobString>４０ｍｍ機関砲を制作中。</Recipe_MakeCrate40mm_gun.jobString>
+
+	<Make_AAA_MachineGunAmmo.label>7.62ｍｍ弹を作る</Make_AAA_MachineGunAmmo.label>
+	<Make_AAA_MachineGunAmmo.description>機関銃用の７．６２ｍｍ弾を作る。マキシム機関銃などに使用する。</Make_AAA_MachineGunAmmo.description>
+	<Make_AAA_MachineGunAmmo.jobString>７．６２ｍｍ弾を制作中。</Make_AAA_MachineGunAmmo.jobString>
+
+	<Make_AAA_12_7mmAmmoBox.label>12.7ｍｍ弾を作る</Make_AAA_12_7mmAmmoBox.label>
+	<Make_AAA_12_7mmAmmoBox.description>12.7ｍｍ弾を作る。</Make_AAA_12_7mmAmmoBox.description>
+	<Make_AAA_12_7mmAmmoBox.jobString>12.7ｍｍ弾を制作中</Make_AAA_12_7mmAmmoBox.jobString>
+
+	<Make_20mm_Shell_HighExplosive.label>２０ｍｍ榴弾を作る</Make_20mm_Shell_HighExplosive.label>
+	<Make_20mm_Shell_HighExplosive.description>２０ｍｍ機関砲用の榴弾を作る</Make_20mm_Shell_HighExplosive.description>
+	<Make_20mm_Shell_HighExplosive.jobString>２０ｍｍ榴弾を制作中。</Make_20mm_Shell_HighExplosive.jobString>
+
+	<Make_20mm_Shell_ArmorPiercing.label>２０ｍｍ徹甲弾を作る</Make_20mm_Shell_ArmorPiercing.label>
+	<Make_20mm_Shell_ArmorPiercing.description>２０ｍｍ機関砲用の徹甲弾を作る</Make_20mm_Shell_ArmorPiercing.description>
+	<Make_20mm_Shell_ArmorPiercing.jobString>２０ｍｍ徹甲弾を制作中</Make_20mm_Shell_ArmorPiercing.jobString>
+
+	<Make_40mm_Shell_HighExplosive.label>４０ｍｍ榴弾を作る</Make_40mm_Shell_HighExplosive.label>
+	<Make_40mm_Shell_HighExplosive.description>４０ｍｍ機関砲用の榴弾を作る</Make_40mm_Shell_HighExplosive.description>
+	<Make_40mm_Shell_HighExplosive.jobString>４０mm榴弾を制作中。</Make_40mm_Shell_HighExplosive.jobString>
+
+	<Make_40mm_Shell_Incendiary.label>４０ｍｍ焼夷弾を作る</Make_40mm_Shell_Incendiary.label>
+	<Make_40mm_Shell_Incendiary.description>４０ｍｍ機関砲用の焼夷弾を作る</Make_40mm_Shell_Incendiary.description>
+	<Make_40mm_Shell_Incendiary.jobString>４０ｍｍ焼夷弾を制作中。</Make_40mm_Shell_Incendiary.jobString>
+</LanguageData>

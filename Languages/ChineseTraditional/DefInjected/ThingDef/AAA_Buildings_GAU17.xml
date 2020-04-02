@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- GAU17-->
+
+
+
+  <!--Turret_GAU17gatling.label></Turret_GAU17gatling.label-->
+  <Turret_GAU17gatling.description>一座加特林机枪，使用7.62mm子弹，必须人为操作</Turret_GAU17gatling.description>
+
+  <!--Artillery_GAU17gatling.label>奥利康20毫米机炮</Artillery_GAU17gatling.label-->
+  <Artillery_GAU17gatling.description>一座加特林机枪，使用7.62mm子弹，必须人为操作</Artillery_GAU17gatling.description>
+
+
+
+</LanguageData>

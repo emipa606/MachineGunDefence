@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Browning M2 -->
+
+  <Turret_M2MG.label>M2勃朗宁重机枪</Turret_M2MG.label>
+  <Turret_M2MG.description>需要人员操作的M2勃朗宁重机枪。当解构时留下枪箱</Turret_M2MG.description>
+
+  <Artillery_M2MG.label>M2勃朗宁重机枪</Artillery_M2MG.label>
+  <Artillery_M2MG.description>需要人员操作的M2勃朗宁重机枪。当解构时留下枪箱</Artillery_M2MG.description>
+
+  
+  <Turret_DualM2MG.label>双M2勃朗宁重机枪</Turret_DualM2MG.label>
+  <Turret_DualM2MG.description>需要人员操作的波佛斯双M2勃朗宁重机枪。当解构时留下枪箱</Turret_DualM2MG.description>
+
+  <Artillery_DualM2MG.label>双M2勃朗宁重机枪</Artillery_DualM2MG.label>
+  <Artillery_DualM2MG.description>需要人员操作的双M2勃朗宁重机枪。当解构时留下枪箱</Artillery_DualM2MG.description>
+
+  
+  
+  <Turret_QuadM2MG.label>四M2勃朗宁重机枪</Turret_QuadM2MG.label>
+  <Turret_QuadM2MG.description>需要人员操作的波佛斯四M2勃朗宁重机枪。当解构时留下枪箱</Turret_QuadM2MG.description>
+
+  <Artillery_QuadM2MG.label>四波佛斯40毫米高射砲</Artillery_QuadM2MG.label>
+  <Artillery_QuadM2MG.description>需要人员操作的四M2勃朗宁重机枪。当解构时留下枪箱</Artillery_QuadM2MG.description>
+
+  <AAA_Crate_M2_Browning.label>M2勃朗宁重机枪</AAA_Crate_M2_Browning.label>
+  <AAA_Crate_M2_Browning.description>M2勃朗宁重机枪。这太重了。你需要为此做一个炮塔</AAA_Crate_M2_Browning.description>
+
+  
+</LanguageData>

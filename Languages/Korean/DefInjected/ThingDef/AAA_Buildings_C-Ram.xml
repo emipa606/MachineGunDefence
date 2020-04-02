@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CIWS (C-RAM) -->
+
+  <CIWS_Turret.label>CIWS</CIWS_Turret.label>
+  <CIWS_Turret.description>CIWS터렛.주변의 목표물을 자동으로공격한다.</CIWS_Turret.description>
+
+  <Gun_CIWS_turret.label>CIWS 게틀링</Gun_CIWS_turret.label>
+  <Gun_CIWS_turret.description>CIWS 게틀링터렛. 주변의 목표물을 자동으로공격한다.</Gun_CIWS_turret.description>
+
+ 
+  
+</LanguageData>

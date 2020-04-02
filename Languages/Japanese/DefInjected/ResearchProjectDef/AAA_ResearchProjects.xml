@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AAA_Embrausure.label>銃眼</AAA_Embrausure.label>
+  <AAA_Embrausure.description>銃眼タレットを作れるようになります。</AAA_Embrausure.description>
+
+   <AAA_Autocannon.label>機関砲</AAA_Autocannon.label>
+  <AAA_Autocannon.description>機関砲を作れるようになります。</AAA_Autocannon.description>
+
+   <AAA_MultipleAutocannon.label>二連装機関砲</AAA_MultipleAutocannon.label>
+  <AAA_MultipleAutocannon.description>２つの機関砲を連結させて２連装機関砲を作れるようになります。</AAA_MultipleAutocannon.description>
+
+   <AAA_QuadAutocannon.label>４連装機関砲</AAA_QuadAutocannon.label>
+  <AAA_QuadAutocannon.description>４つの機関砲を連結させて４連装機関砲を作れるようになります。</AAA_QuadAutocannon.description>
+
+  <AAA_Gatling.label>近接防御火器システム</AAA_Gatling.label>
+  <AAA_Gatling.description>CIWSタレットを作れるようになります。</AAA_Gatling.description>
+
+</LanguageData>

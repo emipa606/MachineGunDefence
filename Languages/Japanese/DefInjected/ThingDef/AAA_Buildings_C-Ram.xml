@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CIWS (C-RAM) -->
+
+  <CIWS_Turret.label>C-RAM</CIWS_Turret.label>
+  <CIWS_Turret.description>近接防御火器システム。付近の敵を自動で攻撃します。</CIWS_Turret.description>
+
+  <Gun_CIWS_turret.label>C-RAM</Gun_CIWS_turret.label>
+  <Gun_CIWS_turret.description>近接防御火器システム。付近の敵を自動で攻撃します。</Gun_CIWS_turret.description>
+
+ 
+  
+</LanguageData>

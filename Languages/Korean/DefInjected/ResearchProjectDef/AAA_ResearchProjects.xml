@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  
+  <AAA_Embrausure.label>시추공</AAA_Embrausure.label>
+  <AAA_Embrausure.description>시추공터렛을만들수있습니다.</AAA_Embrausure.description>
+
+   <AAA_Autocannon.label>자동대포</AAA_Autocannon.label>
+  <AAA_Autocannon.description>20mm대포와40mm대포를 만들수있습니다.</AAA_Autocannon.description>
+
+   <AAA_MultipleAutocannon.label>2열자동대포</AAA_MultipleAutocannon.label>
+  <AAA_MultipleAutocannon.description>2개의 자동대포를달아 듀얼건으로 만들수있게합니다.</AAA_MultipleAutocannon.description>
+
+   <AAA_QuadAutocannon.label>4열자동대포</AAA_QuadAutocannon.label>
+  <AAA_QuadAutocannon.description>4개의 자동대포를달아 듀얼건으로 만들수있게합니다.</AAA_QuadAutocannon.description>
+
+  <AAA_Gatling.label>게틀링</AAA_Gatling.label>
+  <AAA_Gatling.description>게틀링건을 만들수있게합니다.</AAA_Gatling.description>
+
+</LanguageData>

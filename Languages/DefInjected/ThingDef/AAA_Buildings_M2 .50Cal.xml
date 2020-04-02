@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Browning M2 -->
+
+  <Turret_M2MG.label>M2machine gun</Turret_M2MG.label>
+  <Turret_M2MG.description>uses12.7mm ammo. need to be manned. drop gun crate upon deconstruction.</Turret_M2MG.description>
+
+  <Artillery_M2MG.label>M2machine gun</Artillery_M2MG.label>
+  <Artillery_M2MG.description>12.7mm machine gun. need to be manned. drop gun crate upon deconstruction.</Artillery_M2MG.description>
+
+
+  <Turret_DualM2MG.label>twin M2</Turret_DualM2MG.label>
+  <Turret_DualM2MG.description>dual M2. the shield protects the gunner. need to be manned. drop gun crate upon deconstruction.</Turret_DualM2MG.description>
+
+  <Artillery_DualM2MG.label>twin M2</Artillery_DualM2MG.label>
+  <Artillery_DualM2MG.description>dual m2 machine gen.  need to be manned. drop gun crate upon deconstruction.</Artillery_DualM2MG.description>
+
+
+
+  <Turret_QuadM2MG.label>M45 meet chopper</Turret_QuadM2MG.label>
+  <Turret_QuadM2MG.description>quadruple M2 machine gun.has very good protection. need to be manned. drop gun crate upon deconstruction.</Turret_QuadM2MG.description>
+
+  <Artillery_QuadM2MG.label>M45 meet chopper</Artillery_QuadM2MG.label>
+  <Artillery_QuadM2MG.description></Artillery_QuadM2MG.description>
+
+  <AAA_Crate_M2_Browning.label>M2Machine gun crate</AAA_Crate_M2_Browning.label>
+  <AAA_Crate_M2_Browning.description>M2MG. too heavy to hold, you nee to make turret for it.</AAA_Crate_M2_Browning.description>
+
+
+</LanguageData>

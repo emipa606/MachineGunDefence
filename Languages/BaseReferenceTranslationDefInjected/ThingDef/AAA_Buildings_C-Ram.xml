@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CIWS (C-RAM) -->
+
+  <CIWS_Turret.label>C-Ram</CIWS_Turret.label>
+  <CIWS_Turret.description>CIWS turret. attack nearby target automaticaly.</CIWS_Turret.description>
+
+  <Gun_CIWS_turret.label>ciws gatling</Gun_CIWS_turret.label>
+  <Gun_CIWS_turret.description>CIWS turret. attack nearby target automaticaly.</Gun_CIWS_turret.description>
+
+
+
+</LanguageData>

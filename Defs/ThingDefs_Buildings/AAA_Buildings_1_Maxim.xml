@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	  <!--===============Embrausure Maxim ===============-->
+
+
+
+  <ThingDef ParentName="BuildingBase">
+	<defName>Turret_Maxim</defName>
+    <label>Maxim machine gun</label>
+    <description>A heavy machine gun. uses 7.62mm machine gun ammo.leaves gun crates when deconstructed. Must be maned.</description>
+	<thingClass>AAA.Building_TurretGunCustom</thingClass>
+	 	<graphicData>
+      <texPath>Things/Building/Security/TurretMini_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+	 <uiIconPath>AAA/icon/TurretTop_FixedMaxim</uiIconPath>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+	  <size>(1,1)</size>
+	<statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1900</WorkToBuild>
+      <Mass>47</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+
+    <pathCost>50</pathCost>
+    <fillPercent>0.2</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<Steel>10</Steel>
+			<AAA_Crate_Maxim>1</AAA_Crate_Maxim>
+	</costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+
+	  <li Class="AAA.CompProperties_TurretTopSize">
+        <topSize>(1.0,1.0,1.0)</topSize>
+      </li>
+	  </comps>
+    <building>
+		<turretGunDef>Artillery_Maxim</turretGunDef>
+		<turretBurstWarmupTime>1.5</turretBurstWarmupTime>
+		<turretBurstCooldownTime>1.5</turretBurstCooldownTime>
+  </building>
+	  <researchPrerequisites>
+      <li>BlowbackOperation</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  
+	 <!--===============Embrausure Maxim ===============-->
+
+
+
+  <!-- <ThingDef ParentName="BuildingBase"> -->
+	<!-- <defName>Turret_EmbrausureMaxim</defName> -->
+    <!-- <label>Embrasure Maxim</label> -->
+    <!-- <description>A Embrausured Maxim machine guns. leaves gun crates when deconstructed. Must be manned.</description> -->
+	<!-- <thingClass>AAA.Building_TurretGunCustom</thingClass> -->
+	 	<!-- <graphicData> -->
+      <!-- <texPath>AAA/turret/wall</texPath> -->
+      <!-- <graphicClass>Graphic_Single</graphicClass> -->
+      <!-- <drawSize>(4.3,4.0)</drawSize> -->
+      <!-- <damageData> -->
+        <!-- <rect>(0.38,0.2,0.56375,0.8)</rect> -->
+        <!-- <cornerTL>Damage/Corner</cornerTL> -->
+      <!-- </damageData> -->
+    <!-- </graphicData> -->
+	 <!-- <uiIconPath>AAA/icon/TurretTop_FixedMaxim</uiIconPath> -->
+
+    <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+    <!-- <thingCategories> -->
+      <!-- <li>BuildingsSecurity</li> -->
+    <!-- </thingCategories> -->
+    <!-- <altitudeLayer>Building</altitudeLayer> -->
+    <!-- <hasInteractionCell>True</hasInteractionCell> -->
+    <!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
+    <!-- <stealable>false</stealable> -->
+	  <!-- <size>(1,1)</size> -->
+	<!-- <statBases> -->
+      <!-- <MaxHitPoints>180</MaxHitPoints> -->
+      <!-- <Flammability>1.0</Flammability> -->
+      <!-- <WorkToBuild>1500</WorkToBuild> -->
+      <!-- <Mass>100</Mass> -->
+      <!-- <Beauty>-20</Beauty> -->
+    <!-- </statBases> -->
+      <!-- <passability>Impassable</passability> -->
+   <!-- <blockWind>true</blockWind> -->
+    <!-- <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled> -->
+
+    <!-- <pathCost>50</pathCost> -->
+    <!-- <fillPercent>0.6</fillPercent> -->
+    <!-- <castEdgeShadows>true</castEdgeShadows> -->
+    <!-- <stuffCategories> -->
+      <!-- <li>Metallic</li> -->
+    <!-- </stuffCategories> -->
+    <!-- <tickerType>Normal</tickerType> -->
+    <!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
+    <!-- <designationCategory>Security</designationCategory> -->
+		<!-- <costStuffCount>50</costStuffCount> -->
+		<!-- <costList> -->
+			<!-- <Steel>50</Steel> -->
+			<!-- <AAA_Crate_Maxim>1</AAA_Crate_Maxim> -->
+		<!-- </costList> -->
+		<!-- <comps> -->
+		  <!-- <li Class="CompProperties_Forbiddable"/> -->
+		  <!-- <li Class="CompProperties_Mannable"> -->
+			<!-- <manWorkType>Violent</manWorkType> -->
+		  <!-- </li> -->
+
+		  <!-- <li Class="AAA.CompProperties_TurretTopSize"> -->
+			<!-- <topSize>(1.0,1.0,1.0)</topSize> -->
+		  <!-- </li> -->
+		  <!-- </comps> -->
+    <!-- <building> -->
+		<!-- <turretGunDef>Artillery_Maxim</turretGunDef> -->
+		<!-- <turretBurstWarmupTime>1.5</turretBurstWarmupTime> -->
+		<!-- <turretBurstCooldownTime>1.5</turretBurstCooldownTime> -->
+  <!-- </building> -->
+	<!-- <researchPrerequisites> -->
+      <!-- <li>AAA_Embrausure</li> -->
+    <!-- </researchPrerequisites> -->
+  <!-- </ThingDef> -->
+
+  <!-- Turret def single maxim -->
+
+  <ThingDef Name="AAA_BaseSingleMaxim" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+	     <label>artillery error</label>
+    <useHitPoints>false</useHitPoints>
+    <equipmentType>Primary</equipmentType>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li Class="AAA.CompProperties_ReproductiveProjectile">
+		<loadcount>71</loadcount>
+	  </li>
+
+   </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_MachineGunAmmo</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_MachineGunAmmo</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+	<designationHotKey>Misc3</designationHotKey>
+
+  </ThingDef>
+  <ThingDef ParentName="AAA_BaseSingleMaxim">
+    <defName>Artillery_Maxim</defName>
+    <label>Maxim</label>
+    <description>a 7.62mm machine gun .</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>	
+    <graphicData>
+      <texPath>AAA/turret/TurretTop_FixedMaxim</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	 <statBases>
+    	<AccuracyTouch>0.50</AccuracyTouch>
+		<AccuracyShort>0.60</AccuracyShort>
+		<AccuracyMedium>0.46</AccuracyMedium>
+		<AccuracyLong>0.35</AccuracyLong>
+	  <RangedWeapon_Cooldown>10.00</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+	 <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+         <!--warmupTime>8.8</warmupTime-->
+        <forcedMissRadius>0</forcedMissRadius>
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>1</minRange>
+        <range>35</range>
+		<burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+		<soundCast>Shot_Minigun</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+
+
+      </li>
+    </verbs>
+	 </ThingDef>
+
+
+   <!--=============== QudMaxim ===============-->
+
+
+
+  <ThingDef ParentName="BuildingBase">
+	<defName>Turret_QuadMaxim</defName>
+    <label>Quad Maxim</label>
+    <description>A quadruple machine gun. leaves gun crates when deconstructed. Must be manned.</description>
+	<thingClass>AAA.Building_TurretGunCustom</thingClass>
+	<graphicData>
+      <texPath>AAA/turret/TurretImprovised</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.0,3.0)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+     <uiIconPath>AAA/icon/TurretTop_QuadMaxim</uiIconPath>
+
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+	   <size>(1,1)</size>
+	<statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1900</WorkToBuild>
+      <Mass>144</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.2</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<Steel>20</Steel>
+			<AAA_Crate_Maxim>4</AAA_Crate_Maxim>
+		</costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+
+	  <li Class="AAA.CompProperties_TurretTopSize">
+        <topSize>(1.0,1.0,1.0)</topSize>
+      </li>
+	  </comps>
+
+    <building>
+		<turretGunDef>Artillery_QuadMaxim</turretGunDef>
+		<turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+		<turretBurstCooldownTime>2.0</turretBurstCooldownTime>
+
+	</building>
+
+    <researchPrerequisites>
+      <li>BlowbackOperation</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--=============== Mortar turret ===============-->
+
+
+  <ThingDef Name="AAA_BaseQuadMaxim" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+	     <label>artillery error</label>
+    <useHitPoints>false</useHitPoints>
+    <equipmentType>Primary</equipmentType>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li Class="AAA.CompProperties_ReproductiveProjectile">
+		<loadcount>17</loadcount>
+	  </li>
+
+   </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_MachineGunAmmo</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_MachineGunAmmo</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+	<designationHotKey>Misc3</designationHotKey>
+
+  </ThingDef>
+  <ThingDef ParentName="AAA_BaseQuadMaxim">
+    <defName>Artillery_QuadMaxim</defName>
+    <label>Quad Maxim</label>
+    <description>quadruple 7.62mm machine gun. leaves gun crates when deconstructed.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <graphicData>
+      <texPath>AAA/turret/TurretTop_QuadMaxim</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	 <statBases>
+      <AccuracyTouch>0.30</AccuracyTouch>
+      <AccuracyShort>0.30</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+
+
+    <verbs>
+      <li>
+        <verbClass>AAA_Verb_ShootMultiple</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+       <warmupTime>8.8</warmupTime>
+        <forcedMissRadius>0.0</forcedMissRadius>
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>2</minRange>
+        <range>34</range>
+	  <stopBurstWithoutLos>false</stopBurstWithoutLos>
+	 	<burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+		<soundCast>AAA_machinegun_shot</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+
+      </li>
+    </verbs>
+	 </ThingDef>
+
+
+  <!-- ======== Crate ======== -->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>AAA_Crate_Maxim</defName>
+    <label>Maxim machine gun crate</label>
+    <description>7.62mm maxim machine gun. This is too heavy to hold. you need to make a turret for this.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>AAA/Crate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	   <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <MarketValue>2050</MarketValue>
+      <Mass>27</Mass>
+      <Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+
+
+  </Defs>

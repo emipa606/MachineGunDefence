@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+  <AAA_Embrausure.label>Embrausure</AAA_Embrausure.label>
+  <AAA_Embrausure.description>enables you to make Embrausured gun</AAA_Embrausure.description>
+
+   <AAA_Autocannon.label>Autocanno</AAA_Autocannon.label>
+  <AAA_Autocannon.description>enables to make 20mm Autocannon, 40mm Autocannon。</AAA_Autocannon.description>
+
+   <AAA_MultipleAutocannon.label>Dual Autocannon</AAA_MultipleAutocannon.label>
+  <AAA_MultipleAutocannon.description>enables you to attach 2 autocannons to make dual gun.</AAA_MultipleAutocannon.description>
+
+   <AAA_QuadAutocannon.label>quad Autocannon</AAA_QuadAutocannon.label>
+  <AAA_QuadAutocannon.description>enables you to attach 4 autocannons to make quai gun.</AAA_QuadAutocannon.description>
+
+  <AAA_Gatling.label>gatling</AAA_Gatling.label>
+  <AAA_Gatling.description>enables gatling gun</AAA_Gatling.description>
+
+</LanguageData>

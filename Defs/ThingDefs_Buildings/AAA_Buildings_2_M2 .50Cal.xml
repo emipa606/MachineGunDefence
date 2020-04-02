@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+  <ThingDef ParentName="BuildingBase">
+	<defName>Turret_M2MG</defName>
+    <label>M2 Browning machine gun</label>
+    <description>A heavy machine gun for anti air duty. uses 12.7mm machine gun ammo.leaves gun crates when deconstructed. Must be maned.</description>
+	<thingClass>AAA.Building_TurretGunCustom</thingClass>
+	 	<graphicData>
+      <texPath>Things/Building/Security/TurretMini_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+	 <uiIconPath>AAA/icon/TurretTop_M2</uiIconPath>
+
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+	  <size>(1,1)</size>
+	<statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>190</WorkToBuild>
+      <Mass>58</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+
+    <pathCost>50</pathCost>
+    <fillPercent>0.2</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<Steel>10</Steel>
+		<AAA_Crate_M2_Browning>1</AAA_Crate_M2_Browning>
+		</costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+
+	  <li Class="AAA.CompProperties_TurretTopSize">
+        <topSize>(2.0,2.0,2.0)</topSize>
+      </li>
+	  </comps>
+    <building>
+		<turretGunDef>Artillery_M2MG</turretGunDef>
+		<turretBurstWarmupTime>3.0</turretBurstWarmupTime>
+		<turretBurstCooldownTime>2.0</turretBurstCooldownTime>
+  </building>
+	  <researchPrerequisites>
+      <li>GasOperation</li>
+    </researchPrerequisites>
+
+  </ThingDef>
+
+  <!-- Turret def single maxim -->
+
+  <ThingDef Name="AAA_BaseSingleM2MG" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+	     <label>artillery error</label>
+    <useHitPoints>false</useHitPoints>
+    <equipmentType>Primary</equipmentType>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li Class="AAA.CompProperties_ReproductiveProjectile">
+		<loadcount>35</loadcount>
+	  </li>
+
+   </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_12_7mmAmmo</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_12_7mmAmmo</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+	<designationHotKey>Misc3</designationHotKey>
+
+  </ThingDef>
+  <ThingDef ParentName="AAA_BaseSingleM2MG">
+    <defName>Artillery_M2MG</defName>
+    <label>M2 Browning</label>
+    <description>a 12.7mm machine gun .</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <graphicData>
+      <texPath>AAA/turret/TurretTop_M2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	 <statBases>
+        <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.72</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <!--AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong-->
+      <RangedWeapon_Cooldown>10.00</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+	 <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+         <!--warmupTime>8.8</warmupTime-->
+        <forcedMissRadius>0</forcedMissRadius>
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>1</minRange>
+        <range>45</range>
+		<burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+		<soundCast>AAA_50Cal_shot</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+
+
+      </li>
+    </verbs>
+	 </ThingDef>
+
+
+
+
+
+
+
+
+
+<ThingDef ParentName="BuildingBase">
+	<defName>Turret_DualM2MG</defName>
+    <label>Dual M2 Browning</label>
+    <description>A Dual M2 machine gun. Its shield covers the gunner. leaves gun crates when deconstructed. Must be manned.</description>
+	<thingClass>AAA.Building_TurretGunCustom</thingClass>
+	<graphicData>
+      <texPath>AAA/turret/TurretOerlikonBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.0,1.0)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+     <uiIconPath>AAA/icon/TurretTop_DualM2</uiIconPath>
+
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+	   <size>(1,1)</size>
+	<statBases>
+      <MaxHitPoints>270</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>490</WorkToBuild>
+      <Mass>120</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.6</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<Steel>60</Steel>
+			<AAA_Crate_M2_Browning>2</AAA_Crate_M2_Browning>
+		</costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+	    <li Class="CompProperties_Breakdownable"/>
+
+	  <li Class="AAA.CompProperties_TurretTopSize">
+        <topSize>(2.0,2.0,2.0)</topSize>
+      </li>
+
+	  </comps>
+
+    <building>
+		<turretGunDef>Artillery_DualM2MG</turretGunDef>
+		<turretBurstWarmupTime>2.5</turretBurstWarmupTime>
+		<turretBurstCooldownTime>3.0</turretBurstCooldownTime>
+
+	</building>
+
+    <researchPrerequisites>
+      <li>GasOperation</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="AAA_BaseQuadM2MG">
+    <defName>Artillery_DualM2MG</defName>
+    <label>Dual M2 Browning</label>
+    <description>Dual 12.7mm machine gun. Less accurate than single M2. leaves gun crates when deconstructed.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+	 <statBases>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.48</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <graphicData>
+      <texPath>AAA/turret/TurretTop_DualM2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+
+    <verbs>
+      <li>
+        <verbClass>AAA_Verb_ShootMultiple</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+       <warmupTime>8.8</warmupTime>
+        <forcedMissRadius>0.0</forcedMissRadius>
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>2</minRange>
+        <range>45</range>
+	  <stopBurstWithoutLos>false</stopBurstWithoutLos>
+	 	<burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+		<soundCast>AAA_Quad50Cal_shot</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+
+      </li>
+    </verbs>
+	 </ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--=============== QudM2 ===============-->
+
+  <ThingDef ParentName="BuildingBase">
+	<defName>Turret_QuadM2MG</defName>
+    <label>M45 meet chopper</label>
+    <description>A quadruple M2 machine gun. leaves gun crates when deconstructed. Must be manned.</description>
+	<thingClass>AAA.Building_TurretGunCustom</thingClass>
+	<graphicData>
+      <texPath>AAA/turret/TurretImprovised</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.0,3.0)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+     <uiIconPath>AAA/icon/TurretTop_QuadM2</uiIconPath>
+
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <!--altitudeLayer>Building</altitudeLayer-->
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,0)</interactionCellOffset>
+    <stealable>false</stealable>
+	   <size>(3,3)</size>
+	<statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1900</WorkToBuild>
+      <Mass>450</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.95</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<Steel>300</Steel>
+			<AAA_Crate_M2_Browning>4</AAA_Crate_M2_Browning>
+		</costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+	    <li Class="CompProperties_Breakdownable"/>
+
+	  <li Class="AAA.CompProperties_TurretTopSize">
+        <topSize>(4.0,4.0,4.0)</topSize>
+      </li>
+	  <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+		<li Class="CompProperties_Flickable"/>
+
+	  </comps>
+
+    <building>
+		<turretGunDef>Artillery_QuadM2MG</turretGunDef>
+		<turretBurstWarmupTime>2.5</turretBurstWarmupTime>
+		<turretBurstCooldownTime>3.0</turretBurstCooldownTime>
+
+	</building>
+
+    <researchPrerequisites>
+      <li>GasOperation</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--=============== Mortar turret ===============-->
+
+
+  <ThingDef Name="AAA_BaseQuadM2MG" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+	     <label>artillery error</label>
+    <useHitPoints>false</useHitPoints>
+    <equipmentType>Primary</equipmentType>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li Class="AAA.CompProperties_ReproductiveProjectile">
+		<loadcount>17</loadcount>
+	  </li>
+
+   </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_12_7mmAmmo</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_12_7mmAmmo</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+	<designationHotKey>Misc3</designationHotKey>
+
+  </ThingDef>
+  <ThingDef ParentName="AAA_BaseQuadM2MG">
+    <defName>Artillery_QuadM2MG</defName>
+    <label>M45 Quadmount Meet Chopper</label>
+    <description>quadruple 12.7mm machine gun. leaves gun crates when deconstructed.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <graphicData>
+      <texPath>AAA/turret/TurretTop_QuadM2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	 <statBases>
+      <AccuracyTouch>0.30</AccuracyTouch>
+      <AccuracyShort>0.10</AccuracyShort>
+      <AccuracyMedium>0.10</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+
+
+    <verbs>
+      <li>
+        <verbClass>AAA_Verb_ShootMultiple</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+       <warmupTime>8.8</warmupTime>
+        <forcedMissRadius>1.0</forcedMissRadius>
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>2</minRange>
+        <range>45</range>
+	  <stopBurstWithoutLos>false</stopBurstWithoutLos>
+	 	<burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+		<soundCast>AAA_Quad50Cal_shot</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+
+      </li>
+    </verbs>
+	 </ThingDef>
+
+
+	   <!-- ======== Crate ======== -->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>AAA_Crate_M2_Browning</defName>
+    <label>M2 machine gun crate</label>
+    <description>12.7mm maxim machine gun. This is too heavy to hold. you need to make a turret for this.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>AAA/Crate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	   <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <MarketValue>4050</MarketValue>
+      <Mass>38</Mass>
+      <Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <!--tradeTags>
+      <li>Exotic</li>
+    </tradeTags-->
+  </ThingDef>
+
+
+
+
+
+
+
+
+  </Defs>

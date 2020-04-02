@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Oerlikon -->
+
+  
+ 
+  <Turret_single20mmGun.label>エリコン２０ｍｍ機関砲</Turret_single20mmGun.label>
+  <Turret_single20mmGun.description>人が操作する必要があるエリコン２０ｍｍ機関砲です。解体することで使用した武器クレートを取り戻せます。</Turret_single20mmGun.description>
+
+  <Artillery_single20mmGun.label>エリコン２０ｍｍ機関砲</Artillery_single20mmGun.label>
+  <Artillery_single20mmGun.description>人が操作する必要があるエリコン２０ｍｍ機関砲です。解体することで使用した武器クレートを取り戻せます。</Artillery_single20mmGun.description>
+
+  
+  <Turret_Dual20mmGun.label>２連装エリコン</Turret_Dual20mmGun.label>
+  <Turret_Dual20mmGun.description>人が操作する必要があるエリコン２０ｍｍ機関砲です。解体することで使用した武器クレートを取り戻せます。</Turret_Dual20mmGun.description>
+
+  <Artillery_Dual20mmGun.label>２連装エリコン</Artillery_Dual20mmGun.label>
+  <Artillery_Dual20mmGun.description>人が操作する必要があるエリコン２０ｍｍ機関砲です。解体することで使用した武器クレートを取り戻せます。</Artillery_Dual20mmGun.description>
+
+  
+  
+  <Turret_Quad20mmGun.label>４連装エリコン</Turret_Quad20mmGun.label>
+  <Turret_Quad20mmGun.description>人が操作する必要があるエリコン２０ｍｍ機関砲です。　厚い装甲で射手を保護します。解体することで使用した武器クレートを取り戻せます。</Turret_Quad20mmGun.description>
+
+  <Artillery_Quad20mmGun.label>４連装エリコン</Artillery_Quad20mmGun.label>
+  <Artillery_Quad20mmGun.description>人が操作する必要があるエリコン２０ｍｍ機関砲です。解体することで使用した武器クレートを取り戻せます。</Artillery_Quad20mmGun.description>
+
+  <AAA_Crate_Oerlikon.label>エリコン２０ｍｍ機関砲</AAA_Crate_Oerlikon.label>
+  <AAA_Crate_Oerlikon.description>２０ｍｍ砲弾を使用する機関砲。手で持つことはできないので旋回砲塔を作る必要があります。</AAA_Crate_Oerlikon.description>
+
+</LanguageData>

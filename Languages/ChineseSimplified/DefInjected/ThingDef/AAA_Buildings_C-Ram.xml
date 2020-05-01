@@ -1,14 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- CIWS (C-RAM) -->
-
   <CIWS_Turret.label>近程防御武器系统</CIWS_Turret.label>
   <CIWS_Turret.description>近距离武器系统炮塔。自动射击附近的敌人。</CIWS_Turret.description>
-
   <Gun_CIWS_turret.label>马克沁机枪</Gun_CIWS_turret.label>
   <Gun_CIWS_turret.description>近距离武器系统炮塔。自动射击附近的敌人。</Gun_CIWS_turret.description>
-
- 
-  
 </LanguageData>

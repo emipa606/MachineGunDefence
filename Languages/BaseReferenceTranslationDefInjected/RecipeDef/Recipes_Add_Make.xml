@@ -1,50 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-
   <!-- Recipe-->
-
-	<Recipe_MakeCrateMaxim.label>make maxim machine gun crate</Recipe_MakeCrateMaxim.label>
-	<Recipe_MakeCrateMaxim.description>make a maxim machine gun crate. you need this to build maxim turret.</Recipe_MakeCrateMaxim.description>
-	<Recipe_MakeCrateMaxim.jobString>cutting gun</Recipe_MakeCrateMaxim.jobString>
-
-	<Recipe_MakeCrate50cal.label>make .50Cal machine gun crate</Recipe_MakeCrate50cal.label>
-	<Recipe_MakeCrate50cal.description>make a .50Cal machine gun crate. you need this to build M2 turret.</Recipe_MakeCrate50cal.description>
-	<Recipe_MakeCrate50cal.jobString>Cutting gun.</Recipe_MakeCrate50cal.jobString>
-
-
-	<Recipe_MakeCrateOerlikon.label>make 20mm machine gun crate</Recipe_MakeCrateOerlikon.label>
-	<Recipe_MakeCrateOerlikon.description>make a Oerlikon 20mm machine gun crate. You need this to build Oerlikon turret.</Recipe_MakeCrateOerlikon.description>
-	<Recipe_MakeCrateOerlikon.jobString>Cutting gun.</Recipe_MakeCrateOerlikon.jobString>
-
-
-	<Recipe_MakeCrate40mm_gun.label>make 40mm machine gun crate</Recipe_MakeCrate40mm_gun.label>
-	<Recipe_MakeCrate40mm_gun.description>make a Bofors 40mm anti aircraft artillery crate. You need this to build Bofors turret.</Recipe_MakeCrate40mm_gun.description>
-	<Recipe_MakeCrate40mm_gun.jobString>Cutting gun</Recipe_MakeCrate40mm_gun.jobString>
-
-	<Make_AAA_MachineGunAmmo.label>make 7.62mm ammo box</Make_AAA_MachineGunAmmo.label>
-	<Make_AAA_MachineGunAmmo.description>make 7.62mm ammo box</Make_AAA_MachineGunAmmo.description>
-	<Make_AAA_MachineGunAmmo.jobString>reloading 7.62mm ammo</Make_AAA_MachineGunAmmo.jobString>
-
-	<Make_AAA_12_7mmAmmoBox.label>make 12.7mm ammo box</Make_AAA_12_7mmAmmoBox.label>
-	<Make_AAA_12_7mmAmmoBox.description>make 12.7mm ammo box</Make_AAA_12_7mmAmmoBox.description>
-	<Make_AAA_12_7mmAmmoBox.jobString>reloading 12.7mm ammo</Make_AAA_12_7mmAmmoBox.jobString>
-
-	<Make_20mm_Shell_HighExplosive.label>make high explosive 20mm rounds magazine</Make_20mm_Shell_HighExplosive.label>
-	<Make_20mm_Shell_HighExplosive.description>make HE 20mm rounds magazine</Make_20mm_Shell_HighExplosive.description>
-	<Make_20mm_Shell_HighExplosive.jobString>making HE 20mm rounds magazine</Make_20mm_Shell_HighExplosive.jobString>
-
-	<Make_20mm_Shell_ArmorPiercing.label>make AP 20mm </Make_20mm_Shell_ArmorPiercing.label>
-	<Make_20mm_Shell_ArmorPiercing.description>make armor piercing 20 mm rounds magazine</Make_20mm_Shell_ArmorPiercing.description>
-	<Make_20mm_Shell_ArmorPiercing.jobString>making AP 20mm rounds </Make_20mm_Shell_ArmorPiercing.jobString>
-
-	<Make_40mm_Shell_HighExplosive.label>make high explosize 40mm shell clip </Make_40mm_Shell_HighExplosive.label>
-	<Make_40mm_Shell_HighExplosive.description>make he 40mm shell clip</Make_40mm_Shell_HighExplosive.description>
-	<Make_40mm_Shell_HighExplosive.jobString>making he 40mm clip</Make_40mm_Shell_HighExplosive.jobString>
-
-	<Make_40mm_Shell_Incendiary.label>make incendiary 40mm rounds clip</Make_40mm_Shell_Incendiary.label>
-	<Make_40mm_Shell_Incendiary.description>make incendiary 40mm rounds clip</Make_40mm_Shell_Incendiary.description>
-	<Make_40mm_Shell_Incendiary.jobString>make incendiary 40mm rounds clip</Make_40mm_Shell_Incendiary.jobString>
-
-
+  <Recipe_MakeCrateMaxim.label>make maxim machine gun crate</Recipe_MakeCrateMaxim.label>
+  <Recipe_MakeCrateMaxim.description>make a maxim machine gun crate. you need this to build maxim turret.</Recipe_MakeCrateMaxim.description>
+  <Recipe_MakeCrateMaxim.jobString>cutting gun</Recipe_MakeCrateMaxim.jobString>
+  <Recipe_MakeCrate50cal.label>make .50Cal machine gun crate</Recipe_MakeCrate50cal.label>
+  <Recipe_MakeCrate50cal.description>make a .50Cal machine gun crate. you need this to build M2 turret.</Recipe_MakeCrate50cal.description>
+  <Recipe_MakeCrate50cal.jobString>Cutting gun.</Recipe_MakeCrate50cal.jobString>
+  <Recipe_MakeCrateOerlikon.label>make 20mm machine gun crate</Recipe_MakeCrateOerlikon.label>
+  <Recipe_MakeCrateOerlikon.description>make a Oerlikon 20mm machine gun crate. You need this to build Oerlikon turret.</Recipe_MakeCrateOerlikon.description>
+  <Recipe_MakeCrateOerlikon.jobString>Cutting gun.</Recipe_MakeCrateOerlikon.jobString>
+  <Recipe_MakeCrate40mm_gun.label>make 40mm machine gun crate</Recipe_MakeCrate40mm_gun.label>
+  <Recipe_MakeCrate40mm_gun.description>make a Bofors 40mm anti aircraft artillery crate. You need this to build Bofors turret.</Recipe_MakeCrate40mm_gun.description>
+  <Recipe_MakeCrate40mm_gun.jobString>Cutting gun</Recipe_MakeCrate40mm_gun.jobString>
+  <Make_AAA_MachineGunAmmo.label>make 7.62mm ammo box</Make_AAA_MachineGunAmmo.label>
+  <Make_AAA_MachineGunAmmo.description>make 7.62mm ammo box</Make_AAA_MachineGunAmmo.description>
+  <Make_AAA_MachineGunAmmo.jobString>reloading 7.62mm ammo</Make_AAA_MachineGunAmmo.jobString>
+  <Make_AAA_12_7mmAmmoBox.label>make 12.7mm ammo box</Make_AAA_12_7mmAmmoBox.label>
+  <Make_AAA_12_7mmAmmoBox.description>make 12.7mm ammo box</Make_AAA_12_7mmAmmoBox.description>
+  <Make_AAA_12_7mmAmmoBox.jobString>reloading 12.7mm ammo</Make_AAA_12_7mmAmmoBox.jobString>
+  <Make_20mm_Shell_HighExplosive.label>make high explosive 20mm rounds magazine</Make_20mm_Shell_HighExplosive.label>
+  <Make_20mm_Shell_HighExplosive.description>make HE 20mm rounds magazine</Make_20mm_Shell_HighExplosive.description>
+  <Make_20mm_Shell_HighExplosive.jobString>making HE 20mm rounds magazine</Make_20mm_Shell_HighExplosive.jobString>
+  <Make_20mm_Shell_ArmorPiercing.label>make AP 20mm </Make_20mm_Shell_ArmorPiercing.label>
+  <Make_20mm_Shell_ArmorPiercing.description>make armor piercing 20 mm rounds magazine</Make_20mm_Shell_ArmorPiercing.description>
+  <Make_20mm_Shell_ArmorPiercing.jobString>making AP 20mm rounds </Make_20mm_Shell_ArmorPiercing.jobString>
+  <Make_40mm_Shell_HighExplosive.label>make high explosize 40mm shell clip </Make_40mm_Shell_HighExplosive.label>
+  <Make_40mm_Shell_HighExplosive.description>make he 40mm shell clip</Make_40mm_Shell_HighExplosive.description>
+  <Make_40mm_Shell_HighExplosive.jobString>making he 40mm clip</Make_40mm_Shell_HighExplosive.jobString>
+  <Make_40mm_Shell_Incendiary.label>make incendiary 40mm rounds clip</Make_40mm_Shell_Incendiary.label>
+  <Make_40mm_Shell_Incendiary.description>make incendiary 40mm rounds clip</Make_40mm_Shell_Incendiary.description>
+  <Make_40mm_Shell_Incendiary.jobString>make incendiary 40mm rounds clip</Make_40mm_Shell_Incendiary.jobString>
 </LanguageData>

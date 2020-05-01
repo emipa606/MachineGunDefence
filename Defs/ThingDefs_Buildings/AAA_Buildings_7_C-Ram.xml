@@ -1,31 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--=============== C-RAM turret ===============-->
-
-	<ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>CIWS_Turret</defName>
     <label>C-RAM turret</label>
     <thingClass>AAA.Building_TurretGunCustom</thingClass>
-	  <graphicData>
-			<texPath>AAA/turret/TurretBottom</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
-			<damageData>
+    <graphicData>
+      <texPath>AAA/turret/TurretBottom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
+      </damageData>
     </graphicData>
-
-   <uiIconPath>AAA/icon/TurretTop_C-RAM</uiIconPath>
-
-	<minifiedDef>MinifiedThing</minifiedDef>
+    <uiIconPath>AAA/icon/TurretTop_C-RAM</uiIconPath>
+    <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsSecurity</li>
     </thingCategories>
     <altitudeLayer>Building</altitudeLayer>
     <stealable>false</stealable>
     <rotatable>true</rotatable>
-      <size>(2,2)</size>
-	<statBases>
+    <size>(2,2)</size>
+    <statBases>
       <MaxHitPoints>320</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>40900</WorkToBuild>
@@ -39,14 +36,14 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
       </li>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>2000</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
-	  <li Class="AAA.CompProperties_TurretTopSize">
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="AAA.CompProperties_TurretTopSize">
         <topSize>(2.0,2.0,2.0)</topSize>
       </li>
     </comps>
@@ -66,18 +63,16 @@
     <designationCategory>Security</designationCategory>
     <specialDisplayRadius>25.9</specialDisplayRadius>
     <building>
-			<ai_combatDangerous>true</ai_combatDangerous>
+      <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_CIWS_turret</turretGunDef>
       <turretBurstCooldownTime>7.85</turretBurstCooldownTime>
     </building>
-	<staticSunShadowHeight>0.60</staticSunShadowHeight>
-
+    <staticSunShadowHeight>0.60</staticSunShadowHeight>
     <designationHotKey>Misc2</designationHotKey>
     <researchPrerequisites>
       <li>AAA_Gatling</li>
     </researchPrerequisites>
   </ThingDef>
-
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_CIWS_turret</defName>
     <label>improvised turret bullet</label>
@@ -85,23 +80,22 @@
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<thingClass>Projectile_Explosive</thingClass>
-	<comps>
-	  <li Class="AAA.CompProperties_ProjectileMultiple">
-			<pellets>1</pellets>
-		    <!--forsedScatterRadius>0.5</forsedScatterRadius-->
-			<scatterRadiusAt10tilesAway>0.3</scatterRadiusAt10tilesAway>
-	  </li>
+    <thingClass>Projectile_Explosive</thingClass>
+    <comps>
+      <li Class="AAA.CompProperties_ProjectileMultiple">
+        <pellets>1</pellets>
+        <!--forsedScatterRadius>0.5</forsedScatterRadius-->
+        <scatterRadiusAt10tilesAway>0.3</scatterRadiusAt10tilesAway>
+      </li>
     </comps>
     <projectile>
       <damageDef>Bomb</damageDef>
       <!--damageAmountBase>2</damageAmountBase-->
       <damageAmountBase>20</damageAmountBase>
-	<explosionRadius>0.9</explosionRadius>
+      <explosionRadius>0.9</explosionRadius>
       <speed>60</speed>
     </projectile>
   </ThingDef>
-
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>Gun_CIWS_turret</defName>
     <label>Gun_C-RAM turret gun</label>
@@ -132,9 +126,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_CIWS_turret</defaultProjectile>
         <warmupTime>2.0</warmupTime>
-       <minRange>2</minRange>
-  <forcedMissRadius>1</forcedMissRadius>
-	 <range>19.9</range>
+        <minRange>2</minRange>
+        <forcedMissRadius>1</forcedMissRadius>
+        <range>19.9</range>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
         <burstShotCount>60</burstShotCount>
         <soundCast>AAA_gatling_shot</soundCast>
@@ -143,7 +137,4 @@
       </li>
     </verbs>
   </ThingDef>
-
-
-
-  </Defs>
+</Defs>

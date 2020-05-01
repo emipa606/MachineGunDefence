@@ -1,12 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- 12．7㎜ machine gun ammo box) -->
-
   <AAA_12_7mmAmmoBox.label>12.7ｍｍ弾</AAA_12_7mmAmmoBox.label>
   <AAA_12_7mmAmmoBox.description>12.7ｍｍ弹の箱。複数回のバースト射撃に十分な量の弾薬が入っています。</AAA_12_7mmAmmoBox.description>
-
   <AAA_Bullet_Quad12_7mmMachineGun.label>12.7ｍｍ弾</AAA_Bullet_Quad12_7mmMachineGun.label>
   <AAA_Bullet_Quad12_7mmMachineGun.description>12.7ｍｍ弹の箱。複数回のバースト射撃に十分な量の弾薬が入っています。</AAA_Bullet_Quad12_7mmMachineGun.description>
-
 </LanguageData>

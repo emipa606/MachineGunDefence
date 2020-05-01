@@ -1,12 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- ７．６２㎜machine gun ammo box) -->
-
   <AAA_MachineGunAmmo.label>7.62mm弾</AAA_MachineGunAmmo.label>
   <AAA_MachineGunAmmo.description>7.62弾の箱。複数回のバースト射撃に十分な量の弾薬が入っています。</AAA_MachineGunAmmo.description>
-
   <AAA_Bullet_QuadMachineGun.label>7.62mm弾</AAA_Bullet_QuadMachineGun.label>
   <AAA_Bullet_QuadMachineGun.description>7.62弾の箱。複数回のバースト射撃に十分な量の弾薬が入っています。</AAA_Bullet_QuadMachineGun.description>
-
 </LanguageData>

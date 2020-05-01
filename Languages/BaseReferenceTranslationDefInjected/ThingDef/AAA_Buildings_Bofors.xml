@@ -1,31 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Bofors 40mm flak gun -->
-
   <Turret_40mmGun.label>Bofors 40mm flak gun</Turret_40mmGun.label>
   <Turret_40mmGun.description>40mm bofors auto cannon. need to be manned. drop gun crates upon deconstruction.</Turret_40mmGun.description>
-
   <Artillery_40mmGun.label>Bofors gun</Artillery_40mmGun.label>
   <Artillery_40mmGun.description>need to be manned. drop gun crates upon deconstruction.</Artillery_40mmGun.description>
-
-
   <AAA_Turret_Dual40mmGun.label>Mk.1 dual bofors</AAA_Turret_Dual40mmGun.label>
   <AAA_Turret_Dual40mmGun.description>dual 40mm flak gun.need to be manned. drop gun crates upon deconstruction.</AAA_Turret_Dual40mmGun.description>
-
   <AAA_Artillery_Dual40mmGun.label>Mk.1 Dual bofors</AAA_Artillery_Dual40mmGun.label>
   <AAA_Artillery_Dual40mmGun.description>dual 40mm gun. need to be manned. drop gun crates upon deconstruction.</AAA_Artillery_Dual40mmGun.description>
-
-
-
   <AAA_Turret_Quad40mmGun.label>Mk.2 quad bofors</AAA_Turret_Quad40mmGun.label>
   <AAA_Turret_Quad40mmGun.description>quadruple 40mm flak gun.need to be manned. drop gun crates upon deconstruction.</AAA_Turret_Quad40mmGun.description>
-
   <AAA_Artillery_Quad40mmGun.label>Mk.2 quad bofors</AAA_Artillery_Quad40mmGun.label>
   <AAA_Artillery_Quad40mmGun.description>quadruple 40mm gun.need to be manned. drop gun crates upon deconstruction.</AAA_Artillery_Quad40mmGun.description>
-
   <AAA_Crate_Bofors.label>Bofors 40mm flak gun crate</AAA_Crate_Bofors.label>
   <AAA_Crate_Bofors.description>uses 40mm shell. too heavy to hold so you need make turret for this.</AAA_Crate_Bofors.description>
-
-
 </LanguageData>

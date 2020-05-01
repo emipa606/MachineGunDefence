@@ -1,13 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	  <!--===============gatling 7.62mm ===============-->
-
+  <!--===============gatling 7.62mm ===============-->
   <ThingDef ParentName="BuildingBase">
-	<defName>Turret_GAU17gatling</defName>
+    <defName>Turret_GAU17gatling</defName>
     <label>GAU17</label>
     <description>A gatling gun. uses 7.62mm bullets. Must be maned.</description>
-	<thingClass>AAA.Building_TurretGunCustom</thingClass>
-	 	<graphicData>
+    <thingClass>AAA.Building_TurretGunCustom</thingClass>
+    <graphicData>
       <texPath>AAA/turret/TurretImprovised</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3,3)</drawSize>
@@ -16,8 +15,7 @@
         <cornerTL>Damage/Corner</cornerTL>
       </damageData>
     </graphicData>
-
-	 <uiIconPath>AAA/icon/GAU17</uiIconPath>
+    <uiIconPath>AAA/icon/GAU17</uiIconPath>
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsSecurity</li>
@@ -26,16 +24,15 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <stealable>false</stealable>
-	  <size>(1,1)</size>
-	<statBases>
+    <size>(1,1)</size>
+    <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>41900</WorkToBuild>
       <Mass>39</Mass>
       <Beauty>-20</Beauty>
-  </statBases>
+    </statBases>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-
     <pathCost>50</pathCost>
     <fillPercent>0.2</fillPercent>
     <castEdgeShadows>true</castEdgeShadows>
@@ -45,45 +42,42 @@
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-		<costStuffCount>50</costStuffCount>
-		<costList>
-			<Steel>50</Steel>
-		    <ComponentIndustrial>15</ComponentIndustrial>
-
-	</costList>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </costList>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Mannable">
         <manWorkType>Violent</manWorkType>
       </li>
-	    <li Class="CompProperties_Breakdownable"/>
-       <li Class="CompProperties_Power">
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>100</basePowerConsumption>
       </li>
-	  <li Class="AAA.CompProperties_TurretTopSize">
+      <li Class="AAA.CompProperties_TurretTopSize">
         <topSize>(2.0,2.0,2.0)</topSize>
       </li>
-	  </comps>
+    </comps>
     <building>
-		    <turretGunDef>Artillery_GAU17gatling</turretGunDef>
-		    <turretBurstWarmupTime>3.0</turretBurstWarmupTime>
-		    <turretBurstCooldownTime>4.0</turretBurstCooldownTime>
-		    <buildingTags>
-       	  <li>Artillery</li>
-		    </buildingTags>
+      <turretGunDef>Artillery_GAU17gatling</turretGunDef>
+      <turretBurstWarmupTime>3.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>4.0</turretBurstCooldownTime>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
     </building>
-	  <researchPrerequisites>
+    <researchPrerequisites>
       <li>AAA_Gatling</li>
     </researchPrerequisites>
   </ThingDef>
-
   <!-- Turret def single maxim -->
-
   <ThingDef Name="AAA_BaseGAU17gatling" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
-	     <label>artillery error</label>
+    <label>artillery error</label>
     <useHitPoints>false</useHitPoints>
     <equipmentType>Primary</equipmentType>
     <tickerType>Never</tickerType>
@@ -99,10 +93,9 @@
         <compClass>CompEquippable</compClass>
       </li>
       <li Class="AAA.CompProperties_ReproductiveProjectile">
-		<loadcount>129</loadcount>
-	  </li>
-
-   </comps>
+        <loadcount>129</loadcount>
+      </li>
+    </comps>
     <building>
       <fixedStorageSettings>
         <filter>
@@ -119,8 +112,7 @@
         </filter>
       </defaultStorageSettings>
     </building>
-	<designationHotKey>Misc3</designationHotKey>
-
+    <designationHotKey>Misc3</designationHotKey>
   </ThingDef>
   <ThingDef ParentName="AAA_BaseGAU17gatling">
     <defName>Artillery_GAU17gatling</defName>
@@ -129,35 +121,34 @@
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
-	 <statBases>
-     <AccuracyTouch>0.50</AccuracyTouch>
-     <AccuracyShort>0.32</AccuracyShort>
-     <AccuracyMedium>0.18</AccuracyMedium>
-     <AccuracyLong>0.06</AccuracyLong>
-       <RangedWeapon_Cooldown>0.00</RangedWeapon_Cooldown>
+    <statBases>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.32</AccuracyShort>
+      <AccuracyMedium>0.18</AccuracyMedium>
+      <AccuracyLong>0.06</AccuracyLong>
+      <RangedWeapon_Cooldown>0.00</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
     </statBases>
     <graphicData>
       <texPath>AAA/turret/GAU17</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	 <verbs>
+    <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
-         <!--warmupTime>8.8</warmupTime-->
+        <!--warmupTime>8.8</warmupTime-->
         <requireLineOfSight>true</requireLineOfSight>
         <minRange>1</minRange>
-         <forcedMissRadius>1.9</forcedMissRadius>
+        <forcedMissRadius>1.9</forcedMissRadius>
         <range>31</range>
-		<burstShotCount>130</burstShotCount>
+        <burstShotCount>130</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-		<soundCast>AAA_gatling_shot</soundCast>
-		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <soundCast>AAA_gatling_shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>7</muzzleFlashScale>
-	</li>
+      </li>
     </verbs>
-	 </ThingDef>
-
+  </ThingDef>
 </Defs>

@@ -1,14 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- ７．６２㎜machine gun ammo box) -->
-
   <AAA_MachineGunAmmo.label>7.62mm 탄약상자.</AAA_MachineGunAmmo.label>
   <AAA_MachineGunAmmo.description>7.62mm ammo 상자안엔 연사할수있는 총알이있습니다.</AAA_MachineGunAmmo.description>
-
   <AAA_Bullet_QuadMachineGun.label>7.62mm총알</AAA_Bullet_QuadMachineGun.label>
   <AAA_Bullet_QuadMachineGun.description>7.62mm 상자안엔 연사할만한양의 총알이있습니다.</AAA_Bullet_QuadMachineGun.description>
-
- 
-  
 </LanguageData>

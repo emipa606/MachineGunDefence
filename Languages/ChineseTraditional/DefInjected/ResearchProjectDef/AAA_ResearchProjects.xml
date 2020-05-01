@@ -1,20 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  
   <AAA_Embrausure.label>炮眼</AAA_Embrausure.label>
   <AAA_Embrausure.description>它允许你构建炮眼炮塔。</AAA_Embrausure.description>
-
-   <AAA_Autocannon.label>Autocannon</AAA_Autocannon.label>
+  <AAA_Autocannon.label>Autocannon</AAA_Autocannon.label>
   <AAA_Autocannon.description>它允许你构建20毫米Autocannon, 40毫米Autocannon。</AAA_Autocannon.description>
-
-   <AAA_MultipleAutocannon.label>双Autocannon</AAA_MultipleAutocannon.label>
+  <AAA_MultipleAutocannon.label>双Autocannon</AAA_MultipleAutocannon.label>
   <AAA_MultipleAutocannon.description>允许你附加2辆自动炮以制造双炮</AAA_MultipleAutocannon.description>
-
-   <AAA_QuadAutocannon.label>四Autocannon</AAA_QuadAutocannon.label>
+  <AAA_QuadAutocannon.label>四Autocannon</AAA_QuadAutocannon.label>
   <AAA_QuadAutocannon.description>允许你附加4辆自动炮以制造四炮</AAA_QuadAutocannon.description>
-
   <AAA_Gatling.label>近程防御武器系统</AAA_Gatling.label>
   <AAA_Gatling.description>近程防御武器系统</AAA_Gatling.description>
-
 </LanguageData>

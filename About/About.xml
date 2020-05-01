@@ -1,19 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-
-    <name>Machine gun defense (Continued)</name>
-  	<packageId>Mlie.MachineGunDefence</packageId>
-	<author>match_milk</author>
-	<url>https://github.com/emipa606/MachineGunDefence</url>
-	<supportedVersions>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of match_milks mod for RimWorld 1.1
+  <name>Machine gun defense (Continued)</name>
+  <packageId>Mlie.MachineGunDefence</packageId>
+  <author>match_milk</author>
+  <url>https://github.com/emipa606/MachineGunDefence</url>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of match_milks mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1296958152
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
+
+[img]https://i.imgur.com/GYswkZ7.png[/img]
 
 Support-chat:
 https://invite.gg/mlie
@@ -90,11 +91,10 @@ you can add this mod to your existent save data.
 
 
 Credits
-银鲟鱼 for ChineseSimplified translation
+??? for ChineseSimplified translation
 lil GoPnlk lil for Korean translation
 
 
 If you feel anything or have an idea about this mod, please leave a comment. ( too weak, too op, would like to see other weapon, etc)
 (I am not good at drawing texture, so if you could help me for drawing image, it would be very helpfull for me.)</description>
-
 </ModMetaData>

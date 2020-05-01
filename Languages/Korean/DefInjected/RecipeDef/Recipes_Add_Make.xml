@@ -1,50 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
- 
   <!-- Recipe-->
-
-	<Recipe_MakeCrateMaxim.label>맥심 기관총탄약통 제작</Recipe_MakeCrateMaxim.label>
-	<Recipe_MakeCrateMaxim.description>맥심기관총탄약통은이것은 맥심기관총터렛을만들때 필요합니다..</Recipe_MakeCrateMaxim.description>
-	<Recipe_MakeCrateMaxim.jobString>맥심기관총탄약상자를 제작하고있습니다.</Recipe_MakeCrateMaxim.jobString>
-
-	<Recipe_MakeCrate50cal.label>.50구경 기관총상자 제작</Recipe_MakeCrate50cal.label>
-	<Recipe_MakeCrate50cal.description>.50구경기관총상자은 M2기관총터렛을만들때 필요합니다.</Recipe_MakeCrate50cal.description>
-	<Recipe_MakeCrate50cal.jobString>.50구경 기관총탄약상자를 을제작하고있습니다. </Recipe_MakeCrate50cal.jobString>
-
-	
-	<Recipe_MakeCrateOerlikon.label>20mm 기관총탄약통 제작</Recipe_MakeCrateOerlikon.label>
-	<Recipe_MakeCrateOerlikon.description>올리콘20mm기관총탄약통은올리콘터렛을만들때 필요합니다.</Recipe_MakeCrateOerlikon.description>
-	<Recipe_MakeCrateOerlikon.jobString>20mm 기관총탄약통을 제작하고있습니다.</Recipe_MakeCrateOerlikon.jobString>
-
-	
-	<Recipe_MakeCrate40mm_gun.label>40mm 기관총 탄약통 제작</Recipe_MakeCrate40mm_gun.label>
-	<Recipe_MakeCrate40mm_gun.description>보포스 40mm 대항공기 포 탄약통은 보포스터렛을만들때 필요합니다. </Recipe_MakeCrate40mm_gun.description>
-	<Recipe_MakeCrate40mm_gun.jobString>40mm기관총 탄약통을 제작하고있습니다.</Recipe_MakeCrate40mm_gun.jobString>
-
-	<Make_AAA_MachineGunAmmo.label>7.62mm 탄약상자 제작</Make_AAA_MachineGunAmmo.label>
-	<Make_AAA_MachineGunAmmo.description>7.62mm 탄약상자를 만듭니다.</Make_AAA_MachineGunAmmo.description>
-	<Make_AAA_MachineGunAmmo.jobString>7.62mm 탄약을 채워넣고있습니다.</Make_AAA_MachineGunAmmo.jobString>
-
-	<Make_AAA_12_7mmAmmoBox.label>12.7mm 탄약상자 제작</Make_AAA_12_7mmAmmoBox.label>
-	<Make_AAA_12_7mmAmmoBox.description>12.7mm 탄약상자를 만듭니다.</Make_AAA_12_7mmAmmoBox.description>
-	<Make_AAA_12_7mmAmmoBox.jobString>12.7mm탄약을 채워넣고있습니다.</Make_AAA_12_7mmAmmoBox.jobString>
-
-	<Make_20mm_Shell_HighExplosive.label>폭팔성20mm탄 탄창 제작</Make_20mm_Shell_HighExplosive.label>
-	<Make_20mm_Shell_HighExplosive.description>HE 20mm탄 탄창 제작/Make_20mm_Shell_HighExplosive.description>
-	<Make_20mm_Shell_HighExplosive.jobString>HE 20mm탄 탄창을 제작하고있습니다.</Make_20mm_Shell_HighExplosive.jobString>
-
-	<Make_20mm_Shell_ArmorPiercing.label>AP 20mm탄제작</Make_20mm_Shell_ArmorPiercing.label>
-	<Make_20mm_Shell_ArmorPiercing.description>기갑관통 20mm탄 탄창을 만듭니다.</Make_20mm_Shell_ArmorPiercing.description>
-	<Make_20mm_Shell_ArmorPiercing.jobString>AP 20mm탄을 제작하고있습니다.</Make_20mm_Shell_ArmorPiercing.jobString>
-
-	<Make_40mm_Shell_HighExplosive.label>고폭성 40mm 포탄클립 제작</Make_40mm_Shell_HighExplosive.label>
-	<Make_40mm_Shell_HighExplosive.description>he 40mm 포탄클립을 만듭니다.</Make_40mm_Shell_HighExplosive.description>
-	<Make_40mm_Shell_HighExplosive.jobString>40mm클립을 제작하고있습니다.</Make_40mm_Shell_HighExplosive.jobString>
-
-	<Make_40mm_Shell_Incendiary.label>화염성 40mm포탄클립 제작</Make_40mm_Shell_Incendiary.label>
-	<Make_40mm_Shell_Incendiary.description>화염성 40mm포탄클립을 만듭니다.</Make_40mm_Shell_Incendiary.description>
-	<Make_40mm_Shell_Incendiary.jobString>화염성 40mm포탄클립을 만듭니다.</Make_40mm_Shell_Incendiary.jobString>
-
-		
+  <Recipe_MakeCrateMaxim.label>맥심 기관총탄약통 제작</Recipe_MakeCrateMaxim.label>
+  <Recipe_MakeCrateMaxim.description>맥심기관총탄약통은이것은 맥심기관총터렛을만들때 필요합니다..</Recipe_MakeCrateMaxim.description>
+  <Recipe_MakeCrateMaxim.jobString>맥심기관총탄약상자를 제작하고있습니다.</Recipe_MakeCrateMaxim.jobString>
+  <Recipe_MakeCrate50cal.label>.50구경 기관총상자 제작</Recipe_MakeCrate50cal.label>
+  <Recipe_MakeCrate50cal.description>.50구경기관총상자은 M2기관총터렛을만들때 필요합니다.</Recipe_MakeCrate50cal.description>
+  <Recipe_MakeCrate50cal.jobString>.50구경 기관총탄약상자를 을제작하고있습니다. </Recipe_MakeCrate50cal.jobString>
+  <Recipe_MakeCrateOerlikon.label>20mm 기관총탄약통 제작</Recipe_MakeCrateOerlikon.label>
+  <Recipe_MakeCrateOerlikon.description>올리콘20mm기관총탄약통은올리콘터렛을만들때 필요합니다.</Recipe_MakeCrateOerlikon.description>
+  <Recipe_MakeCrateOerlikon.jobString>20mm 기관총탄약통을 제작하고있습니다.</Recipe_MakeCrateOerlikon.jobString>
+  <Recipe_MakeCrate40mm_gun.label>40mm 기관총 탄약통 제작</Recipe_MakeCrate40mm_gun.label>
+  <Recipe_MakeCrate40mm_gun.description>보포스 40mm 대항공기 포 탄약통은 보포스터렛을만들때 필요합니다. </Recipe_MakeCrate40mm_gun.description>
+  <Recipe_MakeCrate40mm_gun.jobString>40mm기관총 탄약통을 제작하고있습니다.</Recipe_MakeCrate40mm_gun.jobString>
+  <Make_AAA_MachineGunAmmo.label>7.62mm 탄약상자 제작</Make_AAA_MachineGunAmmo.label>
+  <Make_AAA_MachineGunAmmo.description>7.62mm 탄약상자를 만듭니다.</Make_AAA_MachineGunAmmo.description>
+  <Make_AAA_MachineGunAmmo.jobString>7.62mm 탄약을 채워넣고있습니다.</Make_AAA_MachineGunAmmo.jobString>
+  <Make_AAA_12_7mmAmmoBox.label>12.7mm 탄약상자 제작</Make_AAA_12_7mmAmmoBox.label>
+  <Make_AAA_12_7mmAmmoBox.description>12.7mm 탄약상자를 만듭니다.</Make_AAA_12_7mmAmmoBox.description>
+  <Make_AAA_12_7mmAmmoBox.jobString>12.7mm탄약을 채워넣고있습니다.</Make_AAA_12_7mmAmmoBox.jobString>
+  <Make_20mm_Shell_HighExplosive.label>폭팔성20mm탄 탄창 제작</Make_20mm_Shell_HighExplosive.label>
+  <Make_20mm_Shell_HighExplosive.description>HE 20mm탄 탄창 제작</Make_20mm_Shell_HighExplosive.description>
+  <Make_20mm_Shell_HighExplosive.jobString>HE 20mm탄 탄창을 제작하고있습니다.</Make_20mm_Shell_HighExplosive.jobString>
+  <Make_20mm_Shell_ArmorPiercing.label>AP 20mm탄제작</Make_20mm_Shell_ArmorPiercing.label>
+  <Make_20mm_Shell_ArmorPiercing.description>기갑관통 20mm탄 탄창을 만듭니다.</Make_20mm_Shell_ArmorPiercing.description>
+  <Make_20mm_Shell_ArmorPiercing.jobString>AP 20mm탄을 제작하고있습니다.</Make_20mm_Shell_ArmorPiercing.jobString>
+  <Make_40mm_Shell_HighExplosive.label>고폭성 40mm 포탄클립 제작</Make_40mm_Shell_HighExplosive.label>
+  <Make_40mm_Shell_HighExplosive.description>he 40mm 포탄클립을 만듭니다.</Make_40mm_Shell_HighExplosive.description>
+  <Make_40mm_Shell_HighExplosive.jobString>40mm클립을 제작하고있습니다.</Make_40mm_Shell_HighExplosive.jobString>
+  <Make_40mm_Shell_Incendiary.label>화염성 40mm포탄클립 제작</Make_40mm_Shell_Incendiary.label>
+  <Make_40mm_Shell_Incendiary.description>화염성 40mm포탄클립을 만듭니다.</Make_40mm_Shell_Incendiary.description>
+  <Make_40mm_Shell_Incendiary.jobString>화염성 40mm포탄클립을 만듭니다.</Make_40mm_Shell_Incendiary.jobString>
 </LanguageData>

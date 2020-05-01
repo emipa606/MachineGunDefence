@@ -1,34 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Oerlikon -->
-
-
-
   <Turret_single20mmGun.label>올리콘20mm건</Turret_single20mmGun.label>
   <Turret_single20mmGun.description>올리콘20mm포입니다. 운용인원이필요합니다. 해체시 총기가나옵니다. </Turret_single20mmGun.description>
-
   <Artillery_single20mmGun.label>20mm대공포.</Artillery_single20mmGun.label>
   <Artillery_single20mmGun.description>20mm대공포입니다. 운용인원이 필요합니다. 해체시 총기가나옵니다.</Artillery_single20mmGun.description>
-
-
   <Turret_Dual20mmGun.label>2열올리콘</Turret_Dual20mmGun.label>
   <Turret_Dual20mmGun.description>2열 20mm포입니다. 운용인원이필요합니다. 해체시  총기가나옵니다.</Turret_Dual20mmGun.description>
-
   <Artillery_Dual20mmGun.label>2열 20mm포</Artillery_Dual20mmGun.label>
   <Artillery_Dual20mmGun.description>2열 20mm포. 방패가 운용인원을 방어해줍니다. 운용인원이필요합니다. 해체시 총기가나옵니다.</Artillery_Dual20mmGun.description>
-
-
-
   <Turret_Quad20mmGun.label>4열올리콘</Turret_Quad20mmGun.label>
   <Turret_Quad20mmGun.description>2열 20mm포입니다. 운용인원이필요합니다. 해체시  총기가나옵니다.</Turret_Quad20mmGun.description>
-
   <Artillery_Quad20mmGun.label>4열올리콘</Artillery_Quad20mmGun.label>
   <Artillery_Quad20mmGun.description>2열 20mm포입니다. 운용인원이필요합니다. 해체시  총기가나옵니다.</Artillery_Quad20mmGun.description>
-
   <AAA_Crate_Oerlikon.label>올리콘20mm건</AAA_Crate_Oerlikon.label>
   <AAA_Crate_Oerlikon.description>올리콘20mm포입니다. 들고있기엔 무거우니 터렛에 사용하십시요.</AAA_Crate_Oerlikon.description>
-
-
-
 </LanguageData>

@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
-  <!-- 20mm machine gun ammo box -->
-
+<!-- 20mm machine gun ammo box -->
 <LanguageData>
-
   <!--AAA_20mm_Shell_HighExplosive.label>20毫米榴弹</AAA_20mm_Shell_HighExplosive.label>
   <AAA_20mm_Shell_HighExplosive.description>20毫米炮弹。包含足够的子弹可以多次发射</AAA_20mm_Shell_HighExplosive.description>
 
@@ -16,7 +13,4 @@
 
   <Bullet_20mm_ArmorPiercing.label>20毫米穿甲彈</Bullet_20mm_ArmorPiercing.label>
   <Bullet_20mm_ArmorPiercing.description>20毫米穿甲彈。包含足够的子弹可以多次发射。</Bullet_20mm_ArmorPiercing.description-->
-
- 
-
 </LanguageData>

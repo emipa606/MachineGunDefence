@@ -1,14 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- 12．7㎜ machine gun ammo box) -->
-
   <AAA_12_7mmAmmoBox.label>12.7mm탄약상자</AAA_12_7mmAmmoBox.label>
   <AAA_12_7mmAmmoBox.description>12.7탄약상자. 연사할만큼의 총알이들어있습니다.</AAA_12_7mmAmmoBox.description>
-
   <AAA_Bullet_Quad12_7mmMachineGun.label>12.7mm 총알</AAA_Bullet_Quad12_7mmMachineGun.label>
   <AAA_Bullet_Quad12_7mmMachineGun.description>12.7탄약상자. 연사할만큼의 총알이 들어있습니다.</AAA_Bullet_Quad12_7mmMachineGun.description>
-
- 
-  
 </LanguageData>

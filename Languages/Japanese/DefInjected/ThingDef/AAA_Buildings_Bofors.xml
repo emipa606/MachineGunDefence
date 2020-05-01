@@ -1,31 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Bofors 40mm flak gun -->
-
   <Turret_40mmGun.label>ボフォース４０ｍｍ高射機関砲</Turret_40mmGun.label>
   <Turret_40mmGun.description>人が操作する必要があるボフォース４０ｍｍ高射機関砲です。解体することで使用した武器クレートを取り戻せます。</Turret_40mmGun.description>
-
   <Artillery_40mmGun.label>ボフォース４０ｍｍ高射機関砲</Artillery_40mmGun.label>
   <Artillery_40mmGun.description>人が操作する必要があるボフォース４０ｍｍ高射機関砲です。解体することで使用した武器クレートを取り戻せます。</Artillery_40mmGun.description>
-
-  
   <AAA_Turret_Dual40mmGun.label>MK.1 二連装４０ｍｍ機関砲</AAA_Turret_Dual40mmGun.label>
   <AAA_Turret_Dual40mmGun.description>人が操作する必要があるボフォース４０ｍｍ高射機関砲です。解体することで使用した武器クレートを取り戻せます。</AAA_Turret_Dual40mmGun.description>
-
   <AAA_Artillery_Dual40mmGun.label>MK.1 二連装４０ｍｍ機関砲</AAA_Artillery_Dual40mmGun.label>
   <AAA_Artillery_Dual40mmGun.description>人が操作する必要があるボフォース４０ｍｍ高射機関砲です。解体することで使用した武器クレートを取り戻せます。</AAA_Artillery_Dual40mmGun.description>
-
-  
-  
   <AAA_Turret_Quad40mmGun.label>MK.2 四連装４０ｍｍ機関砲</AAA_Turret_Quad40mmGun.label>
   <AAA_Turret_Quad40mmGun.description>人が操作する必要があるボフォース４０ｍｍ高射機関砲です。解体することで使用した武器クレートを取り戻せます。</AAA_Turret_Quad40mmGun.description>
-
   <AAA_Artillery_Quad40mmGun.label>MK.2 四連装４０ｍｍ機関砲</AAA_Artillery_Quad40mmGun.label>
   <AAA_Artillery_Quad40mmGun.description>人が操作する必要があるボフォース４０ｍｍ高射機関砲です。解体することで使用した武器クレートを取り戻せます。</AAA_Artillery_Quad40mmGun.description>
-
   <AAA_Crate_Bofors.label>ボフォース４０ｍｍ高射機関砲</AAA_Crate_Bofors.label>
   <AAA_Crate_Bofors.description>ボフォース４０ｍｍ高射機関砲。手で持つことはできないので旋回砲塔を作る必要があります。</AAA_Crate_Bofors.description>
-
-  
 </LanguageData>

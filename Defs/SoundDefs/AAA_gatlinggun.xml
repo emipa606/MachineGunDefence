@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <SoundDef>
     <defName>AAA_gatling_shot</defName>
     <context>MapOnly</context>
@@ -18,18 +17,18 @@
           <min>80</min>
           <max>125</max>
         </volumeRange>
-		<distRange>
-		 <min>25</min>
-		 <max>60</max>
-		</distRange>
-		<pitchRange>
+        <distRange>
+          <min>25</min>
+          <max>60</max>
+        </distRange>
+        <pitchRange>
           <min>0.896413</min>
           <max>1.102391</max>
         </pitchRange>
       </li>
     </subSounds>
-	  </SoundDef>
-	<SoundDef>
+  </SoundDef>
+  <SoundDef>
     <defName>AAA_heavy_gatling_shot</defName>
     <context>MapOnly</context>
     <eventNames />
@@ -46,18 +45,15 @@
           <min>110</min>
           <max>145</max>
         </volumeRange>
-		<distRange>
-		 <min>25</min>
-		 <max>60</max>
-		</distRange>
-		<pitchRange>
+        <distRange>
+          <min>25</min>
+          <max>60</max>
+        </distRange>
+        <pitchRange>
           <min>0.896413</min>
           <max>1.102391</max>
         </pitchRange>
       </li>
     </subSounds>
   </SoundDef>
-
-  
-
 </Defs>

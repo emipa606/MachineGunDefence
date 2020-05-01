@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef Name="AAA_12_7mmMachineGunAmmoBase" ParentName="ResourceBase" Abstract="True">
+  <ThingDef Name="AAA_12_7mmMachineGunAmmoBase" ParentName="ResourceBase" Abstract="True">
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <tickerType>Normal</tickerType>
@@ -20,26 +20,8 @@
       <li>AAA_12_7mmAmmo</li>
     </tradeTags>
   </ThingDef>
-  
-<ThingDef Name="AAA_Makeable12_7mmMachineGunAmmoBase" ParentName="AAA_12_7mmMachineGunAmmoBase" Abstract="True">
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <effectWorking>Cook</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <workAmount>600</workAmount>
-      <targetCountAdjustment>5</targetCountAdjustment>
-      <workSkill>Crafting</workSkill>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-	<researchPrerequisite>GasOperation</researchPrerequisite>
-
-    </recipeMaker>
-  </ThingDef>
-
   <!-- Fullmetal jacket-->
-  
-  <ThingDef ParentName="AAA_Makeable12_7mmMachineGunAmmoBase">
+  <ThingDef ParentName="AAA_12_7mmMachineGunAmmoBase">
     <defName>AAA_12_7mmAmmoBox</defName>
     <label>12.7mm ammo box</label>
     <description>A 12.7mm ammo box containing enough bullets to burst fire several times</description>
@@ -48,26 +30,21 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectileWhenLoaded>AAA_Bullet_Quad12_7mmMachineGun</projectileWhenLoaded>
-    <costList>
-      <Steel>30</Steel>
-      <Chemfuel>3</Chemfuel>
-    </costList>
   </ThingDef>
-  
-	<ThingDef ParentName="BaseBullet">
+  <ThingDef ParentName="BaseBullet">
     <defName>AAA_Bullet_Quad12_7mmMachineGun</defName>
-    <label>12.7mm ammo box</label>
+    <label>12.7mm ammo</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <comps>
-	  <li Class="AAA.CompProperties_ProjectileMultiple">
-			<pellets>2</pellets>
-	 		<scatterRadiusAt10tilesAway>0.0</scatterRadiusAt10tilesAway>
-	  </li>	
-	</comps>
+      <li Class="AAA.CompProperties_ProjectileMultiple">
+        <pellets>2</pellets>
+        <scatterRadiusAt10tilesAway>0.0</scatterRadiusAt10tilesAway>
+      </li>
+    </comps>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
@@ -75,8 +52,4 @@
       <flyOverhead>false</flyOverhead>
     </projectile>
   </ThingDef>
-    
-	
-	
-	
 </Defs>

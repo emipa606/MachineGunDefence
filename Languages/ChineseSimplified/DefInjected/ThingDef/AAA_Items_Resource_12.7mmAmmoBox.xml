@@ -1,14 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- 12．7㎜ machine gun ammo box) -->
-
   <AAA_12_7mmAmmoBox.label>12.7毫米子弹</AAA_12_7mmAmmoBox.label>
   <AAA_12_7mmAmmoBox.description>12.7毫米子弹。包含足够的子弹可以多次发射</AAA_12_7mmAmmoBox.description>
-
   <AAA_Bullet_Quad12_7mmMachineGun.label>12.7毫米子弹</AAA_Bullet_Quad12_7mmMachineGun.label>
   <AAA_Bullet_Quad12_7mmMachineGun.description>12.7毫米子弹。包含足够的子弹可以多次发射。</AAA_Bullet_Quad12_7mmMachineGun.description>
-
- 
-  
 </LanguageData>

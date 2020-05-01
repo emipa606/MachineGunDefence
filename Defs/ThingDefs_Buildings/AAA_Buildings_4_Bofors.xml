@@ -1,17 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-   <!--=============== 40mm gun turret ===============-->
-
-
-
+  <!--=============== 40mm gun turret ===============-->
   <ThingDef ParentName="BuildingBase">
-	<defName>Turret_40mmGun</defName>
+    <defName>Turret_40mmGun</defName>
     <label>bofors 40mm</label>
     <description>A 40mm flak gun. leaves gun crates when deconstructed.	Must be manned. Cannot fire over wall. Explodes when damaged.</description>
-	<thingClass>AAA.Building_TurretGunCustom</thingClass>
-	<graphicData>
+    <thingClass>AAA.Building_TurretGunCustom</thingClass>
+    <graphicData>
       <texPath>AAA/turret/TurretBoforsTire</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(7.0,7.0)</drawSize>
@@ -20,8 +15,7 @@
         <cornerTL>Damage/Corner</cornerTL>
       </damageData>
     </graphicData>
-	 <uiIconPath>AAA/icon/TurretTop_Bofors</uiIconPath>
-
+    <uiIconPath>AAA/icon/TurretTop_Bofors</uiIconPath>
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsSecurity</li>
@@ -30,9 +24,9 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
     <stealable>false</stealable>
-	<rotatable>true</rotatable>
-      <size>(3,3)</size>
-	<statBases>
+    <rotatable>true</rotatable>
+    <size>(3,3)</size>
+    <statBases>
       <MaxHitPoints>480</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>3900</WorkToBuild>
@@ -49,56 +43,50 @@
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-	<costStuffCount>100</costStuffCount>
-		<costList>
-			<Steel>300</Steel>
-			<AAA_Crate_Bofors>1</AAA_Crate_Bofors>
-		</costList>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <Steel>300</Steel>
+      <AAA_Crate_Bofors>1</AAA_Crate_Bofors>
+    </costList>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-   <inspectorTabs>
+    <inspectorTabs>
       <li>ITab_Shells</li>
     </inspectorTabs>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Mannable">
         <manWorkType>Violent</manWorkType>
       </li>
-	  <li Class="AAA.CompProperties_TurretTopSize">
+      <li Class="AAA.CompProperties_TurretTopSize">
         <topSize>(3.5,3.5,3.5)</topSize>
       </li>
-	  <li Class="CompProperties_Explosive">
+      <li Class="CompProperties_Explosive">
         <explosiveRadius>2.9</explosiveRadius>
         <explosiveDamageType>Bomb</explosiveDamageType>
       </li>
-	   <li Class="CompProperties_Power">
+      <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>300</basePowerConsumption>
       </li>
-         <li Class="CompProperties_Flickable"/>
-  
+      <li Class="CompProperties_Flickable" />
     </comps>
-
     <building>
-		<turretGunDef>Artillery_40mmGun</turretGunDef>
-		<turretBurstWarmupTime>6.5</turretBurstWarmupTime>
-		<turretBurstCooldownTime>30.0</turretBurstCooldownTime>
-
-		<buildingTags>
-       	<li>Artillery</li>
-		</buildingTags>
-	</building>
-
+      <turretGunDef>Artillery_40mmGun</turretGunDef>
+      <turretBurstWarmupTime>6.5</turretBurstWarmupTime>
+      <turretBurstCooldownTime>30.0</turretBurstCooldownTime>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
     <researchPrerequisites>
       <li>AAA_Autocannon</li>
     </researchPrerequisites>
   </ThingDef>
   <!--=============== Mortar turret ===============-->
-
-
   <ThingDef Name="AAA_Base40mmWeapon" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
-	     <label>artillery error</label>
+    <label>artillery error</label>
     <useHitPoints>false</useHitPoints>
     <equipmentType>Primary</equipmentType>
     <tickerType>Never</tickerType>
@@ -113,9 +101,7 @@
       <li>
         <compClass>CompEquippable</compClass>
       </li>
-
-
-   </comps>
+    </comps>
     <building>
       <fixedStorageSettings>
         <filter>
@@ -132,8 +118,7 @@
         </filter>
       </defaultStorageSettings>
     </building>
-	<designationHotKey>Misc3</designationHotKey>
-
+    <designationHotKey>Misc3</designationHotKey>
   </ThingDef>
   <ThingDef ParentName="AAA_Base40mmWeapon">
     <defName>Artillery_40mmGun</defName>
@@ -142,7 +127,7 @@
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
-	 <statBases>
+    <statBases>
       <AccuracyTouch>0.40</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.47</AccuracyMedium>
@@ -154,11 +139,11 @@
       <texPath>AAA/turret/TurretTop_Bofors</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<comps>
-		 <li Class="AAA.CompProperties_ReproductiveProjectile">
-			<loadcount>3</loadcount>
-		</li>
-	</comps>
+    <comps>
+      <li Class="AAA.CompProperties_ReproductiveProjectile">
+        <loadcount>3</loadcount>
+      </li>
+    </comps>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -169,31 +154,25 @@
         <requireLineOfSight>true</requireLineOfSight>
         <minRange>7</minRange>
         <range>60</range>
-		<burstShotCount>4</burstShotCount>
+        <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>50</ticksBetweenBurstShots>
-		<soundCast>AAA_40mm_shot</soundCast>
-		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <soundCast>AAA_40mm_shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>20</muzzleFlashScale>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-
       </li>
     </verbs>
-	 </ThingDef>
-
-
-
-
-	 <!--=============== 40mm gun turret ===============-->
+  </ThingDef>
+  <!--=============== 40mm gun turret ===============-->
   <ThingDef ParentName="BuildingBase">
-	<defName>AAA_Turret_Dual40mmGun</defName>
+    <defName>AAA_Turret_Dual40mmGun</defName>
     <label>Dual Bofors 40mm</label>
     <description>Dual 40mm flak gun. leaves gun crates when deconstructed. Must be manned. Cannot fire over wall. Explodes when damaged.</description>
-	<thingClass>AAA.Building_TurretGunCustom</thingClass>
-	<graphicData>
+    <thingClass>AAA.Building_TurretGunCustom</thingClass>
+    <graphicData>
       <texPath>AAA/turret/TurretBottom Bofors</texPath>
-
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3.0,3.0)</drawSize>
       <damageData>
@@ -201,8 +180,7 @@
         <cornerTL>Damage/Corner</cornerTL>
       </damageData>
     </graphicData>
-	 <uiIconPath>AAA/icon/TurretTop_DualBofors2</uiIconPath>
-
+    <uiIconPath>AAA/icon/TurretTop_DualBofors2</uiIconPath>
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsSecurity</li>
@@ -211,9 +189,9 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <stealable>false</stealable>
-	<rotatable>true</rotatable>
-      <size>(2,2)</size>
-	<statBases>
+    <rotatable>true</rotatable>
+    <size>(2,2)</size>
+    <statBases>
       <MaxHitPoints>380</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>5900</WorkToBuild>
@@ -230,50 +208,44 @@
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-	<costStuffCount>50</costStuffCount>
-		<costList>
-			<Steel>350</Steel>
-			<AAA_Crate_Bofors>2</AAA_Crate_Bofors>
-		</costList>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Steel>350</Steel>
+      <AAA_Crate_Bofors>2</AAA_Crate_Bofors>
+    </costList>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-   <inspectorTabs>
+    <inspectorTabs>
       <li>ITab_Shells</li>
     </inspectorTabs>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Mannable">
         <manWorkType>Violent</manWorkType>
       </li>
-	  <li Class="AAA.CompProperties_TurretTopSize">
+      <li Class="AAA.CompProperties_TurretTopSize">
         <topSize>(3.5,3.5,3.5)</topSize>
       </li>
-	  <li Class="CompProperties_Explosive">
+      <li Class="CompProperties_Explosive">
         <explosiveRadius>2.9</explosiveRadius>
         <explosiveDamageType>Bomb</explosiveDamageType>
       </li>
-	   <li Class="CompProperties_Power">
+      <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>500</basePowerConsumption>
       </li>
-
     </comps>
-
     <building>
-		<turretGunDef>AAA_Artillery_Dual40mmGun</turretGunDef>
-		<turretBurstWarmupTime>6.5</turretBurstWarmupTime>
-		<turretBurstCooldownTime>40.0</turretBurstCooldownTime>
-
-		<buildingTags>
-       	<li>Artillery</li>
-		</buildingTags>
-	</building>
-
+      <turretGunDef>AAA_Artillery_Dual40mmGun</turretGunDef>
+      <turretBurstWarmupTime>6.5</turretBurstWarmupTime>
+      <turretBurstCooldownTime>40.0</turretBurstCooldownTime>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
     <researchPrerequisites>
       <li>AAA_MultipleAutocannon</li>
     </researchPrerequisites>
   </ThingDef>
-
-
   <ThingDef ParentName="AAA_Base40mmWeapon">
     <defName>AAA_Artillery_Dual40mmGun</defName>
     <label>Dual 40mm gun</label>
@@ -281,7 +253,7 @@
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
-	 <statBases>
+    <statBases>
       <AccuracyTouch>0.40</AccuracyTouch>
       <AccuracyShort>0.35</AccuracyShort>
       <AccuracyMedium>0.30</AccuracyMedium>
@@ -293,11 +265,11 @@
       <texPath>AAA/turret/TurretTop_DualBofors4</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<comps>
-		 <li Class="AAA.CompProperties_ReproductiveProjectile">
-			<loadcount>3</loadcount>
-		</li>
-	</comps>
+    <comps>
+      <li Class="AAA.CompProperties_ReproductiveProjectile">
+        <loadcount>3</loadcount>
+      </li>
+    </comps>
     <verbs>
       <li>
         <verbClass>AAA_Verb_ShootMultiple</verbClass>
@@ -308,32 +280,25 @@
         <requireLineOfSight>true</requireLineOfSight>
         <minRange>7</minRange>
         <range>60</range>
-		<burstShotCount>4</burstShotCount>
+        <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>50</ticksBetweenBurstShots>
-		<soundCast>AAA_40mm_shot</soundCast>
-		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <soundCast>AAA_40mm_shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>20</muzzleFlashScale>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-
       </li>
     </verbs>
-	 </ThingDef>
-
-
-
-
-
-	 	<!--===============Quad 40mm gun turret ===============-->
+  </ThingDef>
+  <!--===============Quad 40mm gun turret ===============-->
   <ThingDef ParentName="BuildingBase">
-	<defName>AAA_Turret_Quad40mmGun</defName>
+    <defName>AAA_Turret_Quad40mmGun</defName>
     <label>Quad Bofors 40mm</label>
     <description>Quad 40mm flak gun. leaves gun crates when deconstructed. Must be manned. Cannot fire over wall. Explodes when damaged.</description>
-	<thingClass>AAA.Building_TurretGunCustom</thingClass>
-	<graphicData>
+    <thingClass>AAA.Building_TurretGunCustom</thingClass>
+    <graphicData>
       <texPath>AAA/turret/TurretBottomBofors2</texPath>
-
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3.0,3.0)</drawSize>
       <damageData>
@@ -341,8 +306,7 @@
         <cornerTL>Damage/Corner</cornerTL>
       </damageData>
     </graphicData>
-	 <uiIconPath>AAA/icon/TurretTop_QuadBofors</uiIconPath>
-
+    <uiIconPath>AAA/icon/TurretTop_QuadBofors</uiIconPath>
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsSecurity</li>
@@ -351,9 +315,9 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
     <stealable>false</stealable>
-	<rotatable>true</rotatable>
-      <size>(3,3)</size>
-	<statBases>
+    <rotatable>true</rotatable>
+    <size>(3,3)</size>
+    <statBases>
       <MaxHitPoints>480</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>7900</WorkToBuild>
@@ -370,50 +334,44 @@
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-	<costStuffCount>50</costStuffCount>
-		<costList>
-			<Steel>550</Steel>
-			<AAA_Crate_Bofors>4</AAA_Crate_Bofors>
-		</costList>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Steel>550</Steel>
+      <AAA_Crate_Bofors>4</AAA_Crate_Bofors>
+    </costList>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-   <inspectorTabs>
+    <inspectorTabs>
       <li>ITab_Shells</li>
     </inspectorTabs>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Mannable">
         <manWorkType>Violent</manWorkType>
       </li>
-	  <li Class="AAA.CompProperties_TurretTopSize">
+      <li Class="AAA.CompProperties_TurretTopSize">
         <topSize>(3.5,3.5,3.5)</topSize>
       </li>
-	  <li Class="CompProperties_Explosive">
+      <li Class="CompProperties_Explosive">
         <explosiveRadius>2.9</explosiveRadius>
         <explosiveDamageType>Bomb</explosiveDamageType>
       </li>
-	   <li Class="CompProperties_Power">
+      <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>900</basePowerConsumption>
       </li>
-
     </comps>
-
     <building>
-		<turretGunDef>AAA_Artillery_Quad40mmGun</turretGunDef>
-		<turretBurstWarmupTime>4.0</turretBurstWarmupTime>
-		<turretBurstCooldownTime>5.0</turretBurstCooldownTime>
-
-		<buildingTags>
-       	<li>Artillery</li>
-		</buildingTags>
-	</building>
-
+      <turretGunDef>AAA_Artillery_Quad40mmGun</turretGunDef>
+      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>5.0</turretBurstCooldownTime>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
     <researchPrerequisites>
       <li>AAA_MultipleAutocannon</li>
     </researchPrerequisites>
   </ThingDef>
-
-
   <ThingDef ParentName="AAA_Base40mmWeapon">
     <defName>AAA_Artillery_Quad40mmGun</defName>
     <label>Dual 40mm gun</label>
@@ -421,7 +379,7 @@
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
-	 <statBases>
+    <statBases>
       <AccuracyTouch>0.40</AccuracyTouch>
       <AccuracyShort>0.35</AccuracyShort>
       <AccuracyMedium>0.30</AccuracyMedium>
@@ -433,11 +391,11 @@
       <texPath>AAA/turret/TurretTop_QuadBofors</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<comps>
-		 <li Class="AAA.CompProperties_ReproductiveProjectile">
-			<loadcount>3</loadcount>
-		</li>
-	</comps>
+    <comps>
+      <li Class="AAA.CompProperties_ReproductiveProjectile">
+        <loadcount>3</loadcount>
+      </li>
+    </comps>
     <verbs>
       <li>
         <verbClass>AAA_Verb_ShootMultiple</verbClass>
@@ -448,27 +406,18 @@
         <requireLineOfSight>true</requireLineOfSight>
         <minRange>7</minRange>
         <range>60</range>
-		<burstShotCount>8</burstShotCount>
+        <burstShotCount>8</burstShotCount>
         <ticksBetweenBurstShots>50</ticksBetweenBurstShots>
-		<soundCast>AAA_40mm_shot</soundCast>
-		<soundCastTail>GunTail_Heavy</soundCastTail>
+        <soundCast>AAA_40mm_shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>20</muzzleFlashScale>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-
       </li>
     </verbs>
-	 </ThingDef>
-
-
-
-
-
-
-
-	 <!-- ======== Crate ======== -->
-
+  </ThingDef>
+  <!-- ======== Crate ======== -->
   <ThingDef ParentName="ResourceBase">
     <defName>AAA_Crate_Bofors</defName>
     <label>40mm machine gun crate</label>
@@ -477,19 +426,18 @@
     <graphicData>
       <texPath>AAA/Crate</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	   <drawSize>(1,1)</drawSize>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <stackLimit>1</stackLimit>
-
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <MarketValue>9050</MarketValue>
       <Mass>840</Mass>
       <Flammability>0</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
     <intricate>true</intricate>
     <thingCategories>
       <li>WeaponsRanged</li>
@@ -497,8 +445,5 @@
     <tradeTags>
       <li>Exotic</li>
     </tradeTags>
-
   </ThingDef>
-
-
-  </Defs>
+</Defs>

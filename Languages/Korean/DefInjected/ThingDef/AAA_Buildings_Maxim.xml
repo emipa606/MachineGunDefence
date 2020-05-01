@@ -1,28 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Maxim -->
-
   <Turret_Maxim.label>맥심 기관총</Turret_Maxim.label>
   <Turret_Maxim.description>맥심기관총. 운용인원이 필요합니다.</Turret_Maxim.description>
-
   <Artillery_Maxim.label>맥심 기관총</Artillery_Maxim.label>
   <Artillery_Maxim.description>운용인원이 필요합니다. 해체시 탄약상자가 나옵니다.</Artillery_Maxim.description>
-
-  
   <Turret_EmbrausureMaxim.label>기관총진지</Turret_EmbrausureMaxim.label>
   <Turret_EmbrausureMaxim.description>운용인원이필요합니다. 해체시 탄약상자가나옵니다.</Turret_EmbrausureMaxim.description>
-
- 
-  
   <Turret_QuadMaxim.label>4열 맥심기관총</Turret_QuadMaxim.label>
   <Turret_QuadMaxim.description>운용인원이 필요합니다. 해체시 탄약상자가나옵니다.</Turret_QuadMaxim.description>
-
   <Artillery_QuadMaxim.label>4열 맥심기관총</Artillery_QuadMaxim.label>
   <Artillery_QuadMaxim.description>운용인원이 필요합니다. 해체시 탄약상자가나옵니다.</Artillery_QuadMaxim.description>
-
   <AAA_Crate_Maxim.label>맥심탄약상자</AAA_Crate_Maxim.label>
   <AAA_Crate_Maxim.description>맥심탄약상자입니다. 들고있기엔 무거우니 터렛에 사용하십시요.</AAA_Crate_Maxim.description>
-
-  
 </LanguageData>

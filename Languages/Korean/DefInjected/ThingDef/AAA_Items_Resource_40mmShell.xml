@@ -1,18 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- 40mm machine gun ammo box -->
-  <40mm_Shell_HighExplosive.label>40mm포탄</40mm_Shell_HighExplosive.label>
-  <40mm_Shell_HighExplosive.description>고폭성 40mm포탄. 이것은 올리콘과보포스에 사용되는것입니다.</40mm_Shell_HighExplosive.description>
-
+  <AAA_40mm_Shell_HighExplosive.label>40mm포탄</AAA_40mm_Shell_HighExplosive.label>
+  <AAA_40mm_Shell_HighExplosive.description>고폭성 40mm포탄. 이것은 올리콘과보포스에 사용되는것입니다.</AAA_40mm_Shell_HighExplosive.description>
   <Bullet_40mm_HighExplosive.label>40mm포탄</Bullet_40mm_HighExplosive.label>
-  <Bullet_40mm_HighExplosive.description>고폭성 40mm포탄. 이것은 올리콘과 보포스에사용되는것입니다.</Bullet_40mm_HighExplosive.description>
-
-
-   <40mm_Shell_Incendiary.label>화염성40mm포탄</40mm_Shell_Incendiary.label>
-  <40mm_Shell_Incendiary.description>화염성40mm포탄. 이것은 올리콴과 보포스에 사용되는것입니다.</40mm_Shell_Incendiary.description>
-
+  <Bullet_40mm_HighExplosive.description> 고폭성 40mm포탄. 이것은 올리콘과 보포스에사용되는것입니다.</Bullet_40mm_HighExplosive.description>
+  <AAA_40mm_Shell_Incendiary.label>화염성40mm포탄</AAA_40mm_Shell_Incendiary.label>
+  <AAA_40mm_Shell_Incendiary.description>화염성40mm포탄. 이것은 올리콴과 보포스에 사용되는것입니다.</AAA_40mm_Shell_Incendiary.description>
   <Bullet_40mm_Incendiary.label>화염성40mm포탄</Bullet_40mm_Incendiary.label>
   <Bullet_40mm_Incendiary.description>화염성40mm포탄. 이것은 올리콴과 보포스에 사용되는것입니다.</Bullet_40mm_Incendiary.description>
-
-
 </LanguageData>

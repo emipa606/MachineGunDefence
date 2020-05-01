@@ -1,33 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Oerlikon -->
-
-
-
-  <Turret_single20mmGun.label>Oerlikon20mmgun</Turret_single20mmGun.label> <Turret_single20mmGun.description>需要人员操作的波佛斯厄利孔20毫米机炮。当解构时留下枪箱</Turret_single20mmGun.description>
-
+  <Turret_single20mmGun.label>Oerlikon20mmgun</Turret_single20mmGun.label>
+  <Turret_single20mmGun.description>需要人员操作的波佛斯厄利孔20毫米机炮。当解构时留下枪箱</Turret_single20mmGun.description>
   <Artillery_single20mmGun.label>20mm flak</Artillery_single20mmGun.label>
   <Artillery_single20mmGun.description>Oerlikon 20mm gun. need to be manned. drop gun crate upon deconstruction.</Artillery_single20mmGun.description>
-
-
   <Turret_Dual20mmGun.label>Twin Oerlikon</Turret_Dual20mmGun.label>
   <Turret_Dual20mmGun.description>dual 20mm gun turret. need to be manned. drop gun crate upon deconstruction.</Turret_Dual20mmGun.description>
-
   <Artillery_Dual20mmGun.label>Twin 20mm</Artillery_Dual20mmGun.label>
   <Artillery_Dual20mmGun.description>dual 20mm gun. its shield protects the gunner. need to be manned. drop gun crate upon deconstruction.</Artillery_Dual20mmGun.description>
-
-
-
   <Turret_Quad20mmGun.label>quad oerlikon</Turret_Quad20mmGun.label>
   <Turret_Quad20mmGun.description>4 20m guns thrret. has very good protection. need to be manned. drop gun crate upon deconstruction.</Turret_Quad20mmGun.description>
-
   <Artillery_Quad20mmGun.label>quad Oerlikon</Artillery_Quad20mmGun.label>
   <Artillery_Quad20mmGun.description>quad 20mm flak guns. need to be manned. drop gun crate upon deconstruction.</Artillery_Quad20mmGun.description>
-
   <AAA_Crate_Oerlikon.label>Oerlikon 20mm gun crate</AAA_Crate_Oerlikon.label>
   <AAA_Crate_Oerlikon.description>uses 20mm shell. too heavp to hold and you must make a mount for it.</AAA_Crate_Oerlikon.description>
-
-
-
 </LanguageData>

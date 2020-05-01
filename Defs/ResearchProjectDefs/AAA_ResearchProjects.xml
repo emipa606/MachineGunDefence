@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ResearchTabDef>
     <defName>AAA_ResearchTab</defName>
     <label>AAA</label>
   </ResearchTabDef>
-
   <!--ResearchProjectDef>
     <defName>AAA_machineGun</defName>
     <label>AAA : quadruple machine turrets</label>
@@ -35,7 +33,6 @@
     <researchViewX>1</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef-->
-
   <ResearchProjectDef>
     <defName>AAA_Embrausure</defName>
     <label>Embrasured gun</label>
@@ -50,8 +47,6 @@
     <researchViewX>0</researchViewX>
     <researchViewY>2</researchViewY>
   </ResearchProjectDef>
-
-
   <ResearchProjectDef>
     <defName>AAA_Autocannon</defName>
     <label>auto cannon</label>
@@ -66,7 +61,6 @@
     <researchViewX>0</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>AAA_MultipleAutocannon</defName>
     <label>dual auto cannon</label>
@@ -81,7 +75,6 @@
     <researchViewX>1</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>AAA_QuadAutocannon</defName>
     <label>quadruple auto cannon</label>
@@ -96,8 +89,7 @@
     <researchViewX>2</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
-
-<ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>AAA_Gatling</defName>
     <label>gatling guns</label>
     <description>Allows you to make CIWS turret and gatling guns.</description>

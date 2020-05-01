@@ -3,16 +3,10 @@
   <!-- 40mm machine gun ammo box -->
   <AAA_40mm_Shell_HighExplosive.label>40毫米榴弹</AAA_40mm_Shell_HighExplosive.label>
   <AAA_40mm_Shell_HighExplosive.description>40毫米炮弹。包含足够的子弹可以多次发射</AAA_40mm_Shell_HighExplosive.description>
-
   <Bullet_40mm_HighExplosive.label>40毫米榴弹</Bullet_40mm_HighExplosive.label>
   <Bullet_40mm_HighExplosive.description>40毫米炮弹。包含足够的子弹可以多次发射。</Bullet_40mm_HighExplosive.description>
-
-  
-   <AAA_40mm_Shell_Incendiary.label>40毫米燒夷彈</AAA_40mm_Shell_Incendiary.label>
+  <AAA_40mm_Shell_Incendiary.label>40毫米燒夷彈</AAA_40mm_Shell_Incendiary.label>
   <AAA_40mm_Shell_Incendiary.description>40毫米燒夷彈。包含足够的子弹可以多次发射</AAA_40mm_Shell_Incendiary.description>
-
   <Bullet_40mm_Incendiary.label>40毫米燒夷彈</Bullet_40mm_Incendiary.label>
   <Bullet_40mm_Incendiary.description>40毫米燒夷彈。包含足够的子弹可以多次发射。</Bullet_40mm_Incendiary.description>
-
-  
 </LanguageData>

@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef Name="20mmShellBase" ParentName="ResourceBase" Abstract="True">
+  <ThingDef Name="20mmShellBase" ParentName="ResourceBase" Abstract="True">
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <tickerType>Normal</tickerType>
@@ -20,26 +20,9 @@
       <li>AAA_20mmShells</li>
     </tradeTags>
   </ThingDef>
-<ThingDef Name="Makeable20mmShellBase" ParentName="20mmShellBase" Abstract="True">
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <effectWorking>Cook</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <workAmount>600</workAmount>
-      <targetCountAdjustment>5</targetCountAdjustment>
-      <workSkill>Crafting</workSkill>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-	  <researchPrerequisite>AAA_Autocannon</researchPrerequisite>
-
-    </recipeMaker>
-  </ThingDef>
-
   <!-- High-explosive -->
-
-  <ThingDef ParentName="Makeable20mmShellBase">
-    <defName>20mm_Shell_HighExplosive</defName>
+  <ThingDef ParentName="20mmShellBase">
+    <defName>Magazine_20mm_HighExplosive</defName>
     <label>20mm HE magazine</label>
     <description>A magazine of 20mm shells filled with high explosives.containing enough ammo to burst fire several times. Explodes when damaged.</description>
     <graphicData>
@@ -59,16 +42,11 @@
       </li>
     </comps>
     <projectileWhenLoaded>Bullet_20mm_HighExplosive</projectileWhenLoaded>
-    <costList>
-      <Steel>40</Steel>
-      <Chemfuel>30</Chemfuel>
-    </costList>
-	  <researchPrerequisites>
+    <researchPrerequisites>
       <li>AAA_Autocannon</li>
     </researchPrerequisites>
   </ThingDef>
-
-	<ThingDef ParentName="AAA_BaseProjectileCustom">
+  <ThingDef ParentName="AAA_BaseProjectileCustom">
     <defName>Bullet_20mm_HighExplosive</defName>
     <label>HE 20mm round</label>
     <graphicData>
@@ -77,17 +55,16 @@
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <!--thingClass>Projectile_Explosive</thingClass-->
-	<comps>
-	  <li Class="AAA.CompProperties_ProjectileMultiple">
-			<pellets>2</pellets>
-			<forsedScatterRadius>0.6</forsedScatterRadius>
-			<scatterRadiusAt10tilesAway>0.40</scatterRadiusAt10tilesAway>
-	  </li>
-
-	  <li Class="AAA.CompProperties_ProjectileExtraDamage">
+    <comps>
+      <li Class="AAA.CompProperties_ProjectileMultiple">
+        <pellets>2</pellets>
+        <forsedScatterRadius>0.6</forsedScatterRadius>
+        <scatterRadiusAt10tilesAway>0.40</scatterRadiusAt10tilesAway>
+      </li>
+      <li Class="AAA.CompProperties_ProjectileExtraDamage">
         <damageAmountBase>7</damageAmountBase>
         <damageDef>Bullet</damageDef>
-		</li>
+      </li>
     </comps>
     <projectile>
       <damageDef>Bomb</damageDef>
@@ -100,12 +77,9 @@
       <soundAmbient>MortarRound_Ambient</soundAmbient>
     </projectile>
   </ThingDef>
-
-
-	<!-- Armor piercing -->
-
-  <ThingDef ParentName="Makeable20mmShellBase">
-    <defName>20mm_Shell_ArmorPiercing</defName>
+  <!-- Armor piercing -->
+  <ThingDef ParentName="20mmShellBase">
+    <defName>Magazine_20mm_ArmorPiercing</defName>
     <label>20mm AP magazine</label>
     <description>A magazine of 20mm steel shells.containing enough ammo to burst fire several times. Explodes when damaged.</description>
     <graphicData>
@@ -125,16 +99,11 @@
       </li>
     </comps>
     <projectileWhenLoaded>Bullet_20mm_ArmorPiercing</projectileWhenLoaded>
-    <costList>
-      <Steel>60</Steel>
-      <Chemfuel>5</Chemfuel>
-    </costList>
-	  <researchPrerequisites>
+    <researchPrerequisites>
       <li>AAA_Autocannon</li>
     </researchPrerequisites>
   </ThingDef>
-
-	<ThingDef ParentName="AAA_BaseProjectileCustom">
+  <ThingDef ParentName="AAA_BaseProjectileCustom">
     <defName>Bullet_20mm_ArmorPiercing</defName>
     <label>AP 20mm round</label>
     <graphicData>
@@ -142,21 +111,18 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-   <comps>
-	  <li Class="AAA.CompProperties_ProjectileMultiple">
-			<pellets>2</pellets>
-			<scatterRadiusAt10tilesAway>0.0</scatterRadiusAt10tilesAway>
-	  </li>
-
-
+    <comps>
+      <li Class="AAA.CompProperties_ProjectileMultiple">
+        <pellets>2</pellets>
+        <scatterRadiusAt10tilesAway>0.0</scatterRadiusAt10tilesAway>
+      </li>
     </comps>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>25</damageAmountBase>
       <speed>95</speed>
-       <flyOverhead>false</flyOverhead>
-       <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <flyOverhead>false</flyOverhead>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
     </projectile>
   </ThingDef>
-
 </Defs>

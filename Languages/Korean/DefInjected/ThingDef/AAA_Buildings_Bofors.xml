@@ -1,31 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Bofors 40mm flak gun -->
-
   <Turret_40mmGun.label>보포스40mm대공포</Turret_40mmGun.label>
   <Turret_40mmGun.description>40mm 보포스 기관포. 운용인원이 필요함. 파괴시 총기를 떨어트림.</Turret_40mmGun.description>
-
   <Artillery_40mmGun.label>보포스 건</Artillery_40mmGun.label>
   <Artillery_40mmGun.description>운용인원이 필요함. 파괴시 총기를 떨어트림</Artillery_40mmGun.description>
-
-
   <AAA_Turret_Dual40mmGun.label>MK.1 2열 보포스</AAA_Turret_Dual40mmGun.label>
   <AAA_Turret_Dual40mmGun.description>2열 보포스건. 운용인원이 필요함. 파괴시 총기를떨어트림</AAA_Turret_Dual40mmGun.description>
-
   <AAA_Artillery_Dual40mmGun.label>MK.1 2열 보포스</AAA_Artillery_Dual40mmGun.label>
   <AAA_Artillery_Dual40mmGun.description>운용인원이 필요함. 파괴시 총기를떨어트림</AAA_Artillery_Dual40mmGun.description>
-
-
-
   <AAA_Turret_Quad40mmGun.label>MK.2 4열 보포스</AAA_Turret_Quad40mmGun.label>
   <AAA_Turret_Quad40mmGun.description>4열 보포스 대공포.  운용인원이 필요함. 파괴시 총기를떨어트림</AAA_Turret_Quad40mmGun.description>
-
   <AAA_Artillery_Quad40mmGun.label>MK.2 4열 보포스</AAA_Artillery_Quad40mmGun.label>
   <AAA_Artillery_Quad40mmGun.description>MK.2 4열 보포스. 운용인원이 필요함. 파괴시 총기를떨어트림</AAA_Artillery_Quad40mmGun.description>
-
   <AAA_Crate_Bofors.label>보포스 40mm 대공포 탄약상자</AAA_Crate_Bofors.label>
   <AAA_Crate_Bofors.description>40mm탄을씁니다. 들고있긴너무무거우니 당신은 이것을위해 터렛을만들어야합니다.</AAA_Crate_Bofors.description>
-
-
 </LanguageData>

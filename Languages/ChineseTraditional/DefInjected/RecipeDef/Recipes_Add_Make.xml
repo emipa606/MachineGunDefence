@@ -1,50 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
- 
   <!-- Recipe-->
-
-	<Recipe_MakeCrateMaxim.label>制作马克沁重机枪</Recipe_MakeCrateMaxim.label>
-	<Recipe_MakeCrateMaxim.description>制作马克沁重机枪。　你需要这个来构建炮塔</Recipe_MakeCrateMaxim.description>
-	<Recipe_MakeCrateMaxim.jobString>正在制作马克沁重机枪。</Recipe_MakeCrateMaxim.jobString>
-
-	<Recipe_MakeCrate50cal.label>制作M2勃朗宁机枪</Recipe_MakeCrate50cal.label>
-	<Recipe_MakeCrate50cal.description>制作M2勃朗宁机枪。　你需要这个来构建炮塔</Recipe_MakeCrate50cal.description>
-	<Recipe_MakeCrate50cal.jobString>正在制作M2勃朗宁机枪。</Recipe_MakeCrate50cal.jobString>
-
-	
-	<Recipe_MakeCrateOerlikon.label>制作厄利孔20毫米机炮</Recipe_MakeCrateOerlikon.label>
-	<Recipe_MakeCrateOerlikon.description>制作厄利孔20毫米机炮。　你需要这个来构建炮塔</Recipe_MakeCrateOerlikon.description>
-	<Recipe_MakeCrateOerlikon.jobString>正在制作厄利孔20毫米机炮。</Recipe_MakeCrateOerlikon.jobString>
-
-	
-	<Recipe_MakeCrate40mm_gun.label>制作波佛斯40毫米高射砲</Recipe_MakeCrate40mm_gun.label>
-	<Recipe_MakeCrate40mm_gun.description>制作波佛斯40毫米高射砲。　你需要这个来构建炮塔</Recipe_MakeCrate40mm_gun.description>
-	<Recipe_MakeCrate40mm_gun.jobString>正在制作波佛斯40毫米高射砲。</Recipe_MakeCrate40mm_gun.jobString>
-
-	<Make_AAA_MachineGunAmmo.label>制作7.62毫米子弹</Make_AAA_MachineGunAmmo.label>
-	<Make_AAA_MachineGunAmmo.description>制作7.62毫米子弹</Make_AAA_MachineGunAmmo.description>
-	<Make_AAA_MachineGunAmmo.jobString>正在制作7.62毫米子弹。</Make_AAA_MachineGunAmmo.jobString>
-
-	<Make_AAA_12_7mmAmmoBox.label>制作12.7毫米子弹</Make_AAA_12_7mmAmmoBox.label>
-	<Make_AAA_12_7mmAmmoBox.description>制作12.7毫米子弹</Make_AAA_12_7mmAmmoBox.description>
-	<Make_AAA_12_7mmAmmoBox.jobString>正在制作12.7毫米子弹。</Make_AAA_12_7mmAmmoBox.jobString>
-
-	<Make_20mm_Shell_HighExplosive.label>制作20毫米榴弹</Make_20mm_Shell_HighExplosive.label>
-	<Make_20mm_Shell_HighExplosive.description>制作20毫米榴弹</Make_20mm_Shell_HighExplosive.description>
-	<Make_20mm_Shell_HighExplosive.jobString>正在制作20毫米榴弹。</Make_20mm_Shell_HighExplosive.jobString>
-
-	<Make_20mm_Shell_ArmorPiercing.label>制作20毫米穿甲彈</Make_20mm_Shell_ArmorPiercing.label>
-	<Make_20mm_Shell_ArmorPiercing.description>制作20毫米穿甲彈</Make_20mm_Shell_ArmorPiercing.description>
-	<Make_20mm_Shell_ArmorPiercing.jobString>正在制作20毫米穿甲彈。</Make_20mm_Shell_ArmorPiercing.jobString>
-
-	<Make_40mm_Shell_HighExplosive.label>制作40毫米榴弹</Make_40mm_Shell_HighExplosive.label>
-	<Make_40mm_Shell_HighExplosive.description>制作40毫米榴弹</Make_40mm_Shell_HighExplosive.description>
-	<Make_40mm_Shell_HighExplosive.jobString>正在制作40毫米榴弹。</Make_40mm_Shell_HighExplosive.jobString>
-
-	<Make_40mm_Shell_Incendiary.label>制作40毫米燒夷彈</Make_40mm_Shell_Incendiary.label>
-	<Make_40mm_Shell_Incendiary.description>制作40毫米燒夷彈</Make_40mm_Shell_Incendiary.description>
-	<Make_40mm_Shell_Incendiary.jobString>正在制作40毫米燒夷彈。</Make_40mm_Shell_Incendiary.jobString>
-
-		
+  <Recipe_MakeCrateMaxim.label>制作马克沁重机枪</Recipe_MakeCrateMaxim.label>
+  <Recipe_MakeCrateMaxim.description>制作马克沁重机枪。　你需要这个来构建炮塔</Recipe_MakeCrateMaxim.description>
+  <Recipe_MakeCrateMaxim.jobString>正在制作马克沁重机枪。</Recipe_MakeCrateMaxim.jobString>
+  <Recipe_MakeCrate50cal.label>制作M2勃朗宁机枪</Recipe_MakeCrate50cal.label>
+  <Recipe_MakeCrate50cal.description>制作M2勃朗宁机枪。　你需要这个来构建炮塔</Recipe_MakeCrate50cal.description>
+  <Recipe_MakeCrate50cal.jobString>正在制作M2勃朗宁机枪。</Recipe_MakeCrate50cal.jobString>
+  <Recipe_MakeCrateOerlikon.label>制作厄利孔20毫米机炮</Recipe_MakeCrateOerlikon.label>
+  <Recipe_MakeCrateOerlikon.description>制作厄利孔20毫米机炮。　你需要这个来构建炮塔</Recipe_MakeCrateOerlikon.description>
+  <Recipe_MakeCrateOerlikon.jobString>正在制作厄利孔20毫米机炮。</Recipe_MakeCrateOerlikon.jobString>
+  <Recipe_MakeCrate40mm_gun.label>制作波佛斯40毫米高射砲</Recipe_MakeCrate40mm_gun.label>
+  <Recipe_MakeCrate40mm_gun.description>制作波佛斯40毫米高射砲。　你需要这个来构建炮塔</Recipe_MakeCrate40mm_gun.description>
+  <Recipe_MakeCrate40mm_gun.jobString>正在制作波佛斯40毫米高射砲。</Recipe_MakeCrate40mm_gun.jobString>
+  <Make_AAA_MachineGunAmmo.label>制作7.62毫米子弹</Make_AAA_MachineGunAmmo.label>
+  <Make_AAA_MachineGunAmmo.description>制作7.62毫米子弹</Make_AAA_MachineGunAmmo.description>
+  <Make_AAA_MachineGunAmmo.jobString>正在制作7.62毫米子弹。</Make_AAA_MachineGunAmmo.jobString>
+  <Make_AAA_12_7mmAmmoBox.label>制作12.7毫米子弹</Make_AAA_12_7mmAmmoBox.label>
+  <Make_AAA_12_7mmAmmoBox.description>制作12.7毫米子弹</Make_AAA_12_7mmAmmoBox.description>
+  <Make_AAA_12_7mmAmmoBox.jobString>正在制作12.7毫米子弹。</Make_AAA_12_7mmAmmoBox.jobString>
+  <Make_20mm_Shell_HighExplosive.label>制作20毫米榴弹</Make_20mm_Shell_HighExplosive.label>
+  <Make_20mm_Shell_HighExplosive.description>制作20毫米榴弹</Make_20mm_Shell_HighExplosive.description>
+  <Make_20mm_Shell_HighExplosive.jobString>正在制作20毫米榴弹。</Make_20mm_Shell_HighExplosive.jobString>
+  <Make_20mm_Shell_ArmorPiercing.label>制作20毫米穿甲彈</Make_20mm_Shell_ArmorPiercing.label>
+  <Make_20mm_Shell_ArmorPiercing.description>制作20毫米穿甲彈</Make_20mm_Shell_ArmorPiercing.description>
+  <Make_20mm_Shell_ArmorPiercing.jobString>正在制作20毫米穿甲彈。</Make_20mm_Shell_ArmorPiercing.jobString>
+  <Make_40mm_Shell_HighExplosive.label>制作40毫米榴弹</Make_40mm_Shell_HighExplosive.label>
+  <Make_40mm_Shell_HighExplosive.description>制作40毫米榴弹</Make_40mm_Shell_HighExplosive.description>
+  <Make_40mm_Shell_HighExplosive.jobString>正在制作40毫米榴弹。</Make_40mm_Shell_HighExplosive.jobString>
+  <Make_40mm_Shell_Incendiary.label>制作40毫米燒夷彈</Make_40mm_Shell_Incendiary.label>
+  <Make_40mm_Shell_Incendiary.description>制作40毫米燒夷彈</Make_40mm_Shell_Incendiary.description>
+  <Make_40mm_Shell_Incendiary.jobString>正在制作40毫米燒夷彈。</Make_40mm_Shell_Incendiary.jobString>
 </LanguageData>

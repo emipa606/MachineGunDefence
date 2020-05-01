@@ -1,16 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- GAU19-->
-
-
-
   <!--Turret_GAU19gatling.label></Turret_GAU17gatling.label-->
   <Turret_GAU19gatling.description>12.7mm弾を使用するガトリングガンです。人が操作する必要があります。</Turret_GAU19gatling.description>
-
   <!--Artillery_GAU17gatling.label>奥利康20毫米机炮</Artillery_GAU17gatling.label-->
   <Artillery_GAU19gatling.description>12.7mm弾を使用するガトリングガンです。人が操作する必要があります。</Artillery_GAU19gatling.description>
-
-
-
 </LanguageData>

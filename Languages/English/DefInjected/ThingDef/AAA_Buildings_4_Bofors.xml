@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 40mm gun turret -->
+
+  <Turret_40mmGun.label>bofors 40mm</Turret_40mmGun.label>
+  <Turret_40mmGun.description>A 40mm flak gun. leaves gun crates when deconstructed.	Must be manned. Cannot fire over wall. Explodes when damaged.</Turret_40mmGun.description>
+
+
+  <!-- Mortar turret -->
+
+  <Artillery_40mmGun.label>40mm gun</Artillery_40mmGun.label>
+  <Artillery_40mmGun.description>Bofors 40mm gun .</Artillery_40mmGun.description>
+
+
+  <!-- 40mm gun turret -->
+
+  <AAA_Turret_Dual40mmGun.label>Dual Bofors 40mm</AAA_Turret_Dual40mmGun.label>
+  <AAA_Turret_Dual40mmGun.description>Dual 40mm flak gun. leaves gun crates when deconstructed. Must be manned. Cannot fire over wall. Explodes when damaged.</AAA_Turret_Dual40mmGun.description>
+
+  <AAA_Artillery_Dual40mmGun.label>Dual 40mm gun</AAA_Artillery_Dual40mmGun.label>
+  <AAA_Artillery_Dual40mmGun.description>Dual Bofors 40mm machine gun .</AAA_Artillery_Dual40mmGun.description>
+
+
+  <!-- Quad 40mm gun turret -->
+
+  <AAA_Turret_Quad40mmGun.label>Quad Bofors 40mm</AAA_Turret_Quad40mmGun.label>
+  <AAA_Turret_Quad40mmGun.description>Quad 40mm flak gun. leaves gun crates when deconstructed. Must be manned. Cannot fire over wall. Explodes when damaged.</AAA_Turret_Quad40mmGun.description>
+
+  <AAA_Artillery_Quad40mmGun.label>Dual 40mm gun</AAA_Artillery_Quad40mmGun.label>
+  <AAA_Artillery_Quad40mmGun.description>Dual Bofors 40mm machine gun .</AAA_Artillery_Quad40mmGun.description>
+
+
+  <!-- Crate -->
+
+  <AAA_Crate_Bofors.label>40mm machine gun crate</AAA_Crate_Bofors.label>
+  <AAA_Crate_Bofors.description>40mm Bofors anti aircraft artillery. This is too heavy to hold. you need to make a turret for this.</AAA_Crate_Bofors.description>
+
+
+</LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Embrausure Maxim -->
+
+  <Turret_Maxim.label>Maxim machine gun</Turret_Maxim.label>
+  <Turret_Maxim.description>A heavy machine gun. uses 7.62mm machine gun ammo.leaves gun crates when deconstructed. Must be maned.</Turret_Maxim.description>
+
+
+  <!-- Turret def single maxim -->
+
+  <Artillery_Maxim.label>Maxim</Artillery_Maxim.label>
+  <Artillery_Maxim.description>a 7.62mm machine gun .</Artillery_Maxim.description>
+
+
+  <!-- QudMaxim -->
+
+  <Turret_QuadMaxim.label>Quad Maxim</Turret_QuadMaxim.label>
+  <Turret_QuadMaxim.description>A quadruple machine gun. leaves gun crates when deconstructed. Must be manned.</Turret_QuadMaxim.description>
+
+
+  <!-- Mortar turret -->
+
+  <Artillery_QuadMaxim.label>Quad Maxim</Artillery_QuadMaxim.label>
+  <Artillery_QuadMaxim.description>quadruple 7.62mm machine gun. leaves gun crates when deconstructed.</Artillery_QuadMaxim.description>
+
+
+  <!-- Crate -->
+
+  <AAA_Crate_Maxim.label>Maxim machine gun crate</AAA_Crate_Maxim.label>
+  <AAA_Crate_Maxim.description>7.62mm maxim machine gun. This is too heavy to hold. you need to make a turret for this.</AAA_Crate_Maxim.description>
+
+
+</LanguageData>

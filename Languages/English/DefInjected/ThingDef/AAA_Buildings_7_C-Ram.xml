@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- C-RAM turret -->
+
+  <CIWS_Turret.label>C-RAM turret</CIWS_Turret.label>
+  <CIWS_Turret.description>A close-in weapon system turret. Fires at nearby enemies Automatically. Its hacked-together AI brain isn't very smart, and can't shoot down incoming projectile.  Explodes when damaged.</CIWS_Turret.description>
+
+  <Bullet_CIWS_turret.label>improvised turret bullet</Bullet_CIWS_turret.label>
+
+  <Gun_CIWS_turret.label>Gun_C-RAM turret gun</Gun_CIWS_turret.label>
+  <Gun_CIWS_turret.description>Jury-rigged gun attached to a turret.</Gun_CIWS_turret.description>
+
+
+</LanguageData>

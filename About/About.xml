@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Machine gun defense (Continued)</name>
   <packageId>Mlie.MachineGunDefence</packageId>
@@ -6,6 +6,7 @@
   <url>https://github.com/emipa606/MachineGunDefence</url>
   <supportedVersions>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />

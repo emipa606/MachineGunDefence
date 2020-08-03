@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Recipe_AAA_12_7mmAmmoBox_x5.label>make 5 12.7mm ammo boxes</Recipe_AAA_12_7mmAmmoBox_x5.label>
+  <Recipe_AAA_12_7mmAmmoBox_x5.jobString>Making ammo</Recipe_AAA_12_7mmAmmoBox_x5.jobString>
+
+  <Recipe_AAA_12_7mmAmmoBox_x25.label>make 25 12.7mm ammo boxes</Recipe_AAA_12_7mmAmmoBox_x25.label>
+  <Recipe_AAA_12_7mmAmmoBox_x25.jobString>Making ammo</Recipe_AAA_12_7mmAmmoBox_x25.jobString>
+
+
+</LanguageData>

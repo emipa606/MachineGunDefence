@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fullmetal jacket -->
+
+  <AAA_12_7mmAmmoBox.label>12.7mm ammo box</AAA_12_7mmAmmoBox.label>
+  <AAA_12_7mmAmmoBox.description>A 12.7mm ammo box containing enough bullets to burst fire several times</AAA_12_7mmAmmoBox.description>
+
+  <AAA_Bullet_Quad12_7mmMachineGun.label>12.7mm ammo</AAA_Bullet_Quad12_7mmMachineGun.label>
+
+
+</LanguageData>

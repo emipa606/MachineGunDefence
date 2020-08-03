@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Recipe_MakeCrateMaxim.label>make maxim machine gun crate</Recipe_MakeCrateMaxim.label>
+  <Recipe_MakeCrateMaxim.description>make a maxim machine gun crate. you need this to build maxim turret.</Recipe_MakeCrateMaxim.description>
+  <Recipe_MakeCrateMaxim.jobString>Cutting gun.</Recipe_MakeCrateMaxim.jobString>
+
+  <Recipe_MakeCrate50cal.label>make .50Cal machine gun crate</Recipe_MakeCrate50cal.label>
+  <Recipe_MakeCrate50cal.description>make a .50Cal machine gun crate. you need this to build M2 turret.</Recipe_MakeCrate50cal.description>
+  <Recipe_MakeCrate50cal.jobString>Cutting gun.</Recipe_MakeCrate50cal.jobString>
+
+  <Recipe_MakeCrateOerlikon.label>make 20mm machine gun crate</Recipe_MakeCrateOerlikon.label>
+  <Recipe_MakeCrateOerlikon.description>make a Oerlikon 20mm machine gun crate. You need this to build Oerlikon turret.</Recipe_MakeCrateOerlikon.description>
+  <Recipe_MakeCrateOerlikon.jobString>Cutting gun.</Recipe_MakeCrateOerlikon.jobString>
+
+
+  <!-- RecipeDef>
+		<defName>Recipe_MakeCrateAZP13</defName>
+		<label>make russian 20mm machine gun crate</label>
+		<description>make a russian 20mm machine gun crate. You need this to build ZSU23 turret.</description>
+		<jobString>Cutting gun.</jobString>
+		<workAmount>60000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>300</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AAA_Crate_23mmgun>1</AAA_Crate_23mmgun>
+		</products>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+			<li>TableMachining</li>
+		</recipeUsers>
+
+	<researchPrerequisite>AAA_Autocannon</researchPrerequisite>
+</RecipeDef -->
+
+  <Recipe_MakeCrate40mm_gun.label>make 40mm machine gun crate</Recipe_MakeCrate40mm_gun.label>
+  <Recipe_MakeCrate40mm_gun.description>make a Bofors 40mm anti aircraft artillery crate. You need this to build Bofors turret.</Recipe_MakeCrate40mm_gun.description>
+  <Recipe_MakeCrate40mm_gun.jobString>Cutting gun.</Recipe_MakeCrate40mm_gun.jobString>
+
+
+</LanguageData>

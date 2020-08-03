@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Recipe_Clip_40mm_HighExplosive_x5.label>make 5 40mm HE round clip</Recipe_Clip_40mm_HighExplosive_x5.label>
+  <Recipe_Clip_40mm_HighExplosive_x5.jobString>Making ammo</Recipe_Clip_40mm_HighExplosive_x5.jobString>
+
+  <Recipe_Clip_40mm_HighExplosive_x25.label>make 25 40mm HE round clip</Recipe_Clip_40mm_HighExplosive_x25.label>
+  <Recipe_Clip_40mm_HighExplosive_x25.jobString>Making ammo</Recipe_Clip_40mm_HighExplosive_x25.jobString>
+
+  <Recipe_Clip_40mm_Incendiary_x5.label>make 5 40mm Incendiary round clip</Recipe_Clip_40mm_Incendiary_x5.label>
+  <Recipe_Clip_40mm_Incendiary_x5.jobString>Making ammo</Recipe_Clip_40mm_Incendiary_x5.jobString>
+
+  <Recipe_Clip_40mm_Incendiary_x25.label>make 25 40mm Incendiary round clip</Recipe_Clip_40mm_Incendiary_x25.label>
+  <Recipe_Clip_40mm_Incendiary_x25.jobString>Making ammo</Recipe_Clip_40mm_Incendiary_x25.jobString>
+
+
+</LanguageData>

@@ -1,16 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- gatling 7.62mm -->
-
   <Turret_GAU17gatling.label>GAU17</Turret_GAU17gatling.label>
   <Turret_GAU17gatling.description>A gatling gun. uses 7.62mm bullets. Must be maned.</Turret_GAU17gatling.description>
-
-
   <!-- Turret def single maxim -->
-
   <Artillery_GAU17gatling.label>GAU17</Artillery_GAU17gatling.label>
   <Artillery_GAU17gatling.description>7.62mm gatling gun .</Artillery_GAU17gatling.description>
-
-
 </LanguageData>

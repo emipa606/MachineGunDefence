@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="AAA_MachineGunAmmoBase" ParentName="ResourceBase" Abstract="True">
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <tickerType>Normal</tickerType>
+    <stackLimit>10</stackLimit>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <MarketValue>20</MarketValue>
+      <Mass>2.0</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>AAA_MachineGunAmmo</li>
+    </thingCategories>
+    <tradeTags>
+      <li>AAA_MachineGunAmmo</li>
+    </tradeTags>
+  </ThingDef>
+  <!-- Fullmetal jacket-->
+  <ThingDef ParentName="AAA_MachineGunAmmoBase">
+    <defName>AAA_MachineGunAmmo</defName>
+    <label>7.62mm ammo box</label>
+    <description>A 7.62mm ammo box containing enough bullets to burst fire several times</description>
+    <graphicData>
+      <texPath>AAA/shell/7.62mmAmmoBox3</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectileWhenLoaded>AAA_Bullet_QuadMachineGun</projectileWhenLoaded>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>AAA_Bullet_QuadMachineGun</defName>
+    <label>7.62mm ammo</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <comps>
+      <li Class="AAA.CompProperties_ProjectileMultiple">
+        <pellets>4</pellets>
+        <scatterRadiusAt10tilesAway>1.0</scatterRadiusAt10tilesAway>
+      </li>
+    </comps>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <speed>51</speed>
+      <flyOverhead>false</flyOverhead>
+    </projectile>
+  </ThingDef>
+</Defs>

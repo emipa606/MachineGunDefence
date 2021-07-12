@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- ResearchProjectDef>
     <defName>AAA_machineGun</defName>
     <label>AAA : quadruple machine turrets</label>
@@ -30,21 +29,14 @@
     <researchViewX>1</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef -->
-
   <AAA_Embrausure.label>Embrasured gun</AAA_Embrausure.label>
   <AAA_Embrausure.description>Allows you to build emrausured turrets.</AAA_Embrausure.description>
-
   <AAA_Autocannon.label>auto cannon</AAA_Autocannon.label>
   <AAA_Autocannon.description>Allows you to make Oerlikon 20mm gun and 40mm bofors.</AAA_Autocannon.description>
-
   <AAA_MultipleAutocannon.label>dual auto cannon</AAA_MultipleAutocannon.label>
   <AAA_MultipleAutocannon.description>Allows you to attach 2 autocannons to make a twin cannon.</AAA_MultipleAutocannon.description>
-
   <AAA_QuadAutocannon.label>quadruple auto cannon</AAA_QuadAutocannon.label>
   <AAA_QuadAutocannon.description>Allows you to make a quad autocannon from 4 gun crates</AAA_QuadAutocannon.description>
-
   <AAA_Gatling.label>gatling guns</AAA_Gatling.label>
   <AAA_Gatling.description>Allows you to make CIWS turret and gatling guns.</AAA_Gatling.description>
-
-
 </LanguageData>

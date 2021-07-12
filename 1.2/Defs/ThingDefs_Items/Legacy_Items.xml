@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ammo that has a number as first letter, not allowed in xml, kept for legacy-saves -->
+  <ThingDef ParentName="40mmShellBase">
+    <defName>40mm_Shell_HighExplosive</defName>
+    <label>40mm HE round clip</label>
+    <description>A shell filled with high explosives. Explodes when damaged.</description>
+    <graphicData>
+      <texPath>AAA/shell/40mmHE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.0</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>30</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_40mm_HighExplosive</projectileWhenLoaded>
+  </ThingDef>
+  <ThingDef ParentName="40mmShellBase">
+    <defName>40mm_Shell_Incendiary</defName>
+    <label>40mm Incendiary round clip</label>
+    <description>A 40mm shell filled with Incendiary. Explodes when damaged.</description>
+    <graphicData>
+      <texPath>AAA/shell/40mmIncendiary</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.0</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>30</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_40mm_Incendiary</projectileWhenLoaded>
+  </ThingDef>
+  <ThingDef ParentName="20mmShellBase">
+    <defName>20mm_Shell_HighExplosive</defName>
+    <label>20mm HE magazine</label>
+    <description>A magazine of 20mm shells filled with high explosives.containing enough ammo to burst fire several times. Explodes when damaged.</description>
+    <graphicData>
+      <texPath>AAA/shell/20mmHE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.0</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>30</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_20mm_HighExplosive</projectileWhenLoaded>
+    <researchPrerequisites>
+      <li>AAA_Autocannon</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="20mmShellBase">
+    <defName>20mm_Shell_ArmorPiercing</defName>
+    <label>20mm AP magazine</label>
+    <description>A magazine of 20mm steel shells.containing enough ammo to burst fire several times. Explodes when damaged.</description>
+    <graphicData>
+      <texPath>AAA/shell/20mmAP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.1</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>30</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_20mm_ArmorPiercing</projectileWhenLoaded>
+    <researchPrerequisites>
+      <li>AAA_Autocannon</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

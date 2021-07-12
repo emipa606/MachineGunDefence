@@ -1,5 +1,4 @@
-﻿using System;
-using Verse;
+﻿using Verse;
 
 namespace AAA
 {
@@ -8,12 +7,6 @@ namespace AAA
     {
         // Token: 0x1700000E RID: 14
         // (get) Token: 0x0600002E RID: 46 RVA: 0x00002A85 File Offset: 0x00000C85
-        public CompProperties_ProjectileSmoke Props
-        {
-            get
-            {
-                return (CompProperties_ProjectileSmoke)this.props;
-            }
-        }
+        public CompProperties_ProjectileSmoke Props => (CompProperties_ProjectileSmoke) props;
     }
 }

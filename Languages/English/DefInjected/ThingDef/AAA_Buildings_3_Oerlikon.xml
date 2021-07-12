@@ -1,46 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- 20mm gun turret -->
-
   <Turret_single20mmGun.label>Oerlikon 20mm gun</Turret_single20mmGun.label>
   <Turret_single20mmGun.description>A Oerlikon 20mm machine gun.leaves gun crates when deconstructed. Must be manned. Cannot fire over wall.</Turret_single20mmGun.description>
-
-
   <!-- Mortar turret -->
-
   <Artillery_single20mmGun.label>20mm gun</Artillery_single20mmGun.label>
   <Artillery_single20mmGun.description>Oerlikon 20mm machine gun .</Artillery_single20mmGun.description>
-
-
   <!-- Dual 20mm gun turret -->
-
   <Turret_Dual20mmGun.label>Dual Oerlikon 20mm gun</Turret_Dual20mmGun.label>
   <Turret_Dual20mmGun.description>A double Oerlikon machine gun. Its shield protects the gunner. Must be manned. Cannot fire over wall.</Turret_Dual20mmGun.description>
-
-
   <!-- Mortar turret -->
-
   <Artillery_Dual20mmGun.label>20mm gun</Artillery_Dual20mmGun.label>
   <Artillery_Dual20mmGun.description>Oerlikon 20mm machine gun .</Artillery_Dual20mmGun.description>
-
-
   <!-- Quad 20mm gun turret -->
-
   <Turret_Quad20mmGun.label>Quad Oerlikon 20mm gun</Turret_Quad20mmGun.label>
   <Turret_Quad20mmGun.description>A quadruple 20mm machine gun mount. Its armor protects the gunner very well.leaves gun crates when deconstructed. Must be manned.</Turret_Quad20mmGun.description>
-
-
   <!-- Mortar turret -->
-
   <Artillery_Quad20mmGun.label>20mm gun</Artillery_Quad20mmGun.label>
   <Artillery_Quad20mmGun.description>Oerlikon 20mm machine gun .</Artillery_Quad20mmGun.description>
-
-
   <!-- Crate -->
-
   <AAA_Crate_Oerlikon.label>20mm machine gun crate</AAA_Crate_Oerlikon.label>
   <AAA_Crate_Oerlikon.description>20mm Oerlikon machine gun. This is too heavy to hold and you need to make a turret for this.</AAA_Crate_Oerlikon.description>
-
-
 </LanguageData>

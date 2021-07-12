@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--===============gatlin 12.7mm ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Turret_GAU19gatling</defName>
+    <label>GAU19</label>
+    <description>A heavy gatling gun. uses 12.7mm bullets. Must be maned.</description>
+    <thingClass>AAA.Building_TurretGunCustom</thingClass>
+    <graphicData>
+      <texPath>AAA/turret/TurretImprovised</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+    <uiIconPath>AAA/icon/GAU19</uiIconPath>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>55900</WorkToBuild>
+      <Mass>48</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <pathCost>50</pathCost>
+    <fillPercent>0.2</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>18</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="AAA.CompProperties_TurretTopSize">
+        <topSize>(2.0,2.0,2.0)</topSize>
+      </li>
+    </comps>
+    <building>
+      <turretGunDef>Artillery_GAU19gatling</turretGunDef>
+      <turretBurstWarmupTime>3.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>4.0</turretBurstCooldownTime>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
+    <researchPrerequisites>
+      <li>AAA_Gatling</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!-- Turret def single maxim -->
+  <ThingDef Name="AAA_BaseGAU19gatling" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <label>artillery error</label>
+    <useHitPoints>false</useHitPoints>
+    <equipmentType>Primary</equipmentType>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li Class="AAA.CompProperties_ReproductiveProjectile">
+        <loadcount>59</loadcount>
+      </li>
+    </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_12_7mmAmmo</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>AAA_12_7mmAmmo</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  <ThingDef ParentName="AAA_BaseGAU19gatling">
+    <defName>Artillery_GAU19gatling</defName>
+    <label>GAU19</label>
+    <description>12.7mm gatling gun .</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <statBases>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.32</AccuracyShort>
+      <AccuracyMedium>0.18</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.00</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <graphicData>
+      <texPath>AAA/turret/GAU19</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <!--warmupTime>8.8</warmupTime-->
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>1</minRange>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <range>37</range>
+        <burstShotCount>60</burstShotCount>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <soundCast>AAA_heavy_gatling_shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

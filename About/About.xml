@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Machine gun defense (Continued)</name>
   <packageId>Mlie.MachineGunDefence</packageId>
@@ -11,23 +11,27 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of match_milks mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1296958152
 
 - Embrasured version removed since it did not work.
 - Added bulk recipies for ammo
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/MachineGunDefence][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 adds various anti air machine gun turrets.
 
@@ -44,7 +48,7 @@ most of the turrets need to be manned and require ammo to fire.
 [i]--------version 1.4--------[/i]
 GAU17 and GAU19 are added.
 [i]--------version 1.3--------[/i]
-gun crate&apos;s mass and turret&apos;s mass are adjusted. they now weigh the same as the real weapon.
+gun crate's mass and turret's mass are adjusted. they now weigh the same as the real weapon.
 you now need to research blowback instead of gas operation to unlock maxim. so it is now easier to get it.  M2 browning still requires gas operation.
 gun crates and their ammo are hided from crafting menu of machining table until you unlock the turret for them.
 
@@ -103,7 +107,7 @@ If you feel anything or have an idea about this mod,  please leave a comment. ( 
 (I am not good at drawing texture, so if you could help me for drawing image, it would be very helpfull for me.)
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -114,4 +118,3 @@ If you feel anything or have an idea about this mod,  please leave a comment. ( 
 [/list]
 </description>
 </ModMetaData>
-

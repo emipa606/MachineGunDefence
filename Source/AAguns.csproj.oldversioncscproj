@@ -16,6 +16,5 @@
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-  <!-- 1.3.3052-beta -->
+  <!-- 1.3.3056-beta -->
 </Project>
-

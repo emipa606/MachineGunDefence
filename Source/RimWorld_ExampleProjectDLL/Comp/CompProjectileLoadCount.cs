@@ -1,9 +1,8 @@
 ﻿using Verse;
 
-namespace AAA
+namespace AAA;
+
+internal class CompProjectileLoadCount : ThingComp
 {
-    internal class CompProjectileLoadCount : ThingComp
-    {
-        public CompProperties_ProjectileLoadCount Props => (CompProperties_ProjectileLoadCount) props;
-    }
+    public CompProperties_ProjectileLoadCount Props => (CompProperties_ProjectileLoadCount)props;
 }

@@ -1,35 +1,34 @@
 ﻿using RimWorld;
 
-namespace AAA
+namespace AAA;
+
+internal class CompReproductiveProjectile : CompChangeableProjectile
 {
-    internal class CompReproductiveProjectile : CompChangeableProjectile
+    private int bulletsLeft;
+    private bool hasGainedLoadcount;
+
+    public new CompProperties_ReproductiveProjectile Props => (CompProperties_ReproductiveProjectile)props;
+
+    public override void Notify_ProjectileLaunched()
     {
-        private int bulletsLeft;
-        private bool hasGainedLoadcount;
-
-        public new CompProperties_ReproductiveProjectile Props => (CompProperties_ReproductiveProjectile) props;
-
-        public override void Notify_ProjectileLaunched()
+        if (!hasGainedLoadcount)
         {
-            if (!hasGainedLoadcount)
-            {
-                bulletsLeft = Props.loadcount;
-                hasGainedLoadcount = true;
-            }
-
-            if (loadedCount == 1) //!this.hasGainedLoadcount)
-            {
-                if (bulletsLeft-- >= 1)
-                {
-                    loadedCount = 2;
-                }
-                else //emptied the magazine
-                {
-                    hasGainedLoadcount = false; //reset
-                }
-            }
-
-            base.Notify_ProjectileLaunched();
+            bulletsLeft = Props.loadcount;
+            hasGainedLoadcount = true;
         }
+
+        if (loadedCount == 1) //!this.hasGainedLoadcount)
+        {
+            if (bulletsLeft-- >= 1)
+            {
+                loadedCount = 2;
+            }
+            else //emptied the magazine
+            {
+                hasGainedLoadcount = false; //reset
+            }
+        }
+
+        base.Notify_ProjectileLaunched();
     }
 }

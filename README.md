@@ -1,6 +1,6 @@
 # MachineGunDefence
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of match_milks mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1296958152
@@ -8,19 +8,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1296958152
 - Embrasured version removed since it did not work.
 - Added bulk recipies for ammo
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/MachineGunDefence]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 adds various anti air machine gun turrets.
@@ -41,7 +32,7 @@ most of the turrets need to be manned and require ammo to fire.
 *--------version 1.4--------*
 GAU17 and GAU19 are added.
 *--------version 1.3--------*
-gun crate&apos;s mass and turret&apos;s mass are adjusted. they now weigh the same as the real weapon.
+gun crate's mass and turret's mass are adjusted. they now weigh the same as the real weapon.
 you now need to research blowback instead of gas operation to unlock maxim. so it is now easier to get it.  M2 browning still requires gas operation.
 gun crates and their ammo are hided from crafting menu of machining table until you unlock the turret for them.
 
@@ -104,7 +95,7 @@ If you feel anything or have an idea about this mod,  please leave a comment. ( 
 (I am not good at drawing texture, so if you could help me for drawing image, it would be very helpfull for me.)
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -114,6 +105,7 @@ If you feel anything or have an idea about this mod,  please leave a comment. ( 
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

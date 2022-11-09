@@ -1,5 +1,8 @@
 # Changelog for MachineGunDefence
 
+1.4.2 - Renamed the .50Cal machine gun crate recipe to m2 Machine Gun Crate for clarity
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

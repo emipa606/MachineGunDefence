@@ -45,8 +45,8 @@
   </RecipeDef>
   <RecipeDef>
     <defName>Recipe_MakeCrate50cal</defName>
-    <label>make .50Cal machine gun crate</label>
-    <description>make a .50Cal machine gun crate. you need this to build M2 turret.</description>
+    <label>make m2 machine gun crate</label>
+    <description>make a m2 machine gun crate. you need this to build M2 turret.</description>
     <jobString>Cutting gun.</jobString>
     <workAmount>45000</workAmount>
     <workSkill>Crafting</workSkill>

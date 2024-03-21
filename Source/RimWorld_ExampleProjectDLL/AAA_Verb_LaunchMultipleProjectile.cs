@@ -28,7 +28,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
     //}
     //}
     //public override Verb AttackVerb
-    //{
+    //
     //get
     //   {
     //      if (this.IsShotgun)
@@ -170,7 +170,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
 
         var drawPos = caster.DrawPos;
 
-        var unused = (Projectile)GenSpawn.Spawn(projectile, shootLine.Source, caster.Map);
+        _ = (Projectile)GenSpawn.Spawn(projectile, shootLine.Source, caster.Map);
 
 
         //---------------
@@ -264,7 +264,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
                     MoteMaker.ThrowText(caster.DrawPos, caster.Map, "ToWild");
                 }
 
-                shootLines[i].ChangeDestToMissWild(shotReport.AimOnTargetChance);
+                shootLines[i].ChangeDestToMissWild(shotReport.AimOnTargetChance, caster.Map);
                 // shootLine2.ChangeDestToMissWild();
 
                 if (currentTarget.HasThing)

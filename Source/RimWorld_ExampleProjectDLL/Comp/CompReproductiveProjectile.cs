@@ -17,7 +17,7 @@ internal class CompReproductiveProjectile : CompChangeableProjectile
             hasGainedLoadcount = true;
         }
 
-        if (loadedCount == 1) //!this.hasGainedLoadcount)
+        if (loadedCount == 1) //!this.hasGainedLoadcount
         {
             if (bulletsLeft-- >= 1)
             {

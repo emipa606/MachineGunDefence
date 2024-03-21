@@ -17,7 +17,7 @@ public static class AAA_GenLeavingAll
 
     private const float LeaveFraction_FailConstruction = 1.0f;
 
-    private static readonly List<IntVec3> tmpCellsCandidates = new List<IntVec3>();
+    private static readonly List<IntVec3> tmpCellsCandidates = [];
 
     public static void AAA_DoLeavingsFor(Thing diedThing, Map map, DestroyMode mode)
     {
@@ -118,7 +118,7 @@ public static class AAA_GenLeavingAll
 
     public static bool AAA_CanBuildingLeaveResources(Thing diedThing, DestroyMode mode)
     {
-        if (!(diedThing is Building))
+        if (diedThing is not Building)
         {
             return false;
         }

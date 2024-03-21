@@ -29,7 +29,7 @@ public static class AAA_CostListCalculator
             return list;
         }
 
-        list = new List<ThingDefCountClass>();
+        list = [];
         var num = 0;
         if (entDef.MadeFromStuff)
         {
@@ -91,14 +91,8 @@ public static class AAA_CostListCalculator
         return list;
     }
 
-    private struct CostListPair : IEquatable<CostListPair>
+    private struct CostListPair(BuildableDef buildable, ThingDef stuff) : IEquatable<CostListPair>
     {
-        public CostListPair(BuildableDef buildable, ThingDef stuff)
-        {
-            this.buildable = buildable;
-            this.stuff = stuff;
-        }
-
         public override int GetHashCode()
         {
             var seed = 0;
@@ -126,9 +120,9 @@ public static class AAA_CostListCalculator
             return !(lhs == rhs);
         }
 
-        public readonly BuildableDef buildable;
+        public readonly BuildableDef buildable = buildable;
 
-        public readonly ThingDef stuff;
+        public readonly ThingDef stuff = stuff;
     }
 
     private class FastCostListPairComparer : IEqualityComparer<CostListPair>

@@ -1,5 +1,9 @@
 # Changelog for MachineGunDefence
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+Used DeepL to update translations for French, German
+
+
 1.4.2 - Renamed the .50Cal machine gun crate recipe to m2 Machine Gun Crate for clarity
 
 

@@ -1,4 +1,5 @@
 using RimWorld;
+using UnityEngine;
 using Verse;
 // Always needed
 //using VerseBase;         // Material/Graphics handling functions are found here
@@ -16,6 +17,8 @@ namespace AAA;
 public class Building_TurretGunCustom : Building_TurretGun
 {
     private const int TryStartShootSomethingIntervalTicks = 10;
+
+    protected new readonly TurretTop_CustomSize top;
     protected bool hasGainedLoadcount = false;
 
     // protected CompTurretDestroySelfAfterFire destroySelfComp;
@@ -25,8 +28,6 @@ public class Building_TurretGunCustom : Building_TurretGun
     private bool holdFire;
 
     protected int lastLoadcount = 0;
-
-    protected new TurretTop_CustomSize top;
 
     protected CompTurretTopSize topSizeComp;
 
@@ -39,7 +40,7 @@ public class Building_TurretGunCustom : Building_TurretGun
 
     private bool WarmingUp => burstWarmupTicksLeft > 0;
 
-    public bool CanSetForcedTarget
+    protected override bool CanSetForcedTarget
     {
         get
         {
@@ -101,7 +102,7 @@ public class Building_TurretGunCustom : Building_TurretGun
                     this.hasGainedLoadcount = true;//when new shell is loaded, check load count and increase it.
                 }
                 else
-                {//next time is when you have shot some shell and only 1 shell is remaining. 
+                {//next time is when you have shot some shell and only 1 shell is remaining.
                     this.hasGainedLoadcount = false;//set false so that it can check loadcount when new shell is loaded
                 }
             }
@@ -140,7 +141,7 @@ public class Building_TurretGunCustom : Building_TurretGun
         if ((powerComp == null || powerComp.PowerOn) && (mannableComp == null || mannableComp.MannedNow) && Spawned)
         {
             GunCompEq.verbTracker.VerbsTick();
-            if (stunner.Stunned || GunCompEq.PrimaryVerb.state == VerbState.Bursting)
+            if (IsStunned || GunCompEq.PrimaryVerb.state == VerbState.Bursting)
             {
                 return;
             }
@@ -238,7 +239,7 @@ public class Building_TurretGunCustom : Building_TurretGun
         burstWarmupTicksLeft = 0;
     }
 
-    public override void Draw()
+    protected override void DrawAt(Vector3 drawLoc, bool flip = false)
     {
         top.DrawTurret();
         Comps_PostDraw();

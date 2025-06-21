@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 7.62mm ammo -->
+  <AAA_Bullet_QuadMachineGun.label>7.62mm ammo</AAA_Bullet_QuadMachineGun.label>
+  <!-- EN: 7.62mm ammo box -->
+  <AAA_MachineGunAmmo.label>7.62mm ammo box</AAA_MachineGunAmmo.label>
+  <!-- EN: A 7.62mm ammo box containing enough bullets to burst fire several times -->
+  <AAA_MachineGunAmmo.description>A 7.62mm ammo box containing enough bullets to burst fire several times</AAA_MachineGunAmmo.description>
+</LanguageData>

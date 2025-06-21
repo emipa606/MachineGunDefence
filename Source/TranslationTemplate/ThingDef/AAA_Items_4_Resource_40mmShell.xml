@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 40mm HE round -->
+  <Bullet_40mm_HighExplosive.label>40mm HE round</Bullet_40mm_HighExplosive.label>
+  <!-- EN: 40mm Incendiary round -->
+  <Bullet_40mm_Incendiary.label>40mm Incendiary round</Bullet_40mm_Incendiary.label>
+  <!-- EN: 40mm HE round clip -->
+  <Clip_40mm_HighExplosive.label>40mm HE round clip</Clip_40mm_HighExplosive.label>
+  <!-- EN: A shell filled with high explosives. Explodes when damaged. -->
+  <Clip_40mm_HighExplosive.description>A shell filled with high explosives. Explodes when damaged.</Clip_40mm_HighExplosive.description>
+  <!-- EN: 40mm Incendiary round clip -->
+  <Clip_40mm_Incendiary.label>40mm Incendiary round clip</Clip_40mm_Incendiary.label>
+  <!-- EN: A 40mm shell filled with Incendiary. Explodes when damaged. -->
+  <Clip_40mm_Incendiary.description>A 40mm shell filled with Incendiary. Explodes when damaged.</Clip_40mm_Incendiary.description>
+</LanguageData>

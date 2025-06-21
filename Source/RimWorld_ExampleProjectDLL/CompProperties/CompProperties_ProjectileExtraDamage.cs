@@ -22,9 +22,6 @@ public class CompProperties_ProjectileExtraDamage : CompProperties
     public override void ResolveReferences(ThingDef parentDef)
     {
         base.ResolveReferences(parentDef);
-        if (damageDef == null)
-        {
-            damageDef = DamageDefOf.Bullet;
-        }
+        damageDef ??= DamageDefOf.Bullet;
     }
 }

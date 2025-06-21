@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make 25 20mm armorpiercing magazine -->
+  <Recipe_Magazine_20mm_ArmorPiercing_x25.label>make 25 20mm armorpiercing magazine</Recipe_Magazine_20mm_ArmorPiercing_x25.label>
+  <!-- EN: Making ammo -->
+  <Recipe_Magazine_20mm_ArmorPiercing_x25.jobString>Making ammo</Recipe_Magazine_20mm_ArmorPiercing_x25.jobString>
+  <!-- EN: make 5 20mm armorpiercing magazine -->
+  <Recipe_Magazine_20mm_ArmorPiercing_x5.label>make 5 20mm armorpiercing magazine</Recipe_Magazine_20mm_ArmorPiercing_x5.label>
+  <!-- EN: Making ammo -->
+  <Recipe_Magazine_20mm_ArmorPiercing_x5.jobString>Making ammo</Recipe_Magazine_20mm_ArmorPiercing_x5.jobString>
+  <!-- EN: make 25 20mm HE magazine -->
+  <Recipe_Magazine_20mm_HighExplosive_x25.label>make 25 20mm HE magazine</Recipe_Magazine_20mm_HighExplosive_x25.label>
+  <!-- EN: Making ammo -->
+  <Recipe_Magazine_20mm_HighExplosive_x25.jobString>Making ammo</Recipe_Magazine_20mm_HighExplosive_x25.jobString>
+  <!-- EN: make 5 20mm HE magazine -->
+  <Recipe_Magazine_20mm_HighExplosive_x5.label>make 5 20mm HE magazine</Recipe_Magazine_20mm_HighExplosive_x5.label>
+  <!-- EN: Making ammo -->
+  <Recipe_Magazine_20mm_HighExplosive_x5.jobString>Making ammo</Recipe_Magazine_20mm_HighExplosive_x5.jobString>
+</LanguageData>

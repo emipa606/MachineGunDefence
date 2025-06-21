@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: GAU17 -->
+  <Artillery_GAU17gatling.label>GAU17</Artillery_GAU17gatling.label>
+  <!-- EN: 7.62mm gatling gun . -->
+  <Artillery_GAU17gatling.description>7.62mm gatling gun .</Artillery_GAU17gatling.description>
+  <!-- EN: GAU17 -->
+  <Artillery_GAU17gatling.verbs.Verb_Shoot.label>GAU17</Artillery_GAU17gatling.verbs.Verb_Shoot.label>
+  <!-- EN: GAU17 -->
+  <Turret_GAU17gatling.label>GAU17</Turret_GAU17gatling.label>
+  <!-- EN: A gatling gun. uses 7.62mm bullets. Must be maned. -->
+  <Turret_GAU17gatling.description>A gatling gun. uses 7.62mm bullets. Must be maned.</Turret_GAU17gatling.description>
+</LanguageData>

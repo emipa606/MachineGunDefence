@@ -2,21 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
-using UnityEngine;
 using Verse;
 
 namespace AAA;
 
 public static class AAA_GenLeavingAll
 {
-    private const float LeaveFraction_Kill = 1.0f;
-
-    private const float LeaveFraction_Cancel = 1.0f;
-
-    public const float LeaveFraction_DeconstructDefault = 1.0f;
-
-    private const float LeaveFraction_FailConstruction = 1.0f;
-
     private static readonly List<IntVec3> tmpCellsCandidates = [];
 
     public static void AAA_DoLeavingsFor(Thing diedThing, Map map, DestroyMode mode)
@@ -24,7 +15,7 @@ public static class AAA_GenLeavingAll
         AAA_DoLeavingsFor(diedThing, map, mode, diedThing.OccupiedRect());
     }
 
-    public static void AAA_DoLeavingsFor(Thing diedThing, Map map, DestroyMode mode, CellRect leavingsRect)
+    private static void AAA_DoLeavingsFor(Thing diedThing, Map map, DestroyMode mode, CellRect leavingsRect)
     {
         if (Current.ProgramState != ProgramState.Playing && mode != DestroyMode.Refund ||
             mode == DestroyMode.Vanish)
@@ -116,7 +107,7 @@ public static class AAA_GenLeavingAll
     }
 
 
-    public static bool AAA_CanBuildingLeaveResources(Thing diedThing, DestroyMode mode)
+    private static bool AAA_CanBuildingLeaveResources(Thing diedThing, DestroyMode mode)
     {
         if (diedThing is not Building)
         {
@@ -137,9 +128,7 @@ public static class AAA_GenLeavingAll
             case DestroyMode.Deconstruct:
                 return diedThing.def.resourcesFractionWhenDeconstructed != 0f;
             case DestroyMode.FailConstruction:
-                return true;
             case DestroyMode.Cancel:
-                return true;
             case DestroyMode.Refund:
                 return true;
             default:
@@ -147,7 +136,7 @@ public static class AAA_GenLeavingAll
         }
     }
 
-    public static Func<int, int> AAA_GetBuildingResourcesLeaveCalculator(Thing diedThing, DestroyMode mode)
+    private static Func<int, int> AAA_GetBuildingResourcesLeaveCalculator(Thing diedThing, DestroyMode mode)
     {
         if (!AAA_CanBuildingLeaveResources(diedThing, mode))
         {
@@ -170,35 +159,6 @@ public static class AAA_GenLeavingAll
                 return count => count;
             default:
                 throw new ArgumentException($"Unknown destroy mode {mode}");
-        }
-    }
-
-    public static void DropFilthDueToDamage(Thing t, float damageDealt)
-    {
-        if (!t.def.useHitPoints || !t.Spawned || t.def.filthLeaving == null)
-        {
-            return;
-        }
-
-        var cellRect = t.OccupiedRect().ExpandedBy(1);
-        tmpCellsCandidates.Clear();
-        foreach (var intVec in cellRect)
-        {
-            if (intVec.InBounds(t.Map) && intVec.Walkable(t.Map))
-            {
-                tmpCellsCandidates.Add(intVec);
-            }
-        }
-
-        if (!tmpCellsCandidates.Any())
-        {
-            return;
-        }
-
-        var num = GenMath.RoundRandom(damageDealt * Mathf.Min(0.0166666675f, 1f / (t.MaxHitPoints / 10f)));
-        for (var i = 0; i < num; i++)
-        {
-            FilthMaker.TryMakeFilth(tmpCellsCandidates.RandomElement(), t.Map, t.def.filthLeaving);
         }
     }
 }

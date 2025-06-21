@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 20mm AP magazine -->
+  <Shell_20mm_ArmorPiercing.label>20mm AP magazine</Shell_20mm_ArmorPiercing.label>
+  <!-- EN: A magazine of 20mm steel shells.containing enough ammo to burst fire several times. Explodes when damaged. -->
+  <Shell_20mm_ArmorPiercing.description>A magazine of 20mm steel shells.containing enough ammo to burst fire several times. Explodes when damaged.</Shell_20mm_ArmorPiercing.description>
+  <!-- EN: 20mm HE magazine -->
+  <Shell_20mm_HighExplosive.label>20mm HE magazine</Shell_20mm_HighExplosive.label>
+  <!-- EN: A magazine of 20mm shells filled with high explosives.containing enough ammo to burst fire several times. Explodes when damaged. -->
+  <Shell_20mm_HighExplosive.description>A magazine of 20mm shells filled with high explosives.containing enough ammo to burst fire several times. Explodes when damaged.</Shell_20mm_HighExplosive.description>
+  <!-- EN: 40mm HE round clip -->
+  <Shell_40mm_HighExplosive.label>40mm HE round clip</Shell_40mm_HighExplosive.label>
+  <!-- EN: A shell filled with high explosives. Explodes when damaged. -->
+  <Shell_40mm_HighExplosive.description>A shell filled with high explosives. Explodes when damaged.</Shell_40mm_HighExplosive.description>
+  <!-- EN: 40mm Incendiary round clip -->
+  <Shell_40mm_Incendiary.label>40mm Incendiary round clip</Shell_40mm_Incendiary.label>
+  <!-- EN: A 40mm shell filled with Incendiary. Explodes when damaged. -->
+  <Shell_40mm_Incendiary.description>A 40mm shell filled with Incendiary. Explodes when damaged.</Shell_40mm_Incendiary.description>
+</LanguageData>

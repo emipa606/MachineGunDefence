@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 12.7mm ammo box -->
+  <AAA_12_7mmAmmoBox.label>12.7mm ammo box</AAA_12_7mmAmmoBox.label>
+  <!-- EN: A 12.7mm ammo box containing enough bullets to burst fire several times -->
+  <AAA_12_7mmAmmoBox.description>A 12.7mm ammo box containing enough bullets to burst fire several times</AAA_12_7mmAmmoBox.description>
+  <!-- EN: 12.7mm ammo -->
+  <AAA_Bullet_Quad12_7mmMachineGun.label>12.7mm ammo</AAA_Bullet_Quad12_7mmMachineGun.label>
+</LanguageData>

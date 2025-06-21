@@ -8,7 +8,7 @@ namespace AAA;
 public static class AAA_CostListCalculator
 {
     private static readonly Dictionary<CostListPair, List<ThingDefCountClass>> cachedCosts =
-        new Dictionary<CostListPair, List<ThingDefCountClass>>(FastCostListPairComparer.Instance);
+        new(FastCostListPairComparer.Instance);
 
     public static void Reset()
     {
@@ -20,7 +20,7 @@ public static class AAA_CostListCalculator
         return thing.def.AAA_CostListAdjusted(thing.Stuff);
     }
 
-    public static List<ThingDefCountClass> AAA_CostListAdjusted(this BuildableDef entDef, ThingDef stuff,
+    private static List<ThingDefCountClass> AAA_CostListAdjusted(this BuildableDef entDef, ThingDef stuff,
         bool errorOnNullStuff = true)
     {
         var key = new CostListPair(entDef, stuff);
@@ -91,7 +91,7 @@ public static class AAA_CostListCalculator
         return list;
     }
 
-    private struct CostListPair(BuildableDef buildable, ThingDef stuff) : IEquatable<CostListPair>
+    private readonly struct CostListPair(BuildableDef buildable, ThingDef stuff) : IEquatable<CostListPair>
     {
         public override int GetHashCode()
         {
@@ -120,14 +120,14 @@ public static class AAA_CostListCalculator
             return !(lhs == rhs);
         }
 
-        public readonly BuildableDef buildable = buildable;
+        private readonly BuildableDef buildable = buildable;
 
-        public readonly ThingDef stuff = stuff;
+        private readonly ThingDef stuff = stuff;
     }
 
     private class FastCostListPairComparer : IEqualityComparer<CostListPair>
     {
-        public static readonly FastCostListPairComparer Instance = new FastCostListPairComparer();
+        public static readonly FastCostListPairComparer Instance = new();
 
         public bool Equals(CostListPair x, CostListPair y)
         {

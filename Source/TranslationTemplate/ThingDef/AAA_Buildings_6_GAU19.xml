@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: GAU19 -->
+  <Artillery_GAU19gatling.label>GAU19</Artillery_GAU19gatling.label>
+  <!-- EN: 12.7mm gatling gun . -->
+  <Artillery_GAU19gatling.description>12.7mm gatling gun .</Artillery_GAU19gatling.description>
+  <!-- EN: GAU19 -->
+  <Artillery_GAU19gatling.verbs.Verb_Shoot.label>GAU19</Artillery_GAU19gatling.verbs.Verb_Shoot.label>
+  <!-- EN: GAU19 -->
+  <Turret_GAU19gatling.label>GAU19</Turret_GAU19gatling.label>
+  <!-- EN: A heavy gatling gun. uses 12.7mm bullets. Must be maned. -->
+  <Turret_GAU19gatling.description>A heavy gatling gun. uses 12.7mm bullets. Must be maned.</Turret_GAU19gatling.description>
+</LanguageData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: M2 machine gun crate -->
+  <AAA_Crate_M2_Browning.label>M2 machine gun crate</AAA_Crate_M2_Browning.label>
+  <!-- EN: 12.7mm maxim machine gun. This is too heavy to hold. you need to make a turret for this. -->
+  <AAA_Crate_M2_Browning.description>12.7mm maxim machine gun. This is too heavy to hold. you need to make a turret for this.</AAA_Crate_M2_Browning.description>
+  <!-- EN: Dual M2 Browning -->
+  <Artillery_DualM2MG.label>Dual M2 Browning</Artillery_DualM2MG.label>
+  <!-- EN: Dual 12.7mm machine gun. Less accurate than single M2. leaves gun crates when deconstructed. -->
+  <Artillery_DualM2MG.description>Dual 12.7mm machine gun. Less accurate than single M2. leaves gun crates when deconstructed.</Artillery_DualM2MG.description>
+  <!-- EN: Dual M2 Browning -->
+  <Artillery_DualM2MG.verbs.AAA_Verb_ShootMultiple.label>Dual M2 Browning</Artillery_DualM2MG.verbs.AAA_Verb_ShootMultiple.label>
+  <!-- EN: M2 Browning -->
+  <Artillery_M2MG.label>M2 Browning</Artillery_M2MG.label>
+  <!-- EN: a 12.7mm machine gun . -->
+  <Artillery_M2MG.description>a 12.7mm machine gun .</Artillery_M2MG.description>
+  <!-- EN: M2 Browning -->
+  <Artillery_M2MG.verbs.Verb_Shoot.label>M2 Browning</Artillery_M2MG.verbs.Verb_Shoot.label>
+  <!-- EN: M45 Quadmount Meet Chopper -->
+  <Artillery_QuadM2MG.label>M45 Quadmount Meet Chopper</Artillery_QuadM2MG.label>
+  <!-- EN: quadruple 12.7mm machine gun. leaves gun crates when deconstructed. -->
+  <Artillery_QuadM2MG.description>quadruple 12.7mm machine gun. leaves gun crates when deconstructed.</Artillery_QuadM2MG.description>
+  <!-- EN: M45 Quadmount Meet Chopper -->
+  <Artillery_QuadM2MG.verbs.AAA_Verb_ShootMultiple.label>M45 Quadmount Meet Chopper</Artillery_QuadM2MG.verbs.AAA_Verb_ShootMultiple.label>
+  <!-- EN: Dual M2 Browning -->
+  <Turret_DualM2MG.label>Dual M2 Browning</Turret_DualM2MG.label>
+  <!-- EN: A Dual M2 machine gun. Its shield covers the gunner. leaves gun crates when deconstructed. Must be manned. -->
+  <Turret_DualM2MG.description>A Dual M2 machine gun. Its shield covers the gunner. leaves gun crates when deconstructed. Must be manned.</Turret_DualM2MG.description>
+  <!-- EN: M2 Browning machine gun -->
+  <Turret_M2MG.label>M2 Browning machine gun</Turret_M2MG.label>
+  <!-- EN: A heavy machine gun for anti air duty. uses 12.7mm machine gun ammo.leaves gun crates when deconstructed. Must be maned. -->
+  <Turret_M2MG.description>A heavy machine gun for anti air duty. uses 12.7mm machine gun ammo.leaves gun crates when deconstructed. Must be maned.</Turret_M2MG.description>
+  <!-- EN: M45 meet chopper -->
+  <Turret_QuadM2MG.label>M45 meet chopper</Turret_QuadM2MG.label>
+  <!-- EN: A quadruple M2 machine gun. leaves gun crates when deconstructed. Must be manned. -->
+  <Turret_QuadM2MG.description>A quadruple M2 machine gun. leaves gun crates when deconstructed. Must be manned.</Turret_QuadM2MG.description>
+</LanguageData>

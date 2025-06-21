@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make 40mm machine gun crate -->
+  <Recipe_MakeCrate40mm_gun.label>make 40mm machine gun crate</Recipe_MakeCrate40mm_gun.label>
+  <!-- EN: make a Bofors 40mm anti aircraft artillery crate. You need this to build Bofors turret. -->
+  <Recipe_MakeCrate40mm_gun.description>make a Bofors 40mm anti aircraft artillery crate. You need this to build Bofors turret.</Recipe_MakeCrate40mm_gun.description>
+  <!-- EN: Cutting gun. -->
+  <Recipe_MakeCrate40mm_gun.jobString>Cutting gun.</Recipe_MakeCrate40mm_gun.jobString>
+  <!-- EN: make m2 machine gun crate -->
+  <Recipe_MakeCrate50cal.label>make m2 machine gun crate</Recipe_MakeCrate50cal.label>
+  <!-- EN: make a m2 machine gun crate. you need this to build M2 turret. -->
+  <Recipe_MakeCrate50cal.description>make a m2 machine gun crate. you need this to build M2 turret.</Recipe_MakeCrate50cal.description>
+  <!-- EN: Cutting gun. -->
+  <Recipe_MakeCrate50cal.jobString>Cutting gun.</Recipe_MakeCrate50cal.jobString>
+  <!-- EN: make maxim machine gun crate -->
+  <Recipe_MakeCrateMaxim.label>make maxim machine gun crate</Recipe_MakeCrateMaxim.label>
+  <!-- EN: make a maxim machine gun crate. you need this to build maxim turret. -->
+  <Recipe_MakeCrateMaxim.description>make a maxim machine gun crate. you need this to build maxim turret.</Recipe_MakeCrateMaxim.description>
+  <!-- EN: Cutting gun. -->
+  <Recipe_MakeCrateMaxim.jobString>Cutting gun.</Recipe_MakeCrateMaxim.jobString>
+  <!-- EN: make 20mm machine gun crate -->
+  <Recipe_MakeCrateOerlikon.label>make 20mm machine gun crate</Recipe_MakeCrateOerlikon.label>
+  <!-- EN: make a Oerlikon 20mm machine gun crate. You need this to build Oerlikon turret. -->
+  <Recipe_MakeCrateOerlikon.description>make a Oerlikon 20mm machine gun crate. You need this to build Oerlikon turret.</Recipe_MakeCrateOerlikon.description>
+  <!-- EN: Cutting gun. -->
+  <Recipe_MakeCrateOerlikon.jobString>Cutting gun.</Recipe_MakeCrateOerlikon.jobString>
+</LanguageData>

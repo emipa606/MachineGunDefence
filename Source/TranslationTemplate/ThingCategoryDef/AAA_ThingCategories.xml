@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 12.7mm Ammo Box -->
+  <AAA_12_7mmAmmo.label>12.7mm Ammo Box</AAA_12_7mmAmmo.label>
+  <!-- EN: 20mm shells -->
+  <AAA_20mmShells.label>20mm shells</AAA_20mmShells.label>
+  <!-- EN: 40mm shells -->
+  <AAA_40mmShells.label>40mm shells</AAA_40mmShells.label>
+  <!-- EN: 7.62mm Ammo Box -->
+  <AAA_MachineGunAmmo.label>7.62mm Ammo Box</AAA_MachineGunAmmo.label>
+</LanguageData>

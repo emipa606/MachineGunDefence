@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: AP 20mm round -->
+  <Bullet_20mm_ArmorPiercing.label>AP 20mm round</Bullet_20mm_ArmorPiercing.label>
+  <!-- EN: HE 20mm round -->
+  <Bullet_20mm_HighExplosive.label>HE 20mm round</Bullet_20mm_HighExplosive.label>
+  <!-- EN: 20mm AP magazine -->
+  <Magazine_20mm_ArmorPiercing.label>20mm AP magazine</Magazine_20mm_ArmorPiercing.label>
+  <!-- EN: A magazine of 20mm steel shells.containing enough ammo to burst fire several times. Explodes when damaged. -->
+  <Magazine_20mm_ArmorPiercing.description>A magazine of 20mm steel shells.containing enough ammo to burst fire several times. Explodes when damaged.</Magazine_20mm_ArmorPiercing.description>
+  <!-- EN: 20mm HE magazine -->
+  <Magazine_20mm_HighExplosive.label>20mm HE magazine</Magazine_20mm_HighExplosive.label>
+  <!-- EN: A magazine of 20mm shells filled with high explosives.containing enough ammo to burst fire several times. Explodes when damaged. -->
+  <Magazine_20mm_HighExplosive.description>A magazine of 20mm shells filled with high explosives.containing enough ammo to burst fire several times. Explodes when damaged.</Magazine_20mm_HighExplosive.description>
+</LanguageData>

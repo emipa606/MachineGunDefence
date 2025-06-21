@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: auto cannon -->
+  <AAA_Autocannon.label>auto cannon</AAA_Autocannon.label>
+  <!-- EN: Allows you to make Oerlikon 20mm gun and 40mm bofors. -->
+  <AAA_Autocannon.description>Allows you to make Oerlikon 20mm gun and 40mm bofors.</AAA_Autocannon.description>
+  <!-- EN: Embrasured gun -->
+  <AAA_Embrausure.label>Embrasured gun</AAA_Embrausure.label>
+  <!-- EN: Allows you to build emrausured turrets. -->
+  <AAA_Embrausure.description>Allows you to build emrausured turrets.</AAA_Embrausure.description>
+  <!-- EN: gatling guns -->
+  <AAA_Gatling.label>gatling guns</AAA_Gatling.label>
+  <!-- EN: Allows you to make CIWS turret and gatling guns. -->
+  <AAA_Gatling.description>Allows you to make CIWS turret and gatling guns.</AAA_Gatling.description>
+  <!-- EN: dual auto cannon -->
+  <AAA_MultipleAutocannon.label>dual auto cannon</AAA_MultipleAutocannon.label>
+  <!-- EN: Allows you to attach 2 autocannons to make a twin cannon. -->
+  <AAA_MultipleAutocannon.description>Allows you to attach 2 autocannons to make a twin cannon.</AAA_MultipleAutocannon.description>
+  <!-- EN: quadruple auto cannon -->
+  <AAA_QuadAutocannon.label>quadruple auto cannon</AAA_QuadAutocannon.label>
+  <!-- EN: Allows you to make a quad autocannon from 4 gun crates -->
+  <AAA_QuadAutocannon.description>Allows you to make a quad autocannon from 4 gun crates</AAA_QuadAutocannon.description>
+</LanguageData>

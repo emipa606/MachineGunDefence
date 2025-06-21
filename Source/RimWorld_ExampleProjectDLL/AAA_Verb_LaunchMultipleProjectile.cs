@@ -44,7 +44,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
     //copied from  Verb_LaunchProjectile
     //make and launch more projctiles than original does
 
-    public virtual ThingDef Projectile
+    protected virtual ThingDef Projectile
     {
         get
         {
@@ -58,7 +58,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
         }
     }
 
-    public int PelletsPerShot(ThingDef projectile)
+    private static int pelletsPerShot(ThingDef projectile)
     {
         if (projectile.comps == null)
         {
@@ -81,7 +81,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
         return 1;
     }
 
-    public float ForsedScatterRadius(ThingDef projectile)
+    private static float forsedScatterRadius(ThingDef projectile)
     {
         if (projectile.comps == null)
         {
@@ -104,7 +104,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
         return 0.0f;
     }
 
-    public float ScatterRadiusAt10tilesAway(ThingDef projectile)
+    private static float scatterRadiusAt10TilesAway(ThingDef projectile)
     {
         if (projectile.comps == null)
         {
@@ -142,9 +142,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
             return false;
         }
 
-        //  ThingDef projectile = this.Projectile;
         var projectile = Projectile;
-        //   projectile.projectileWhenLoaded.
         if (projectile == null)
         {
             return false;
@@ -174,7 +172,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
 
 
         //---------------
-        var pellets = PelletsPerShot(projectile);
+        var pellets = pelletsPerShot(projectile);
         if (pellets < 1)
         {
             pellets = 1;
@@ -186,42 +184,36 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
         {
             TryFindShootLineFromTo(caster.Position, currentTarget, out shootLines[i]);
             projectiles[i] = (Projectile)GenSpawn.Spawn(projectile, shootLines[i].Source, caster.Map);
-            //projectiles[i].FreeIntercept = (this.canFreeInterceptNow && !projectiles[i].def.projectile.flyOverhead);
         }
 
-        //projectile2.FreeIntercept = (this.canFreeInterceptNow && !projectile2.def.projectile.flyOverhead);
-        //projectile3.FreeIntercept = (this.canFreeInterceptNow && !projectile2.def.projectile.flyOverhead);
-        //projectile4.FreeIntercept = (this.canFreeInterceptNow && !projectile2.def.projectile.flyOverhead);
         var distance = (currentTarget.Cell - caster.Position).LengthHorizontal;
-        var scatter = ScatterRadiusAt10tilesAway(projectile) * distance / 10.0f;
-        var missRadius = verbProps.ForcedMissRadius + ForsedScatterRadius(projectile) + scatter;
+        var scatter = scatterRadiusAt10TilesAway(projectile) * distance / 10.0f;
+        var missRadius = verbProps.ForcedMissRadius + forsedScatterRadius(projectile) + scatter;
         for (var i = 0; i < pellets; i++)
         {
             if (missRadius > 0.5f)
             {
                 float num = (currentTarget.Cell - caster.Position).LengthHorizontalSquared;
                 float num2;
-                if (num < 9f)
+                switch (num)
                 {
-                    num2 = 0f;
-                }
-                else if (num < 25f)
-                {
-                    num2 = missRadius * 0.5f;
-                }
-                else if (num < 49f)
-                {
-                    num2 = missRadius * 0.8f;
-                }
-                else
-                {
-                    num2 = missRadius * 1f;
+                    case < 9f:
+                        num2 = 0f;
+                        break;
+                    case < 25f:
+                        num2 = missRadius * 0.5f;
+                        break;
+                    case < 49f:
+                        num2 = missRadius * 0.8f;
+                        break;
+                    default:
+                        num2 = missRadius * 1f;
+                        break;
                 }
 
                 if (num2 > 0.5f)
                 {
                     var max = GenRadial.NumCellsInRadius(missRadius);
-                    //int num3 = Rand.Range(0, max);
                     var num3 = Rand.Range(0, max);
                     if (num3 > 0)
                     {
@@ -229,29 +221,15 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
                         {
                             MoteMaker.ThrowText(caster.DrawPos, caster.Map, "ToForRad");
                         }
-                        //if (this.currentTarget.HasThing)
-                        //{
-                        //    // projectile2.ThingToNeverIntercept = this.currentTarget.Thing;
 
-                        //   projectiles[i].ThingToNeverIntercept = this.currentTarget.Thing;
-                        //}
-
-                        //if (!projectiles[i].def.projectile.flyOverhead)
-                        //{
-                        //        projectiles[i].InterceptWalls = true;
-                        //}
                         var c = currentTarget.Cell + GenRadial.RadialPattern[num3];
                         projectiles[i].Launch(launcher, drawPos, new LocalTargetInfo(c), currentTarget,
                             projectiles[i].HitFlags, equipment: equipment);
-                        //projectile2.Launch(launcher, drawPos, c, equipment, this.currentTarget.Thing);
-                        //projectile3.Launch(launcher, drawPos, c, equipment, this.currentTarget.Thing);
-                        //projectile4.Launch(launcher, drawPos, c, equipment, this.currentTarget.Thing);
-                        continue; // return true;
+                        continue;
                     }
 
                     projectiles[i].Launch(launcher, drawPos, new LocalTargetInfo(currentTarget.Cell), currentTarget,
                         projectiles[i].HitFlags, equipment: equipment);
-                    //projectiles[i].Launch(launcher, drawPos, this.currentTarget.Cell, equipment, this.currentTarget.Thing);
                     continue;
                 }
             }
@@ -264,13 +242,11 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
                     MoteMaker.ThrowText(caster.DrawPos, caster.Map, "ToWild");
                 }
 
-                shootLines[i].ChangeDestToMissWild(shotReport.AimOnTargetChance, caster.Map);
-                // shootLine2.ChangeDestToMissWild();
+                shootLines[i].ChangeDestToMissWild(shotReport.AimOnTargetChance, false, caster.Map);
 
                 if (currentTarget.HasThing)
                 {
                     projectiles[i].HitFlags = ProjectileHitFlags.All;
-                    // projectile2.ThingToNeverIntercept = this.currentTarget.Thing;
                 }
 
                 if (!projectiles[i].def.projectile.flyOverhead)
@@ -280,9 +256,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
 
                 projectiles[i].Launch(launcher, drawPos, new LocalTargetInfo(shootLines[i].Dest), currentTarget,
                     projectiles[i].HitFlags, equipment: equipment);
-                //projectiles[i].Launch(launcher, drawPos, shootLines[i].Dest, equipment, this.currentTarget.Thing);
-                //projectile2.Launch(launcher, drawPos, shootLine2.Dest, equipment, this.currentTarget.Thing);
-                continue; //return true;
+                continue;
             }
 
             if (Rand.Value > shotReport.PassCoverChance)
@@ -302,9 +276,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
 
                     projectiles[i].Launch(launcher, drawPos, new LocalTargetInfo(randomCoverToMissInto),
                         currentTarget, projectiles[i].HitFlags, equipment: equipment);
-                    //projectiles[i].Launch(launcher, drawPos, randomCoverToMissInto, equipment, this.currentTarget.Thing);
-                    //projectile2.Launch(launcher, drawPos, randomCoverToMissInto, equipment, this.currentTarget.Thing);
-                    continue; //return true;
+                    continue;
                 }
             }
 

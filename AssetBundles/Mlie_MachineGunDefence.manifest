@@ -1,0 +1,96 @@
+ManifestFileVersion: 0
+CRC: 1971593821
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c380b92cb342689c58ac819a81b28822
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c380b92cb342689c58ac819a81b28822
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/Crate.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/GAU19.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretOerlikon.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_DualOerlikon3.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/projectile/ShellIncendiary.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/projectile/ShellSmallBomb.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_QuadOerlikon.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/shell/20mmHE.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/tankshot2.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_DualM2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_QuadOerlikon3.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_Bofors.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_Zsu23.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/autocannon.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_DualM2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/projectile/ShellWP.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/50_DualCalMG.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_Zsu23.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/projectile/ShellEMP.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_C-RAM.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/GAU17.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_DualOerlikon3.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_SingleOerlikon.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/20mmHE.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/projectile/ShellBomb.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/shell/12.7mmAmmoBox.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_QuadM2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/shell/20mmHE2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/oldTripod.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_S60.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/shell/20mmAP.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/50_CalMG.wav
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/tankshot.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_QuadBofors.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_QuadM2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_QuadMaxim.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/projectile/ShellHEAT.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_SingleOerlikon.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_DualBofors2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_QuadMaxim.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_Bofors.png
+- "Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_Zsu23\u306E\u30B3\u30D2\u309A\u30FC.png"
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/projectile/ShellIncendiarySmall.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/50_QuadCalMG.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_FixedMaxim.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_AZP13.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/shell/7.62mmAmmoBox3.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretZSUTire.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_M2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/shell/40mmIncendiary.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/GAU19.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/7.62mmAmmoBox3.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_M2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_QuadBofors.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretImprovised.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_S60.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/gatlingLow.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/shell/40mmHE.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/TurretTop_FixedMaxim.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_DualBofors4.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretBottomBofors2.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/gunshot.wav
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/burst_autocannon.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretBottom.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/wall2.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretOerlikonBig.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/ciws2.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretTop_C-RAM.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/ciws.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretBoforsTire.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/40mmHE.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/wall.png
+- Assets/Data/Mlie.MachineGunDefence/Sounds/AAA_gunfire/machineGun.wav
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/turret/TurretBottom Bofors.png
+- Assets/Data/Mlie.MachineGunDefence/Textures/AAA/icon/GAU17.png
+Dependencies: []

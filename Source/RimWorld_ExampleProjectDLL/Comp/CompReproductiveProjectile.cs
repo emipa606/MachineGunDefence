@@ -7,7 +7,7 @@ internal class CompReproductiveProjectile : CompChangeableProjectile
     private int bulletsLeft;
     private bool hasGainedLoadcount;
 
-    public new CompProperties_ReproductiveProjectile Props => (CompProperties_ReproductiveProjectile)props;
+    private new CompProperties_ReproductiveProjectile Props => (CompProperties_ReproductiveProjectile)props;
 
     public override void Notify_ProjectileLaunched()
     {

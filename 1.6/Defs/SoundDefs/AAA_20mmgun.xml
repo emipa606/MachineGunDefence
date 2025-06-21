@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>AAA_20mm_shot</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>AAA_gunfire/autocannon</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>125</min>
+          <max>160</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.896413</min>
+          <max>1.102391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

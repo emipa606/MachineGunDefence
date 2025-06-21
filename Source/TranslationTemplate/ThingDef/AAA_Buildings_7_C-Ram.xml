@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: improvised turret bullet -->
+  <Bullet_CIWS_turret.label>improvised turret bullet</Bullet_CIWS_turret.label>
+  <!-- EN: C-RAM turret -->
+  <CIWS_Turret.label>C-RAM turret</CIWS_Turret.label>
+  <!-- EN: A close-in weapon system turret. Fires at nearby enemies Automatically. Its hacked-together AI brain isn't very smart, and can't shoot down incoming projectile.  Explodes when damaged. -->
+  <CIWS_Turret.description>A close-in weapon system turret. Fires at nearby enemies Automatically. Its hacked-together AI brain isn't very smart, and can't shoot down incoming projectile.  Explodes when damaged.</CIWS_Turret.description>
+  <!-- EN: Gun_C-RAM turret gun -->
+  <Gun_CIWS_turret.label>Gun_C-RAM turret gun</Gun_CIWS_turret.label>
+  <!-- EN: Jury-rigged gun attached to a turret. -->
+  <Gun_CIWS_turret.description>Jury-rigged gun attached to a turret.</Gun_CIWS_turret.description>
+  <!-- EN: Gun_C-RAM turret gun -->
+  <Gun_CIWS_turret.verbs.AAA_Verb_ShootMultiple.label>Gun_C-RAM turret gun</Gun_CIWS_turret.verbs.AAA_Verb_ShootMultiple.label>
+</LanguageData>

@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- Browning M2 -->
   <Turret_M2MG.label>M2重機関銃</Turret_M2MG.label>
   <Turret_M2MG.description>人が操作する必要があります。解体することで使用した武器クレートを取り戻せます。</Turret_M2MG.description>
-  <Artillery_M2MG.label>&gt;M2重機関銃</Artillery_M2MG.label>
+  <Artillery_M2MG.label>>M2重機関銃</Artillery_M2MG.label>
   <Artillery_M2MG.description>人が操作する必要があります。解体することで使用した武器クレートを取り戻せます。</Artillery_M2MG.description>
-  <Turret_DualM2MG.label>&gt;連装M2重機関銃</Turret_DualM2MG.label>
+  <Turret_DualM2MG.label>>連装M2重機関銃</Turret_DualM2MG.label>
   <Turret_DualM2MG.description>２連装のM2機関銃です。人が操作する必要があります。解体することで使用した武器クレートを取り戻せます。</Turret_DualM2MG.description>
   <Artillery_DualM2MG.label>連装M2重機関銃</Artillery_DualM2MG.label>
   <Artillery_DualM2MG.description>人が操作する必要があります。解体することで使用した武器クレートを取り戻せます。</Artillery_DualM2MG.description>

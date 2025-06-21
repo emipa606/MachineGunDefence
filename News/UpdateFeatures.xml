@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="MachineGunDefence_UpdateFeatureBase">
+		<modNameReadable>MachineGunDefence</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2045174586</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="MachineGunDefence_UpdateFeatureBase">
+		<defName>MachineGunDefence_1_5_0</defName>
+		<assemblyVersion>1.5.0</assemblyVersion>
+		<content>This mod has been re-released for the new version of the game. This version will remain but will not be updated further.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

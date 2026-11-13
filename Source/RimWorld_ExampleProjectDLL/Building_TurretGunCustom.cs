@@ -9,10 +9,6 @@ public class Building_TurretGunCustom : Building_TurretGun
 {
     private new readonly TurretTop_CustomSize top;
 
-    // protected CompTurretDestroySelfAfterFire destroySelfComp;
-
-    //protected CompTurretRemoteControl remoteControlComp;
-
     private bool holdFire;
 
     public Building_TurretGunCustom()

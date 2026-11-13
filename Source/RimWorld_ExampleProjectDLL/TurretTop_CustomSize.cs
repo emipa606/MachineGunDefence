@@ -13,8 +13,6 @@ public class TurretTop_CustomSize(Building_TurretGunCustom ParentTurret)
 
     private const int IdleTurnIntervalMax = 350;
 
-    private float curRotationInt;
-
     private bool idleTurnClockwise;
 
     private int idleTurnTicksLeft;
@@ -23,18 +21,18 @@ public class TurretTop_CustomSize(Building_TurretGunCustom ParentTurret)
 
     private float CurRotation
     {
-        get => curRotationInt;
+        get;
         set
         {
-            curRotationInt = value;
-            if (curRotationInt > 360.0)
+            field = value;
+            if (field > 360.0)
             {
-                curRotationInt -= 360f;
+                field -= 360f;
             }
 
-            if (curRotationInt < 0.0)
+            if (field < 0.0)
             {
-                curRotationInt += 360f;
+                field += 360f;
             }
         }
     }

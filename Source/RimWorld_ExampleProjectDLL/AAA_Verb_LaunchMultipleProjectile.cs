@@ -18,32 +18,6 @@ namespace Verse;
 
 public class AAA_Verb_LaunchMultipleProjectile : Verb
 {
-    // No real function, just test of tooltip
-
-    // public bool IsShotgun
-    //{
-    //get
-    //   {
-    //        return this.IsShrapnel;
-    //}
-    //}
-    //public override Verb AttackVerb
-    //
-    //get
-    //   {
-    //      if (this.IsShotgun)
-    //     {
-    //        this.GunCompEq.verbTracker.PrimaryVerb.verbProps.defaultProjectile = this.defaultShrapnelProjectile;
-    //       return this.GunCompEq.verbTracker.PrimaryVerb;
-    //}
-    //          else
-    //         {
-    //            return this.GunCompEq.verbTracker.PrimaryVerb;
-    //}
-    //}
-    //copied from  Verb_LaunchProjectile
-    //make and launch more projctiles than original does
-
     protected virtual ThingDef Projectile
     {
         get
@@ -65,7 +39,6 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
             return 1;
         }
 
-        //CompChangeableProjectile comp = this.ownerEquipment.GetComp<CompChangeableProjectile >();
         var i = 0;
         var count = projectile.comps.Count;
         while (i < count)
@@ -88,7 +61,6 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
             return 0.0f;
         }
 
-        //CompChangeableProjectile comp = this.ownerEquipment.GetComp<CompChangeableProjectile >();
         var i = 0;
         var count = projectile.comps.Count;
         while (i < count)
@@ -111,7 +83,6 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
             return 0.0f;
         }
 
-        //CompChangeableProjectile comp = this.ownerEquipment.GetComp<CompChangeableProjectile >();
         var i = 0;
         var count = projectile.comps.Count;
         while (i < count)
@@ -286,6 +257,7 @@ public class AAA_Verb_LaunchMultipleProjectile : Verb
             }
 
             if (!projectiles[i].def.projectile.flyOverhead &&
+                currentTarget.Thing != null &&
                 (!currentTarget.HasThing || currentTarget.Thing.def.Fillage == FillCategory.Full))
             {
                 projectiles[i].HitFlags = ProjectileHitFlags.IntendedTarget;

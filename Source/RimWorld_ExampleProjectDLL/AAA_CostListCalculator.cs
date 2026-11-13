@@ -125,7 +125,7 @@ public static class AAA_CostListCalculator
         private readonly ThingDef stuff = stuff;
     }
 
-    private class FastCostListPairComparer : IEqualityComparer<CostListPair>
+    private sealed class FastCostListPairComparer : IEqualityComparer<CostListPair>
     {
         public static readonly FastCostListPairComparer Instance = new();
 

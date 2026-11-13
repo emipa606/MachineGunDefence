@@ -3,4 +3,50 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="RimWorld_ExampleProjectDLL/AAguns.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/AAA_ResearchProjects.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/AAA_Items_1_Resource_7.62mmAmmoBox.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/AAA_Items_2_Resource_12.7mmAmmoBox.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/AAA_Items_3_Resource_20mmShell.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/AAA_Items_4_Resource_40mmShell.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/AAA_Items_Resource_base.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Legacy_Items.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipeDefs/">
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_12.7mm.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_20mm.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_40mm.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_7.62mm.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Guns.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/AAA_Misc_Gameplay.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Buildings/">
+    <File Path="../1.7/Defs/ThingDefs_Buildings/AAA_Buildings_1_Maxim.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/AAA_Buildings_2_M2 .50Cal.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/AAA_Buildings_3_Oerlikon.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/AAA_Buildings_4_Bofors.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/AAA_Buildings_5_GAU17.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/AAA_Buildings_6_GAU19.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/AAA_Buildings_7_C-Ram.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingCategoryDefs/">
+    <File Path="../1.7/Defs/ThingCategoryDefs/AAA_ThingCategories.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDefs/">
+    <File Path="../1.7/Defs/SoundDefs/AAA_20mmgun.xml" />
+    <File Path="../1.7/Defs/SoundDefs/AAA_40mmgun.xml" />
+    <File Path="../1.7/Defs/SoundDefs/AAA_50Cal.xml" />
+    <File Path="../1.7/Defs/SoundDefs/AAA_gatlinggun.xml" />
+    <File Path="../1.7/Defs/SoundDefs/AAA_machinegun.xml" />
+  </Folder>
 </Solution>

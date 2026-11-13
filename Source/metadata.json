@@ -3,5 +3,12 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-21T21:20:23.8169443+02:00"
+  "LastXmlCleaning": "2025-06-21T21:20:23.8169443+02:00",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 38511,
+  "LinesOfXML": 128593,
+  "CodeBaseSize": 82,
+  "RimWorldBaseId": "5623"
 }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Machine gun defense (Continued)</name>
+  <name>[1.6] Machine gun defense (Continued)</name>
   <packageId>Mlie.MachineGunDefence</packageId>
   <author>match_milk</author>
   <url>https://github.com/emipa606/MachineGunDefence</url>
@@ -13,8 +13,9 @@
 Update of match_milks mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1296958152
 
-[b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url][/b].
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2045174586]here[/url].
+[b]The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance[/b].
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the new version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838852023]here[/url].
+This version will not receive any further updates.
 
 - Embrasured version removed since it did not work.
 - Added bulk recipies for ammo
@@ -24,7 +25,7 @@ To avoid doubling the size of the mod, it was re-released using only Asset Bundl
 [table]
 	[tr]
 		[td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/MachineGunDefence][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/MachineGunDefence/tree/assetbundles][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
@@ -119,6 +120,6 @@ If you feel anything or have an idea about this mod,  please leave a comment. ( 
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3505364485][img]https://img.shields.io/github/v/release/emipa606/MachineGunDefence?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | flak guns, anti-air defence</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3505364485][img]https://img.shields.io/github/v/release/emipa606/MachineGunDefence?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | anti-air defence, flak guns</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
